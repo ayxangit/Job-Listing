@@ -240,25 +240,112 @@ $color_border: rgb(206, 212, 218);
                     .select_input{
                         width: 25%;
                         height: 40px;
-                      select{
+                        border: 1px solid $color_border;
+                        background: $color_white;
+                        position: relative;
+                      .text_icon{
+                        width: 100%;
+                        height: 40px;
+                        padding: 6px 12px;
+                        cursor: pointer;
+                        @include d-flex-between;
+                        p{
+                            color: $color_placeholder;
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            cursor: pointer;
+                           }
+                            .fa-angle-down{
+                                font-size: $font_size_small;
+                                color: $color_grey;
+                                cursor: pointer;
+                            }
+                      }
+                      #list{
+                        width: 100%;
+                        background: $color_white;
+                        overflow: hidden;
+                        position: absolute;
+                        z-index: 12;
+                        .options{
                             width: 100%;
-                            height: 40px;
-                            padding: 6px 12px;
-                            outline: none;
-                            border: 1px solid $color_border;
-
+                            cursor: pointer;
+                            font-size: $font_size_small;
+                            font-family: $font_family;
+                            color: $color_placeholder;
+                            text-align: left;
+                            padding-left: 20px;
+                            padding-right: 29px;
+                            line-height: 28px;
+                            &:hover{
+                                color: $color_cyan;
+                            }
                         }
+                        .stabil_color{
+                            color: $color_cyan;
+                        }
+                      }
+                      .hide{
+                        visibility: hidden;
+                      }
+                      .up_down{
+                        transform: rotate(180deg);
+                      }
+                     
                     }
                     .select_category{
                         width: 25%;
                         height: 40px;
-                      select{
+                        background: white;
+                        .category_icon{
                             width: 100%;
                             height: 40px;
                             padding: 6px 12px;
-                            outline: none;
-                            border: 1px solid $color_border;
+                            cursor: pointer;
+                            @include d-flex-between;
+                            p{
+                                color: $color_placeholder;
+                                font-size: $font_size_medium;
+                                font-family: $font_family;
+                                cursor: pointer;
+                            }
+                            .fa-angle-down{
+                                font-size: $font_size_small;
+                                color: $color_grey;
+                                cursor: pointer;
+                            }
                         }
+                        #choosing{
+                            width: 24.45%;
+                            background: $color_white;
+                            overflow: hidden;
+                            position: absolute;
+                            z-index: 12;
+                        .category_options{
+                            width: 100%;
+                            cursor: pointer;
+                            font-size: $font_size_small;
+                            font-family: $font_family;
+                            color: $color_placeholder;
+                            text-align: left;
+                            padding-left: 20px;
+                            padding-right: 29px;
+                            line-height: 28px;
+                            &:hover{
+                                color: $color_cyan;
+                            }
+                        }
+                        .stabil_color{
+                            color: $color_cyan;
+                        }
+                        }
+                        .empty{
+                            visibility: hidden;
+                        }
+                          .upDown{
+                            transform: rotate(180deg);
+                          }
+                      
                     }
                     .button_box{
                         width: 13%;
@@ -293,3 +380,4 @@ $color_border: rgb(206, 212, 218);
     }
    
 }
+// end 

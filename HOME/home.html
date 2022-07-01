@@ -64,22 +64,30 @@
                                 <input type="text" placeholder="what are you looking for?">
                             </div>
                             <div class="select_input">
-                                <select name="select" id="selection">
-                                    <option value="1"> Select Area </option>
-                                    <option value="2"> Dhaka </option>
-                                    <option value="3"> Rajshahi </option>
-                                    <option value="4"> Barishai </option>
-                                    <option value="5"> Noakhali </option>
-                                </select>
+                                <div class="text_icon">
+                                   <p id="selected_text"> Select Area </p>
+                                   <i class="fa-solid fa-angle-down" id="click_up"></i>
+                                </div>
+                                <ul id="list" class="hide">
+                                    <li class="options stabil_color"> Select Area </li>
+                                    <li class="options"> Dhaka </li>
+                                    <li class="options"> Rajshahi </li>
+                                    <li class="options"> Barishahi </li>
+                                    <li class="options"> Noakhali </li>
+                                </ul>
                             </div>
                             <div class="select_category">
-                                <select name="category" id="catogory">
-                                    <option value="1"> All Category </option>
-                                    <option value="2"> Medical </option>
-                                    <option value="3"> Technology </option>
-                                    <option value="4"> Goverment </option>
-                                    <option value="5"> Development </option>
-                                </select>
+                                <div class="category_icon">
+                                    <p id="category_text"> All Category </p>
+                                    <i class="fa-solid fa-angle-down" id="clickUp"></i>
+                                 </div>
+                                 <ul id="choosing" class="empty">
+                                     <li class="category_options stabil_color"> All Category </li>
+                                     <li class="category_options"> Medical </li>
+                                     <li class="category_options"> Technology </li>
+                                     <li class="category_options"> Goverment </li>
+                                     <li class="category_options"> Development </li>
+                                 </ul>
                             </div>
                             <div class="button_box">
                                 <button class="btn"> <i class="fa-brands fa-searchengin"></i> Search </button>
