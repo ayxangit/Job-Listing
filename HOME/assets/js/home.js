@@ -42,4 +42,21 @@ for(choose of category_options ){
 // end
 
 
+// slide section
+
+    // Init Swiper
+    var swiper = new Swiper(".mySwiper", {
+        speed: 150,
+        slidesPerView:2,
+        autoplay: true,
+        spaceBetween: 30,
+        hashNavigation: {
+          watchState: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
 

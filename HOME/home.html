@@ -1,105 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon link -->
     <link rel="shortcut icon" href="assets/image/logo/6d98c7ce256e973040148268ff859812.jpg" type="image/x-icon">
+    <!-- link slide -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap"
+        rel="stylesheet">
+    <!-- link css -->
     <link rel="stylesheet" href="assets/css/home.css">
     <title> Job Listing </title>
 </head>
+
 <body>
 
-   <!-- start header -->
-   <header>
-    <div class="header">
-        <div class="container main_box">
-            <div class="logo">
-                <img src="assets/image/logo/logo.webp" alt="logo">
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href=""> HOME </a></li>
-                    <li><a href=""> ABOUT US </a></li>
-                    <li><a href=""> CATEGORY </a></li>
-                    <li><a href=""> PRICE </a></li>
-                    <li><a href=""> BLOG </a></li>
-                    <li><a href=""> CONTACT </a></li>
-                    <li class="page"><a href=""> PAGES </a>
-                        <i class="fa-solid fa-angle-down"></i>
-                        <div class="dropdown-content">
-                            <ul>
-                                <li> <a href="#"> ELEMENTS </a></li>
-                                <li> <a href="#" class="left"> SEARCH </a>
-                                <li><a href="" class="left_small"> SINGLE </a> </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="link"><a href=""> SIGNUP</a></li>
-                    <li class="link"><a href="#"> LOGIN </a></li>
-                </ul>
-                
-            </nav>
-
-        </div>
-    </div>
-   </header>
-   <!-- end header -->
-
-   <!-- start main -->
-   <main>
-    <!-- starts Jobs Posted section -->
-    <section>
-        <div class="job_posted">
-            <div class="overlay"></div>
-            <div class="container job_box">
-                 <div class="search_catalog">
-                     <h1><span>1500+</span> Jobs posted last week</h1>
-                     <div class="select_box">
-                        <form action="">
-                            <div class="text_input">
-                                <input type="text" placeholder="what are you looking for?">
-                            </div>
-                            <div class="select_input">
-                                <div class="text_icon">
-                                   <p id="selected_text"> Select Area </p>
-                                   <i class="fa-solid fa-angle-down" id="click_up"></i>
-                                </div>
-                                <ul id="list" class="hide">
-                                    <li class="options stabil_color"> Select Area </li>
-                                    <li class="options"> Dhaka </li>
-                                    <li class="options"> Rajshahi </li>
-                                    <li class="options"> Barishahi </li>
-                                    <li class="options"> Noakhali </li>
+    <!-- start header -->
+    <header>
+        <div class="header">
+            <div class="container main_box">
+                <div class="logo">
+                    <img src="assets/image/logo/logo.webp" alt="logo">
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href=""> HOME </a></li>
+                        <li><a href=""> ABOUT US </a></li>
+                        <li><a href=""> CATEGORY </a></li>
+                        <li><a href=""> PRICE </a></li>
+                        <li><a href=""> BLOG </a></li>
+                        <li><a href=""> CONTACT </a></li>
+                        <li class="page"><a href=""> PAGES </a>
+                            <i class="fa-solid fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li> <a href="#"> ELEMENTS </a></li>
+                                    <li> <a href="#" class="left"> SEARCH </a>
+                                    <li><a href="" class="left_small"> SINGLE </a> </li>
                                 </ul>
                             </div>
-                            <div class="select_category">
-                                <div class="category_icon">
-                                    <p id="category_text"> All Category </p>
-                                    <i class="fa-solid fa-angle-down" id="clickUp"></i>
-                                 </div>
-                                 <ul id="choosing" class="empty">
-                                     <li class="category_options stabil_color"> All Category </li>
-                                     <li class="category_options"> Medical </li>
-                                     <li class="category_options"> Technology </li>
-                                     <li class="category_options"> Goverment </li>
-                                     <li class="category_options"> Development </li>
-                                 </ul>
-                            </div>
-                            <div class="button_box">
-                                <button class="btn"> <i class="fa-brands fa-searchengin"></i> Search </button>
-                            </div>
-                        </form>
-                     </div>
-                     <p><span>Search by tags:</span> Tecnology, Business, Consulting, IT Company, Design, Development</p>
-                 </div>
+                        </li>
+                        <li class="link"><a href=""> SIGNUP</a></li>
+                        <li class="link"><a href="#"> LOGIN </a></li>
+                    </ul>
+
+                </nav>
+
             </div>
         </div>
-    </section>
-   </main>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <!-- starts Jobs Posted section -->
+        <section>
+            <div class="job_posted">
+                <div class="overlay"></div>
+                <div class="container job_box">
+                    <div class="search_catalog">
+                        <h1><span>1500+</span> Jobs posted last week</h1>
+                        <div class="select_box">
+                            <form action="">
+                                <div class="text_input">
+                                    <input type="text" placeholder="what are you looking for?">
+                                </div>
+                                <div class="select_input">
+                                    <div class="text_icon">
+                                        <p id="selected_text"> Select Area </p>
+                                        <i class="fa-solid fa-angle-down" id="click_up"></i>
+                                    </div>
+                                    <ul id="list" class="hide">
+                                        <li class="options stabil_color"> Select Area </li>
+                                        <li class="options"> Dhaka </li>
+                                        <li class="options"> Rajshahi </li>
+                                        <li class="options"> Barishahi </li>
+                                        <li class="options"> Noakhali </li>
+                                    </ul>
+                                </div>
+                                <div class="select_category">
+                                    <div class="category_icon">
+                                        <p id="category_text"> All Category </p>
+                                        <i class="fa-solid fa-angle-down" id="clickUp"></i>
+                                    </div>
+                                    <ul id="choosing" class="empty">
+                                        <li class="category_options stabil_color"> All Category </li>
+                                        <li class="category_options"> Medical </li>
+                                        <li class="category_options"> Technology </li>
+                                        <li class="category_options"> Goverment </li>
+                                        <li class="category_options"> Development </li>
+                                    </ul>
+                                </div>
+                                <div class="button_box">
+                                    <button class="btn"> <i class="fa-brands fa-searchengin"></i> Search </button>
+                                </div>
+                            </form>
+                        </div>
+                        <p><span>Search by tags:</span> Tecnology, Business, Consulting, IT Company, Design, Development
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+        <!-- start security section -->
+        <section>
+            <div class="security">
+                <div class="container main_boxes">
+                    <div class="square">
+                        <h3>
+                            Searching
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing.
+                        </p>
+                    </div>
+                    <div class="square">
+                        <h3>
+                            Applying
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing.
+                        </p>
+                    </div>
+                    <div class="square">
+                        <h3>
+                            Security
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing.
+                        </p>
+                    </div>
+                    <div class="square">
+                        <h3>
+                            Notifications
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+        <!-- start slide section -->
+        <section>
+            <div class="slide_box">
+                <div class="container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div data-hash="slide1" class="swiper-slide">
+                                <div class="creavityly_box">
+                                    <div class="creativyly_image">
+                                        <div class="img">
+                                        <img src="assets/image/imagess/image_1.webp" alt="image_1">
+                                        </div>
+                                        <a href="#">view job post </a>
+                                    </div>
+                                    <div class="creavityly_text">
+                                        <h3>
+                                          Creative Designer
+                                        </h3>
+                                        <h6>
+                                           Los Angles
+                                        </h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <span>
+                                            do eiusmod
+                                            temporinc ididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                            quis.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-hash="slide2" class="swiper-slide">
+                                <div class="creavityly_box">
+                                    <div class="creativyly_image">
+                                        <div class="img">
+                                        <img src="assets/image/imagess/image_2.webp" alt="image_1">
+                                        </div>
+                                        <a href="#">view job post </a>
+                                    </div>
+                                    <div class="creavityly_text">
+                                        <h3>
+                                          Creative Designer
+                                        </h3>
+                                        <h6>
+                                           Los Angles
+                                        </h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <span>
+                                            do eiusmod
+                                            temporinc ididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                            quis.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-hash="slide3" class="swiper-slide">
+                                <div class="creavityly_box">
+                                    <div class="creativyly_image">
+                                        <div class="img">
+                                        <img src="assets/image/imagess/image_1.webp" alt="image_1">
+                                        </div>
+                                        <a href="#">view job post </a>
+                                    </div>
+                                    <div class="creavityly_text">
+                                        <h3>
+                                          Creative Designer
+                                        </h3>
+                                        <h6>
+                                           Los Angles
+                                        </h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <span>
+                                            do eiusmod
+                                            temporinc ididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                            quis.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-hash="slide4" class="swiper-slide">
+                                <div class="creavityly_box">
+                                    <div class="creativyly_image">
+                                        <div class="img">
+                                        <img src="assets/image/imagess/image_2.webp" alt="image_1">
+                                        </div>
+                                        <a href="#">view job post </a>
+                                    </div>
+                                    <div class="creavityly_text">
+                                        <h3>
+                                          Creative Designer
+                                        </h3>
+                                        <h6>
+                                           Los Angles
+                                        </h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <span>
+                                            do eiusmod
+                                            temporinc ididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam
+                                            quis.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+    </main>
 
 
 
@@ -113,7 +283,12 @@
 
 
 
+    <!-- slide script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- icon script -->
     <script src="https://kit.fontawesome.com/29bca2939f.js" crossorigin="anonymous"></script>
+    <!-- scrip js -->
     <script src="assets/js/home.js"></script>
 </body>
+
 </html>

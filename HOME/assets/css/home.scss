@@ -35,16 +35,20 @@ $font_family: 'Poppins', sans-serif;
 $font_size_small: 12px;
 $font_size_large: 48px;
 $font_size_medium:14px;
+$font_size_medium_well: 18px;
 
 // colors
 $color_white : #fff;
 $color_cyan: #49e4fa;
 $color_blue : #007bff;
 $color_grey: #777;
+$color_dark_grey:#777777;
 $color_hover: rgba(73,228,250,.2);
 $color_dark: #333;
 $color_placeholder:rgb(73, 80, 87);
 $color_border: rgb(206, 212, 218);
+$color_text:#222222;
+$color_dark_blue:#1e2235;
 
 .container{
     width: 1170px;
@@ -53,7 +57,6 @@ $color_border: rgb(206, 212, 218);
 
 
 // start header
-
 .header{
     width: 100%;
     height: 62.75px;
@@ -173,9 +176,11 @@ $color_border: rgb(206, 212, 218);
             }
         }
 }
+// end
     
-// start Job Posted section
 
+
+// start Job Posted section
 .job_posted{
     width: 100%;
     height: 693px;
@@ -342,7 +347,7 @@ $color_border: rgb(206, 212, 218);
                         .empty{
                             visibility: hidden;
                         }
-                          .upDown{
+                        .upDown{
                             transform: rotate(180deg);
                           }
                       
@@ -381,3 +386,158 @@ $color_border: rgb(206, 212, 218);
    
 }
 // end 
+
+
+// start security section
+.security{
+    width: 100%;
+    height: 132.1px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .main_boxes{
+        @include d-flex-around;
+        margin-top: -125px;
+        position: relative;
+        z-index: 30;
+        .square{
+            width: 22%;
+            height: 132.1px;
+            background: $color_white;
+            box-shadow: 1px 1px 1px 0;
+            padding: 25px 0;
+            text-align: center;
+            border-radius: 5px;
+            h3{
+                color: $color_text;
+                line-height: 1.2;
+                font-family: $font_family;
+                font-size: $font_size_medium_well;
+            }
+            p{
+                font-size: $font_size_medium;
+                color: $color_dark_grey;
+                font-weight: 300;
+                line-height: 1.625em;
+                font-family: $font_family;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+// end
+
+// start slide section
+.slide_box{
+    width: 100%;
+    height: 309.4px;
+    .container{
+        .swiper {
+            width: 100%;
+            height: 300px;
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+        
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                .creavityly_box{
+                    width: 100%;
+                    height: 166.65px;
+                    border: 1px solid $color_text;
+                    background: $color_text;
+                    @include d-flex-between;
+                    .creativyly_image{
+                        width: 25%;
+                        height: 160px;
+                        @include d-flex-column;
+                        position: relative;
+                        .img{
+                            width: 48.73px;
+                            height: 28.65;
+                            position: relative;
+                            left: 12px;
+                            bottom: 28px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        a{
+                            width: 106.41px;
+                            height: 40.75;
+                            padding: 9px;
+                            font-size: $font_size_small;
+                            font-family: $font_family;
+                            font-weight: 400;
+                            background: $color_cyan;
+                            text-transform: uppercase;
+                            color: $color_white;
+                            transition: 0.3s all ease-in-out;
+                            position: relative;
+                            left: 27px;
+                            top: 18px;
+                            z-index: 2;
+                            &:hover{
+                                color: $color_cyan;
+                                background: $color_dark_blue;
+                            }
+                        }
+                    }
+                    .creavityly_text{
+                        width: 75%;
+                        height: 160px;
+                        text-align: left;
+                        h3{
+                            color: $color_white;
+                            font-size: $font_size_medium_well;
+                            font-family: $font_family;
+                            line-height: 1.2em;
+                            font-weight: 600;
+                            margin-top: 10px;
+                        }
+                        h6{
+                            color: $color_cyan;
+                            font-size: $font_size_medium;
+                            line-height: 1.2em;
+                            font-family: $font_family;
+                            font-weight: 600;
+                            margin-top: 8px;
+                        }
+                        p{
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            color: $color_dark_grey;
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            margin-top: 10px;
+                            position: relative;
+                            span{
+                                position: relative;
+                                left: 10px;
+                            }
+                        }
+                    }
+                }
+                 img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+              }
+          }
+    }
+}
+// end
