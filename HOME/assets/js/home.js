@@ -46,7 +46,7 @@ for(choose of category_options ){
 
     // Init Swiper
     var swiper = new Swiper(".mySwiper", {
-        speed: 150,
+        speed: 350,
         slidesPerView:2,
         autoplay: true,
         spaceBetween: 30,
@@ -57,6 +57,7 @@ for(choose of category_options ){
           el: ".swiper-pagination",
           clickable: true,
         },
-      });
+    });
+    //   end
 
 
