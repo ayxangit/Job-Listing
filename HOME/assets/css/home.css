@@ -1,1 +1,389 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 62.75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 9999;
+}
+
+.header .main_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .main_box .logo {
+  width: 16%;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .main_box .logo img {
+  width: 100%;
+}
+
+.header .main_box .navbar {
+  width: 70%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .main_box .navbar ul {
+  width: 85%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .main_box .navbar ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.625em;
+}
+
+.header .main_box .navbar ul .page {
+  position: relative;
+  -webkit-transition: 5s all ease-in-out;
+  transition: 5s all ease-in-out;
+}
+
+.header .main_box .navbar ul .page:hover .dropdown-content {
+  display: block;
+}
+
+.header .main_box .navbar ul .page a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.625em;
+}
+
+.header .main_box .navbar ul .page .fa-angle-down {
+  color: #fff;
+  font-size: 11px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.header .main_box .navbar ul .page .dropdown-content {
+  display: none;
+  width: 190px;
+  height: 98px;
+  border: 1px solid #fff;
+  background: #fff;
+  margin: 21px 0 0 0;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 4px;
+          box-shadow: 0px 0px 4px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.header .main_box .navbar ul .page .dropdown-content ul {
+  position: relative;
+  width: 47%;
+  height: auto;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.header .main_box .navbar ul .page .dropdown-content ul li {
+  text-align: left;
+}
+
+.header .main_box .navbar ul .page .dropdown-content ul li a {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.header .main_box .navbar ul .page .dropdown-content ul li a:hover {
+  color: #49e4fa;
+}
+
+.header .main_box .navbar ul .page .dropdown-content ul li .left {
+  position: relative;
+  right: 4px;
+}
+
+.header .main_box .navbar ul .page .dropdown-content ul li .left_small {
+  position: relative;
+  right: 8px;
+}
+
+.header .main_box .navbar .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .main_box .navbar .link a {
+  width: 82.83px;
+  height: 32px;
+  border: 1px solid #49e4fa;
+  background: #49e4fa;
+  padding: 6px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.625em;
+  color: #fff;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.header .main_box .navbar .link a:hover {
+  color: #49e4fa;
+  background-color: rgba(73, 228, 250, 0.2);
+  border-color: rgba(73, 228, 250, 0.2);
+}
+
+.job_posted {
+  width: 100%;
+  height: 693px;
+  background: url(/HOME/assets/image/background/header-bg.jpg.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.job_posted .overlay {
+  background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
+  position: absolute;
+  inset: 0px;
+  opacity: 0.95;
+}
+
+.job_posted .container .search_catalog {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.job_posted .container .search_catalog h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.2em;
+  font-family: "Poppins", sans-serif;
+}
+
+.job_posted .container .search_catalog h1 span {
+  color: #49e4fa;
+}
+
+.job_posted .container .search_catalog .select_box {
+  width: 98%;
+  height: 82px;
+  background-color: #a998f6;
+  border: 1px solid #b8aaf3;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.job_posted .container .search_catalog .select_box form {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.job_posted .container .search_catalog .select_box form .text_input {
+  width: 30%;
+  height: 40px;
+}
+
+.job_posted .container .search_catalog .select_box form .text_input input {
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.job_posted .container .search_catalog .select_box form .text_input input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #495057;
+  font-family: "Poppins", sans-serif;
+}
+
+.job_posted .container .search_catalog .select_box form .text_input input:-ms-input-placeholder {
+  font-size: 14px;
+  color: #495057;
+  font-family: "Poppins", sans-serif;
+}
+
+.job_posted .container .search_catalog .select_box form .text_input input::-ms-input-placeholder {
+  font-size: 14px;
+  color: #495057;
+  font-family: "Poppins", sans-serif;
+}
+
+.job_posted .container .search_catalog .select_box form .text_input input::placeholder {
+  font-size: 14px;
+  color: #495057;
+  font-family: "Poppins", sans-serif;
+}
+
+.job_posted .container .search_catalog .select_box form .select_input {
+  width: 25%;
+  height: 40px;
+}
+
+.job_posted .container .search_catalog .select_box form .select_input select {
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.job_posted .container .search_catalog .select_box form .select_category {
+  width: 25%;
+  height: 40px;
+}
+
+.job_posted .container .search_catalog .select_box form .select_category select {
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.job_posted .container .search_catalog .select_box form .button_box {
+  width: 13%;
+  height: 40px;
+}
+
+.job_posted .container .search_catalog .select_box form .button_box .btn {
+  width: 100%;
+  height: 40px;
+  background: #49e4fa;
+  color: #fff;
+  outline: none;
+  border: 1px solid #49e4fa;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.job_posted .container .search_catalog p {
+  color: #fff;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.625em;
+}
+
+.job_posted .container .search_catalog p span {
+  color: #49e4fa;
+}
+/*# sourceMappingURL=home.css.map */
