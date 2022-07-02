@@ -43,9 +43,9 @@ for(choose of category_options ){
 
 
 // slide section
-
-    // Init Swiper
-    var swiper = new Swiper(".mySwiper", {
+// Init Swiper
+var swiper = new Swiper(".mySwiper", {
+        loop:true,
         speed: 350,
         slidesPerView:2,
         autoplay: true,
@@ -57,7 +57,21 @@ for(choose of category_options ){
           el: ".swiper-pagination",
           clickable: true,
         },
-    });
-    //   end
+});
+
+//   end
+// start job location section slide
+var swiper2 = new Swiper(".mySwiper_box", {
+    loop:true,
+    autoplay:true,
+    slidesPerView:1,
+    spaceBetween: 30,
+    speed:350,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+});
+//   end
 
 

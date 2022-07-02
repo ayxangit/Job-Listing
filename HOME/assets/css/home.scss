@@ -6,6 +6,36 @@
     text-decoration: none;
 }
 
+// font family
+$font_family: 'Poppins', sans-serif;
+
+// fontsize
+$font_size_small: 12px;
+$font_size_large: 48px;
+$font_size_medium:14px;
+$font_size_medium_well: 18px;
+$font_size_less_large: 36px;
+$font_size_16: 16px;
+
+// colors
+$color_white : #fff ;
+$color_cyan: #49e4fa;
+$color_blue : #007bff;
+$color_grey: #777;
+$color_dark_grey:#777777;
+$color_hover: rgba(73,228,250,.2);
+$color_dark: #333;
+$color_placeholder:rgb(73, 80, 87);
+$color_border: rgb(206, 212, 218);
+$color_text:#222222;
+$color_dark_blue:#1e2235;
+$color_border2 : #eee;
+$color_background :#f9f9ff;
+$color_gold: gold;
+$color_map: coral;
+$color_rgb:rgb(119, 119, 119);
+$color_rgb2 : rgb(34, 34, 34);
+$color_background_hover:rgb(173, 154, 255);
 
 @mixin d-flex-center {
     display: flex;
@@ -28,28 +58,6 @@
     justify-content: center;
     align-items: center;
 }
-// font family
-$font_family: 'Poppins', sans-serif;
-
-// fontsize
-$font_size_small: 12px;
-$font_size_large: 48px;
-$font_size_medium:14px;
-$font_size_medium_well: 18px;
-$font_size_less_large: 36px;
-
-// colors
-$color_white : #fff ;
-$color_cyan: #49e4fa;
-$color_blue : #007bff;
-$color_grey: #777;
-$color_dark_grey:#777777;
-$color_hover: rgba(73,228,250,.2);
-$color_dark: #333;
-$color_placeholder:rgb(73, 80, 87);
-$color_border: rgb(206, 212, 218);
-$color_text:#222222;
-$color_dark_blue:#1e2235;
 
 .container{
     width: 1170px;
@@ -571,7 +579,7 @@ $color_dark_blue:#1e2235;
             }
         }
         .img_category{
-            width: 100%;
+            width: 94%;
             height: 130px;
             @include d-flex-around;
             gap: 25px;
@@ -636,4 +644,629 @@ $color_dark_blue:#1e2235;
     }
 }
 // end
+
+// start Job Location section
+.location_lists{
+   width: 100%;
+   height: 2635.7px;
+   @include d-flex-center;
+   .jobList{
+    @include d-flex-around;
+    .jobBoxes{
+        width: 60%;
+        height: 2395.7px;
+        .job_boxesNavbar{
+            width: 99%;
+            height: 36.75px;
+            display: flex;
+            justify-content: flex-end;
+            ul{
+                display: flex;
+                gap: 10px;
+                li{
+                    width: 100px;
+                    height: 34.75px;
+                    border: 1px solid $color_border2;
+                    background: $color_white;
+                    padding: 5px 10px;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        background: $color_cyan;
+                    }
+                    &:hover a{
+                        color: $color_white;
+                    }
+                    a{
+                        font-weight: 600;
+                        line-height: 1.625em;
+                        font-size: $font_size_medium;
+                        font-family: $font_family;
+                        color: $color_text;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .job_boxesDesigner{
+            width: 100%;
+            height: 2200px;
+            .designer_box{
+                width: 100%;
+                height: 294.6px;
+                background: $color_background;
+                margin-top: 18px;
+                padding: 30px;
+                display: flex;
+                .designer_imgBox{
+                    width: 24%;
+                    height: 234.6px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 25px;
+                    .designer_img{
+                        width: 109px;
+                        height: 69px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .desingner_link{
+                        width: 142.74px;
+                        height: 84px;
+                        position: relative;
+                        .art{
+                            width: 51.19px;
+                            height: 36.75px;
+                            padding: 6px 15px;
+                            border: 1px solid $color_background;
+                            background: $color_white;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            color: $color_dark_grey;
+                            transition: 0.3s all ease-in-out;
+                            position: relative;
+                            top: 6px;
+                            &:hover{
+                                background-color: $color_cyan;
+                                color: $color_white;
+                            }
+                        }
+                        .media{
+                            width: 74.61px;
+                            height: 36.75px;
+                            padding: 6px 15px;
+                            border: 1px solid $color_background;
+                            background: $color_white;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            color: $color_dark_grey;
+                            transition: 0.3s all ease-in-out;
+                            position: relative;
+                            left: 6px;
+                            top: 6px;
+                            &:hover{
+                                background-color: $color_cyan;
+                                color: $color_white;
+                            }
+                        }
+                        .design{
+                                width: 79.25px;
+                                height: 36.75px;
+                                padding: 6px 15px;
+                                border: 1px solid $color_background;
+                                background: $color_white;
+                                font-weight: 300;
+                                line-height: 1.625em;
+                                font-size: $font_size_medium;
+                                font-family: $font_family;
+                                color: $color_dark_grey;
+                                transition: 0.3s all ease-in-out;
+                                position: relative;
+                                top: 20px;
+                                &:hover{
+                                    background-color: $color_cyan;
+                                    color: $color_white;
+                                }
+                        }
+                        }
+                }
+                .design_textBox{
+                    width: 76%;
+                    height: 234.6px;
+                    .designg_icons{
+                        width: 100%;
+                        height: 63.4px;
+                        @include d-flex-between;
+                        .textIcon{
+                            h3{
+                                font-size: $font_size_medium_well;
+                                font-family: $font_family;
+                                color: $color_text;
+                                font-weight: 600;
+                                line-height: 1.2em;
+                            }
+                            h6{
+                                margin-top: 7px;
+                                font-size: $font_size_medium;
+                                color: $color_text;
+                                font-weight: 300;
+                                font-family: $font_family;
+                                line-height: 1.2em;
+                            }
+                        }
+                        .icon_designLink{
+                            display: flex;
+                            gap: 10px;
+                            .icon_boxDesignh{
+                                width: 46px;
+                                height: 44.75px;
+                                border: 1px solid $color_border2;
+                                background: $color_white;
+                                @include d-flex-center;
+                                cursor: pointer;
+                                transition: 0.3s all ease-in-out;
+                                &:hover{
+                                    background: $color_cyan;
+                                    color: $color_white;
+                                }
+                            }
+                            a{
+                                width: 73.11px;
+                                height: 44.75px;
+                                border: 1px solid $color_border2;
+                                background: $color_white;
+                                padding: 10px 15px;
+                                color: $color_text;
+                                font-weight: 500;
+                                text-transform: uppercase;
+                                font-family: $font_family;
+                                cursor: pointer;
+                                transition: 0.3s all ease-in-out;
+                                &:hover{
+                                    background: $color_cyan;
+                                    color: $color_white;
+                                }
+                            }
+                        }
+                    }
+                    p{
+                        margin-top: 5px;
+                        line-height: 1.625em;
+                        color: $color_grey;
+                        font-family: $font_family;
+                        font-weight: 300;
+                        font-size: $font_size_medium;
+                    }
+                    h5{
+                        margin-top: 10px;
+                        font-family: $font_family;
+                        color: $color_text;
+                        font-weight: 300;
+                        line-height: 1.2em;
+                        font-size: $font_size_16;
+                    }
+                    span{
+                        display: block;
+                        margin-top: 10px;
+                        margin-left: 2px;
+                        font-size: $font_size_medium;
+                        color: $color_text;
+                        font-weight: 300;
+                        font-family: $font_family;
+                        line-height: 1.625em;
+                        .fa-map{
+                            font-size: $font_size_medium;
+                            color: $color_map;
+
+                        }
+                        .fa-coins{
+                            font-size: $font_size_medium;
+                            color: $color_gold;
+                        }
+                    }
+                }
+            }
+        }
+        .loadMore_link{
+            width: 200px;
+            height: 38.75;
+            background: $color_cyan;
+            padding: 8px 15px;
+            text-align: center;
+            margin: auto;
+            margin-top: 25px;
+            a{
+                font-family: $font_family;
+                text-transform: uppercase;
+                font-size: $font_size_medium;
+                color: $color_white;
+                font-weight: 300;
+                line-height: 1.625em;
+            }
+        }
+    }
+    }
+    .location_boxes{
+        width: 30%;
+        height: 2395.7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .byLocation{
+            width: 95%;
+            height: 490.85px;
+            background: $color_background;
+            h3{
+                width: 90%;
+                height: 21.6px;
+                font-family: $font_family;
+                color: $color_rgb2;
+                font-weight: 600;
+                line-height: 1.2em;
+                font-size: $font_size_medium_well;
+                margin: auto;
+                margin-top: 10px;
+            }
+            .cityLocation{
+                width: 90%;
+                height: 42.75px;
+                background: $color_white;
+                margin: auto;
+                margin-top: 20px;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: 1s all ease-in-out;
+                &:hover{
+                    background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
+                }
+                &:hover p{
+                    color: $color_white;
+                }
+                p{
+                    color: $color_rgb;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    font-family: $font_family;
+                    font-size: $font_size_medium;
+                    transition: 0.3s all ease-in-out;
+
+                }
+            }
+        }
+        .slideLocation{
+            width: 95%;
+            height: 500.85px;
+            background: $color_background;
+            .swiper {
+                width: 100%;
+                height: 500.85px;
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+            
+                    /* Center slide text vertically */
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    .slideLocationBox{
+                        width: 100%;
+                        height: 500.85px;
+                        padding: 15px 10px;
+                        background: $color_background;
+                        h3{
+                            width: 96%;
+                            height: 21.6px;
+                            font-family: $font_family;
+                            color: $color_rgb2;
+                            font-weight: 600;
+                            line-height: 1.2em;
+                            font-size: $font_size_medium_well;
+                            text-align: left;
+                        }
+                        .locationImage{
+                            margin-top: 15px;
+                            width: 96%;
+                            height: 120px;
+                            background: url(/HOME/assets/image/background/xr1.jpg.pagespeed.ic.duIMHQH6F9.webp);
+                            background-size: cover;
+                            background-position: 50% 50%;
+                        }
+                        .textLocationSlide{
+                            margin-top: 15px;
+                            width: 96%;
+                            height: 300px;
+                            h6{
+                                margin-top: 5px;
+                                font-family: $font_family;
+                                color: $color_text;
+                                font-weight: 300;
+                                line-height: 1.2em;
+                                font-size: $font_size_16;
+                                text-align: left;
+                            }
+                            p{
+                                margin-top: 5px;
+                                line-height: 1.625em;
+                                color: $color_grey;
+                                font-family: $font_family;
+                                font-weight: 300;
+                                font-size: $font_size_medium;
+                                text-align: left;
+                            }
+                            h5{
+                                margin-top: 10px;
+                                font-family: $font_family;
+                                color: $color_text;
+                                font-weight: 300;
+                                line-height: 1.2em;
+                                font-size: $font_size_16;
+                                text-align: left;
+                            }
+                            span{
+                                display: block;
+                                margin-top: 10px;
+                                margin-left: 2px;
+                                font-size: $font_size_medium;
+                                color: $color_text;
+                                font-weight: 300;
+                                font-family: $font_family;
+                                line-height: 1.625em;
+                                text-align: left;
+                                .fa-map{
+                                    font-size: $font_size_medium;
+                                    color: $color_map;
+        
+                                }
+                                .fa-coins{
+                                    font-size: $font_size_medium;
+                                    color: $color_gold;
+                                }
+                            }
+                            .applyLocation{
+                                width: 122.93px;
+                                height: 44.75px;
+                                background: $color_cyan;
+                                border: 1px solid $color_cyan;
+                                padding: 10px 25px;
+                                margin-top: 10px;
+                                transition: 0.3s all ease;
+                                cursor: pointer;
+                                &:hover{
+                                    background: $color_white;
+                                    border-color:  $color_cyan;
+                                }
+                                &:hover a{
+                                    color: $color_cyan;
+                                }
+                                a{
+                                
+                                    color: $color_white;
+                                    text-transform: uppercase;
+                                    font-family: $font_family;
+                                    font-size: $font_size_medium;
+                                    line-height: 1.625em;
+                                    font-weight: 300;
+    
+                                }
+                            }
+
+
+                        }
+                    }
+                    .swiper-slide img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                      }
+                  }
+              }
+        }
+        .byCategory{
+            width: 95%;
+            height: 490.85px;
+            background: $color_background;
+            h3{
+                width: 90%;
+                height: 21.6px;
+                font-family: $font_family;
+                color: $color_rgb2;
+                font-weight: 600;
+                line-height: 1.2em;
+                font-size: $font_size_medium_well;
+                margin: auto;
+                margin-top: 10px;
+            }
+            .cityCategory{
+                width: 90%;
+                height: 42.75px;
+                background: $color_white;
+                margin: auto;
+                margin-top: 20px;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                cursor: pointer;
+                transition: 1s all ease-in-out;
+                &:hover{
+                    background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
+                }
+                &:hover p{
+                    color: $color_white;
+                }
+                p{
+                    color: $color_rgb;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    font-family: $font_family;
+                    font-size: $font_size_medium;
+                    transition: 0.3s all ease-in-out;
+
+                }
+            }
+        }
+        .advice_blog{
+            width: 95%;
+            height: 490.85px;
+            background: $color_background;
+            h3{
+                width: 90%;
+                height: 21.6px;
+                font-family: $font_family;
+                color: $color_rgb2;
+                font-weight: 600;
+                line-height: 1.2em;
+                font-size: $font_size_medium_well;
+                margin: auto;
+                margin-top: 10px;
+            }
+            .audio_record_box{
+                width: 90%;
+                height: 121.95px;
+                background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
+                background-size: cover;
+                background-position: 50% 50%;
+                margin: auto;
+                margin-top: 20px;
+                padding: 0 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                cursor: pointer;
+                h4{
+                    width: 80%;
+                    height: 63.2px;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    color: $color_white;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                }
+                .span_text{
+                    width: 90%;
+                    height: 38.75px;
+                    @include d-flex-between;
+                    span{
+                        color: $color_white;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        font-size: $font_size_medium;
+                        font-family: $font_family;
+                    }
+                }
+            }
+        }
+    }
+}
+// end
+
+
+// start joinUs section
+.joinUs{
+    width: 100%;
+    height: 418.7px;
+    background-image: -webkit-linear-gradient(0deg, rgb(191, 172, 255) 0%, rgb(121, 95, 255) 100%);
+    @include d-flex-center;
+    .container{
+        .hestitaion{
+            width: 80%;
+            height: 178.7px;
+            margin: auto;
+            h2{
+                width: 89%;
+                height: 43.2px;
+                color: $color_white;
+                font-size: $font_size_less_large;
+                font-family: $font_family;
+                font-weight: 600;
+                line-height: 1.2em;
+                margin: auto;
+                text-align: center;
+            }
+            p{
+                width: 89%;
+                height: 45.5px;
+                line-height: 1.625em;
+                color: $color_white;
+                font-weight: 300;
+                font-size: $font_size_medium;
+                font-family: $font_family;
+                margin: auto;
+                margin-top: 12px;
+                text-align: center;
+            }
+            .joinLink{
+                width: 60%;
+                height: 45px;
+                margin: auto;
+                margin-top: 22px;
+                display: flex;
+                justify-content: space-around;
+                .canditate_link{
+                    width: 206px;
+                    height: 44px;
+                    padding: 0 40px;
+                    cursor: pointer;
+                    margin-left: 20px;
+                    background: $color_cyan;
+                    transition: 0.4s all ease;
+                    &:hover{
+                        background: $color_background_hover;
+                    }
+                    a{
+                        color: $color_white;
+                        text-transform: capitalize;
+                        font-family: $font_family;
+                        font-size: $font_size_medium;
+                        line-height: 42px;
+                        font-weight: 500;
+                    }
+                }
+                .request_link{
+                    width: 218px;
+                    height: 44px;
+                    padding: 0 40px;
+                    cursor: pointer;
+                    margin-left: 20px;
+                    background: $color_cyan;
+                    transition: 0.4s all ease;
+                    &:hover{
+                        background: $color_background_hover;
+                    }
+                    a{
+                        color: $color_white;
+                        text-transform: capitalize;
+                        font-family: $font_family;
+                        font-size: $font_size_medium;
+                        line-height: 42px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+// end
+
 
