@@ -38,6 +38,9 @@ $color_map: coral;
 $color_rgb:rgb(119, 119, 119);
 $color_rgb2 : rgb(34, 34, 34);
 $color_background_hover:rgb(173, 154, 255);
+$color_icon_backgroun :#111;
+$color_scrool_change:rgba(0,0,0,.8);
+$color_scroll_to_button : orange;
 
 @mixin d-flex-center {
     display: flex;
@@ -66,6 +69,33 @@ $color_background_hover:rgb(173, 154, 255);
     margin: 0 auto;
 }
 
+// start scroll to button
+.scroll_to_button{
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: $color_scroll_to_button;
+    @include d-flex-center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    .fa-arrow-up{
+        color: $color_text;
+        font-size: $font_size_medium_well;
+    }
+
+}
+.scroll_visibilty_opacity{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+// end
 // start header
 .header{
     width: 100%;
@@ -73,6 +103,7 @@ $color_background_hover:rgb(173, 154, 255);
     @include d-flex-center;
     position: fixed;
     z-index: 9999;
+    transition: 0.3s all ease-in-out;
     .main_box{
         @include d-flex-between;
         .logo{
@@ -101,7 +132,8 @@ $color_background_hover:rgb(173, 154, 255);
                }
                .page{
                 position: relative;
-                transition: 5s all ease-in-out;
+                padding: 20px;
+                transition: 3s all ease-in-out;
                 &:hover .dropdown-content{
                     display: block;
                 }
@@ -123,13 +155,13 @@ $color_background_hover:rgb(173, 154, 255);
                     height: 98px;
                     border: 1px solid $color_white;
                     background: $color_white;
-                    margin: 21px 0 0 0;
                     padding: 10px;
                     box-shadow: 1px 1px 5px 0;
                     position: absolute;
                     top: 100%;
                     left: 0;
                     z-index: 99;
+                    transition: 3s all ease-in-out;
                     ul{
                         position: relative;
                         width: 47%;
@@ -160,7 +192,7 @@ $color_background_hover:rgb(173, 154, 255);
                     }
                     
                 }
-                 }
+            }
                }
                .link{
                     @include d-flex-center;
@@ -185,6 +217,15 @@ $color_background_hover:rgb(173, 154, 255);
                
             }
         }
+}
+.scroll_change{
+    width: 100%;
+    height: 62.75px;
+    background: $color_scrool_change;
+    @include d-flex-center;
+    position: fixed;
+    z-index: 9999;
+    transition: 0.3s all ease-in-out;;
 }
 // end
     
@@ -1275,15 +1316,15 @@ $color_background_hover:rgb(173, 154, 255);
     .downland_box{
         @include d-flex-around;
         .phone_background{
-            width: 45%;
-            height: 320.1px;
+            width: 48%;
+            height: 331.1px;
             background: url(/HOME/assets/image/background/phone.webp);
             background-size: cover;
             background-position: 50% 50%;
         }
         .downland_text_box{
-            width: 45%;
-            height: 320.1px;
+            width: 48%;
+            height: 331.1px;
             h2{
                 width: 94%;
                 height: 86.4px;
@@ -1427,3 +1468,207 @@ $color_background_hover:rgb(173, 154, 255);
 }
 // end
 
+
+// start footer
+.footer{
+    width: 100%;
+    height: 512px;
+    background: $color_text;
+    @include d-flex-center;
+    .footCon{
+        @include d-flex-column;
+        .information{
+            width: 90%;
+            height: 175px;
+            @include d-flex-around;
+            h3{
+                width: 95%;
+                height: 22px;
+                font-family: $font_family;
+                font-size: $font_size_medium_well;
+                color: $color_white;
+                font-weight: 600;
+                line-height: 1.2em;
+            }
+            .footer_products{
+                width: 25%;
+                height: 161.6px;
+                ul{
+                    width: 95%;
+                    height: 130px;
+                    li{
+                        margin-top: 10px;
+                        a{
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            color: $color_white;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            transition: 0.2s all ease-in-out;
+                            &:hover{
+                                color: $color_cyan;
+                            }
+                        }
+                    }
+                }
+            }
+            .newsletter{
+                width: 45%;
+                height: 172.6px;
+                position: relative;
+                p{
+                    width: 95%;
+                    height: 22.75px;
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-size: $font_size_medium;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    margin-top: 15px;
+                }
+                form{
+                    width: 95%;
+                    height: 44px;
+                    margin-top: 15px;
+                    input{
+                        width: 60%;
+                        height: 40px;
+                        border-radius: 20px;
+                        padding: 1px 2px 1px 20px;
+                        &::placeholder{
+                            color: $color_grey;
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            font-weight: 300;
+                            line-height: 38px;
+                        }
+                    }
+                    button{
+                        width: 35%;
+                        height: 44px;
+                        border-color: $color_cyan;
+                        border-radius: 25px;
+                        line-height: 42px;
+                        text-transform: uppercase;
+                        background: $color_cyan;
+                        color: $color_white;
+                        font-family: $font_family;
+                        font-size: $font_size_medium;
+                        font-weight: 300;
+                        margin-left: 18px;
+                        position: relative;
+                        cursor: pointer;
+                        transition: 1s all ease-in-out;
+                        &:hover .fa-arrow-right{
+                            position: relative;
+                            left: 12px;
+                            transition: 1s all ease-in-out;
+                        }
+                        .fa-arrow-right{
+                            margin-left: 10px;
+                            font-size: $font_size_small;
+                        }
+                    }
+                }
+                .span{
+                    display: none;
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-size: $font_size_small;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                    transition: 0.2s all ease-in-out;
+                    
+                }
+                .display_block_click{
+                    display: block;
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-size: $font_size_small;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                    transition: 0.2s all ease-in-out;
+                }
+            }
+            .instagram_feed{
+                width: 25%;
+                height: 172.6px;
+                .img_feedBox{
+                    width: 95%;
+                    height: 130px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 15px;
+                    .feedImage{
+                        width: 20%;
+                        height: 58px;
+                        img{
+                            width: 100%;
+                        }
+
+                    }
+
+                }
+            }
+        }
+        .endOfFooter{
+            width: 90%;
+            height: 175px;
+            @include d-flex-between;
+            .colorlibFooter{
+                width: 52%;
+                height: 40px;
+                p{
+                    font-size: $font_size_medium;
+                    font-family: $font_family;
+                    color: $color_white;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    .fa-heart{
+                        color: $color_cyan;
+                    }
+                    a{
+                        color: $color_cyan;
+                    }
+                }
+            }
+            .icon_footer{
+                width: 30%;
+                height: 40px;
+                margin-right: 40px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 5px;
+                .fotterIcon_colorlib{
+                    width: 12%;
+                    height: 40px;
+                    background: $color_icon_backgroun;
+                    @include d-flex-center;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        background: $color_cyan;
+                    }
+                    a{
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        font-size: $font_size_medium;
+                        color: $color_white;
+                        font-family: $font_family;
+                    }
+                }
+            }
+        }
+    }
+}
+// end
