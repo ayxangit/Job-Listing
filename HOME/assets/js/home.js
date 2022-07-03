@@ -65,6 +65,14 @@ var swiper = new Swiper(".mySwiper", {
         hashNavigation: {
           watchState: true,
         },
+        // breakpoints: {  
+        //     '360': {
+        //       slidesPerView: 1,
+        //       spaceBetween: 40,},
+        //     '@768': {
+        //       slidesPerView: 2,
+        //       spaceBetween: 50, },
+        //   },
          
         pagination: {
           el: ".swiper-pagination",
