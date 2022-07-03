@@ -59,12 +59,13 @@ for(choose of category_options ){
 var swiper = new Swiper(".mySwiper", {
         loop:true,
         speed: 350,
-        slidesPerView:2,
+        slidesPerView: 2,
         autoplay: true,
         spaceBetween: 30,
         hashNavigation: {
           watchState: true,
         },
+         
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -113,4 +114,26 @@ function scrollToTop(){
     })
 }
 // end
+
+// slide section responsive slide
+var swiper = new Swiper(".mySwiper", {
+        loop:true,
+        speed: 350,
+        slidesPerView: 2,
+        autoplay: true,
+        spaceBetween: 30,
+        hashNavigation: {
+          watchState: true,
+        },
+        // breakpoints: {  
+        //     '768': {
+        //       slidesPerView: 1,
+        //       spaceBetween: 40,},
+        //   },
+         
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+});
 

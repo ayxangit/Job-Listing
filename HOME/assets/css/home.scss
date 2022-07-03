@@ -215,7 +215,10 @@ $color_scroll_to_button : orange;
                 }
                }
                
-            }
+        }
+        .responsive_navbar{
+            display: none;
+        }
         }
 }
 .scroll_change{
@@ -585,7 +588,7 @@ $color_scroll_to_button : orange;
                     object-fit: cover;
                   }
               }
-          }
+        }
     }
 }
 // end

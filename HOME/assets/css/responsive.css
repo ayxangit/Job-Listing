@@ -1,1 +1,1828 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media screen and (max-width: 768px) and (min-width: 350px) {
+  .container {
+    width: 740px !important;
+    margin: 0 auto;
+  }
+  body .header {
+    width: 100%;
+    height: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    z-index: 9999;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .header .main_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .header .main_box .logo {
+    width: 25%;
+    height: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .header .main_box .logo img {
+    width: 100%;
+  }
+  body .header .main_box .navbar {
+    display: none;
+  }
+  body .header .main_box .responsive_navbar {
+    display: block;
+  }
+  body .header .main_box .responsive_navbar .fa-bars {
+    color: #49e4fa;
+    font-size: 18px;
+  }
+  body .scroll_change {
+    width: 100%;
+    height: 62.75px;
+    background: rgba(0, 0, 0, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    z-index: 9999;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .job_posted {
+    width: 100%;
+    height: 693px;
+    background: url(/HOME/assets/image/background/header-bg.jpg.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+  }
+  body .job_posted .overlay {
+    background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
+    position: absolute;
+    inset: 0px;
+    opacity: 0.95;
+  }
+  body .job_posted .container .search_catalog {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  body .job_posted .container .search_catalog h1 {
+    width: 86%;
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.2em;
+    font-family: "Poppins", sans-serif;
+  }
+  body .job_posted .container .search_catalog h1 span {
+    color: #49e4fa;
+  }
+  body .job_posted .container .search_catalog .select_box {
+    width: 98%;
+    height: 285px;
+    background-color: #a998f6;
+    border: 1px solid #b8aaf3;
+    padding: 20px 0px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .job_posted .container .search_catalog .select_box form {
+    width: 100%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+  }
+  body .job_posted .container .search_catalog .select_box form .text_input {
+    width: 95%;
+    height: 40px;
+  }
+  body .job_posted .container .search_catalog .select_box form .text_input input {
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    outline: none;
+    border: 1px solid #ced4da;
+  }
+  body .job_posted .container .search_catalog .select_box form .text_input input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #495057;
+    font-family: "Poppins", sans-serif;
+  }
+  body .job_posted .container .search_catalog .select_box form .text_input input:-ms-input-placeholder {
+    font-size: 14px;
+    color: #495057;
+    font-family: "Poppins", sans-serif;
+  }
+  body .job_posted .container .search_catalog .select_box form .text_input input::-ms-input-placeholder {
+    font-size: 14px;
+    color: #495057;
+    font-family: "Poppins", sans-serif;
+  }
+  body .job_posted .container .search_catalog .select_box form .text_input input::placeholder {
+    font-size: 14px;
+    color: #495057;
+    font-family: "Poppins", sans-serif;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input {
+    width: 95%;
+    height: 40px;
+    border: 1px solid #ced4da;
+    background: #fff;
+    position: relative;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input .text_icon {
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input .text_icon p {
+    color: #495057;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input .text_icon .fa-angle-down {
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input #list {
+    width: 100%;
+    height: 160px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    z-index: 12;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input #list .options {
+    width: 100%;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #495057;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 29px;
+    line-height: 28px;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input #list .options:hover {
+    color: #49e4fa;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input #list .stabil_color {
+    color: #49e4fa;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input .hide {
+    visibility: hidden;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_input .up_down {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category {
+    width: 95%;
+    height: 40px;
+    background: white;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category .category_icon {
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category .category_icon p {
+    color: #495057;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category .category_icon .fa-angle-down {
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category #choosing {
+    width: 93%;
+    height: 160px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    z-index: 12;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category #choosing .category_options {
+    width: 100%;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #495057;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 29px;
+    line-height: 28px;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category #choosing .category_options:hover {
+    color: #49e4fa;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category #choosing .stabil_color {
+    color: #49e4fa;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category .empty {
+    visibility: hidden;
+  }
+  body .job_posted .container .search_catalog .select_box form .select_category .upDown {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  body .job_posted .container .search_catalog .select_box form .button_box {
+    width: 95%;
+    height: 33px;
+  }
+  body .job_posted .container .search_catalog .select_box form .button_box .btn {
+    width: 100%;
+    height: 40px;
+    background: #49e4fa;
+    color: #fff;
+    outline: none;
+    border: 1px solid #49e4fa;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  body .job_posted .container .search_catalog p {
+    color: #fff;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.625em;
+  }
+  body .job_posted .container .search_catalog p span {
+    color: #49e4fa;
+  }
+  body .security {
+    width: 100%;
+    height: 324.2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+  }
+  body .security .main_boxes {
+    height: 132.1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 58px;
+    z-index: 30;
+  }
+  body .security .main_boxes .square {
+    width: 45%;
+    height: 132.1px;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 5px 0;
+            box-shadow: 1px 1px 5px 0;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+  body .slide_box {
+    width: 100%;
+    height: 309.4px;
+  }
+  body .slide_box .container .swiper {
+    width: 100%;
+    height: 300px;
+  }
+  body .slide_box .container .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box {
+    width: 100%;
+    height: 166.65px;
+    border: 1px solid #222222;
+    background: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image {
+    width: 25%;
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image .img {
+    width: 48.73px;
+    height: 28.65;
+    position: relative;
+    left: 12px;
+    bottom: 28px;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image .img img {
+    width: 100%;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image a {
+    width: 106.41px;
+    height: 40.75;
+    padding: 9px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background: #49e4fa;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    left: 27px;
+    top: 18px;
+    z-index: 2;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image a:hover {
+    color: #49e4fa;
+    background: #1e2235;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text {
+    width: 75%;
+    height: 160px;
+    text-align: left;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text h6 {
+    color: #49e4fa;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text p {
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+  }
+  body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text p span {
+    position: relative;
+    left: 10px;
+  }
+  body .slide_box .container .swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .job_category {
+    width: 100%;
+    height: 571.45px;
+  }
+  body .job_category .jobCategory {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .job_category .jobCategory .text_category {
+    width: 90%;
+    height: 151.95px;
+    text-align: center;
+  }
+  body .job_category .jobCategory .text_category h2 {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  body .job_category .jobCategory .text_category p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-top: 10px;
+  }
+  body .job_category .jobCategory .img_category {
+    width: 90%;
+    height: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+  }
+  body .job_category .jobCategory .img_category .square_image {
+    width: 30%;
+    height: 159.75px;
+    padding: 20px 0;
+    border: 1px solid #fff;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 5px 0;
+            box-shadow: 1px 1px 5px 0;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    -webkit-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+  }
+  body .job_category .jobCategory .img_category .square_image:hover {
+    border: 2px solid #49e4fa;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog {
+    width: 60px;
+    height: 50px;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog img {
+    width: 100%;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog2 {
+    width: 54px;
+    height: 50px;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog2 img {
+    width: 100%;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog3 {
+    width: 50px;
+    height: 50px;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog3 img {
+    width: 100%;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog4 {
+    width: 50px;
+    height: 50px;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog4 img {
+    width: 100%;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog5 {
+    width: 50px;
+    height: 50px;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog5 img {
+    width: 100%;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog6 {
+    width: 57px;
+    height: 50px;
+  }
+  body .job_category .jobCategory .img_category .square_image .img_catalog6 img {
+    width: 100%;
+  }
+  body .location_lists {
+    width: 100%;
+    height: 4817.55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .location_lists .jobList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .location_lists .jobList .jobBoxes {
+    width: 90%;
+    height: 2395.7px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesNavbar {
+    width: 99%;
+    height: 36.75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesNavbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesNavbar ul li {
+    width: 100px;
+    height: 34.75px;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesNavbar ul li:hover {
+    background: #49e4fa;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesNavbar ul li:hover a {
+    color: #fff;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesNavbar ul li a {
+    font-weight: 600;
+    line-height: 1.625em;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner {
+    width: 100%;
+    height: 2200px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box {
+    width: 100%;
+    height: 294.6px;
+    background: #f9f9ff;
+    margin-top: 18px;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox {
+    width: 24%;
+    height: 234.6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .designer_img {
+    width: 109px;
+    height: 69px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .designer_img img {
+    width: 100%;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link {
+    width: 142.74px;
+    height: 84px;
+    position: relative;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link .art {
+    width: 51.19px;
+    height: 36.75px;
+    padding: 6px 15px;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    top: 6px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link .art:hover {
+    background-color: #49e4fa;
+    color: #fff;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link .media {
+    width: 74.61px;
+    height: 36.75px;
+    padding: 6px 15px;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    left: 6px;
+    top: 6px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link .media:hover {
+    background-color: #49e4fa;
+    color: #fff;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link .design {
+    width: 79.25px;
+    height: 36.75px;
+    padding: 6px 15px;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    top: 20px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .designer_imgBox .desingner_link .design:hover {
+    background-color: #49e4fa;
+    color: #fff;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox {
+    width: 76%;
+    height: 234.6px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons {
+    width: 100%;
+    height: 63.4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .textIcon h3 {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .textIcon h6 {
+    margin-top: 7px;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2em;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .icon_designLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .icon_designLink .icon_boxDesignh {
+    width: 46px;
+    height: 44.75px;
+    border: 1px solid #eee;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .icon_designLink .icon_boxDesignh:hover {
+    background: #49e4fa;
+    color: #fff;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .icon_designLink a {
+    width: 73.11px;
+    height: 44.75px;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 10px 15px;
+    color: #222222;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox .designg_icons .icon_designLink a:hover {
+    background: #49e4fa;
+    color: #fff;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox p {
+    margin-top: 5px;
+    line-height: 1.625em;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox h5 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 16px;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.625em;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox span .fa-map {
+    font-size: 14px;
+    color: coral;
+  }
+  body .location_lists .jobList .jobBoxes .job_boxesDesigner .designer_box .design_textBox span .fa-coins {
+    font-size: 14px;
+    color: gold;
+  }
+  body .location_lists .jobList .jobBoxes .loadMore_link {
+    width: 200px;
+    height: 38.75;
+    background: #49e4fa;
+    padding: 8px 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+  }
+  body .location_lists .jobList .jobBoxes .loadMore_link a {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+  }
+  body .location_lists .location_boxes {
+    width: 90%;
+    height: 2395.7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+  }
+  body .location_lists .location_boxes .byLocation {
+    width: 95%;
+    height: 490.85px;
+    background: #f9f9ff;
+  }
+  body .location_lists .location_boxes .byLocation h3 {
+    width: 90%;
+    height: 21.6px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  body .location_lists .location_boxes .byLocation .cityLocation {
+    width: 90%;
+    height: 42.75px;
+    background: #fff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    cursor: pointer;
+    -webkit-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+  }
+  body .location_lists .location_boxes .byLocation .cityLocation:hover {
+    background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
+  }
+  body .location_lists .location_boxes .byLocation .cityLocation:hover p {
+    color: #fff;
+  }
+  body .location_lists .location_boxes .byLocation .cityLocation p {
+    color: #777777;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .location_lists .location_boxes .slideLocation {
+    width: 95%;
+    height: 500.85px;
+    background: #f9f9ff;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper {
+    width: 100%;
+    height: 500.85px;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
+    width: 100%;
+    height: 500.85px;
+    padding: 15px 10px;
+    background: #f9f9ff;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
+    width: 96%;
+    height: 21.6px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 18px;
+    text-align: left;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
+    margin-top: 15px;
+    width: 96%;
+    height: 120px;
+    background: url(/HOME/assets/image/background/xr1.jpg.pagespeed.ic.duIMHQH6F9.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
+    margin-top: 15px;
+    width: 96%;
+    height: 300px;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 16px;
+    text-align: left;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
+    margin-top: 5px;
+    line-height: 1.625em;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 16px;
+    text-align: left;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.625em;
+    text-align: left;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
+    font-size: 14px;
+    color: coral;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
+    font-size: 14px;
+    color: gold;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
+    width: 122.93px;
+    height: 44.75px;
+    background: #49e4fa;
+    border: 1px solid #49e4fa;
+    padding: 10px 25px;
+    margin-top: 10px;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
+    background: #fff;
+    border-color: #49e4fa;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
+    color: #49e4fa;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.625em;
+    font-weight: 300;
+  }
+  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .location_lists .location_boxes .byCategory {
+    width: 95%;
+    height: 490.85px;
+    background: #f9f9ff;
+  }
+  body .location_lists .location_boxes .byCategory h3 {
+    width: 90%;
+    height: 21.6px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  body .location_lists .location_boxes .byCategory .cityCategory {
+    width: 90%;
+    height: 42.75px;
+    background: #fff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    cursor: pointer;
+    -webkit-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+  }
+  body .location_lists .location_boxes .byCategory .cityCategory:hover {
+    background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
+  }
+  body .location_lists .location_boxes .byCategory .cityCategory:hover p {
+    color: #fff;
+  }
+  body .location_lists .location_boxes .byCategory .cityCategory p {
+    color: #777777;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .location_lists .location_boxes .advice_blog {
+    width: 95%;
+    height: 490.85px;
+    background: #f9f9ff;
+  }
+  body .location_lists .location_boxes .advice_blog h3 {
+    width: 90%;
+    height: 21.6px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  body .location_lists .location_boxes .advice_blog .audio_record_box {
+    width: 90%;
+    height: 121.95px;
+    background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+  }
+  body .location_lists .location_boxes .advice_blog .audio_record_box h4 {
+    width: 80%;
+    height: 63.2px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  body .location_lists .location_boxes .advice_blog .audio_record_box .span_text {
+    width: 90%;
+    height: 38.75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .location_lists .location_boxes .advice_blog .audio_record_box .span_text span {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  body .joinUs {
+    width: 100%;
+    height: 418.7px;
+    background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .joinUs .container .hestitaion {
+    width: 90%;
+    height: 178.7px;
+    margin: auto;
+  }
+  body .joinUs .container .hestitaion h2 {
+    width: 85%;
+    height: 43.2px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: auto;
+    text-align: center;
+  }
+  body .joinUs .container .hestitaion p {
+    width: 95%;
+    height: 45.5px;
+    line-height: 1.625em;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+  }
+  body .joinUs .container .hestitaion .joinLink {
+    width: 75%;
+    height: 45px;
+    margin: auto;
+    margin-top: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .joinUs .container .hestitaion .joinLink .canditate_link {
+    width: 206px;
+    height: 44px;
+    padding: 0 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    background: #49e4fa;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+  }
+  body .joinUs .container .hestitaion .joinLink .canditate_link:hover {
+    background: #ad9aff;
+  }
+  body .joinUs .container .hestitaion .joinLink .canditate_link a {
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 42px;
+    font-weight: 500;
+  }
+  body .joinUs .container .hestitaion .joinLink .request_link {
+    width: 218px;
+    height: 44px;
+    padding: 0 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    background: #49e4fa;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+  }
+  body .joinUs .container .hestitaion .joinLink .request_link:hover {
+    background: #ad9aff;
+  }
+  body .joinUs .container .hestitaion .joinLink .request_link a {
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 42px;
+    font-weight: 500;
+  }
+  body .downlandApp {
+    width: 100%;
+    height: 1200.05px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .downlandApp .downland_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .downlandApp .downland_box .phone_background {
+    width: 90%;
+    height: 400px;
+    background: url(/HOME/assets/image/background/phone.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  body .downlandApp .downland_box .downland_text_box {
+    width: 90%;
+    height: 331.1px;
+    margin-top: 15px;
+  }
+  body .downlandApp .downland_box .downland_text_box h2 {
+    width: 94%;
+    height: 86.4px;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  body .downlandApp .downland_box .downland_text_box p {
+    width: 100%;
+    height: 131px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777;
+    margin-top: 10px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link {
+    width: 94%;
+    height: 233.4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink {
+    width: 40%;
+    height: 86.7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #eee;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink:hover {
+    background: #49e4fa;
+    -webkit-box-shadow: 0 8px 20px 0;
+            box-shadow: 0 8px 20px 0;
+    border-color: #49e4fa;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink:hover .ios_icon .fa-apple {
+    color: #fff;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink:hover .ious_text h4 {
+    color: #fff;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink:hover .ious_text span {
+    color: #fff;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink .ios_icon {
+    width: 31.44px;
+    height: 48px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink .ios_icon .fa-apple {
+    color: #49e4fa;
+    font-size: 40px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink .ious_text {
+    width: 115.2px;
+    height: 48.7px;
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink .ious_text h4 {
+    width: 115px;
+    height: 30px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.625em;
+    font-size: 24px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .iosLink .ious_text span {
+    width: 115px;
+    height: 14px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink {
+    width: 40%;
+    height: 86.7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #eee;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink:hover {
+    background: #49e4fa;
+    -webkit-box-shadow: 0 8px 20px 0;
+            box-shadow: 0 8px 20px 0;
+    border-color: #49e4fa;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink:hover .android_icon .fa-robot {
+    color: #fff;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink:hover .adroid_text h4 {
+    color: #fff;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink:hover .adroid_text span {
+    color: #fff;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink .android_icon {
+    width: 31.44px;
+    height: 40px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink .android_icon .fa-robot {
+    color: #49e4fa;
+    font-size: 40px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink .adroid_text {
+    width: 115.2px;
+    height: 48.7px;
+    position: relative;
+    bottom: 5px;
+    left: 11px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink .adroid_text h4 {
+    width: 115px;
+    height: 30px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.625em;
+    font-size: 24px;
+  }
+  body .downlandApp .downland_box .downland_text_box .dowland_link .androidLink .adroid_text span {
+    width: 115px;
+    height: 14px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+  }
+  body .footer {
+    width: 100%;
+    height: 1116.3px;
+    background: #222222;
+  }
+  body .footer .footCon {
+    position: relative;
+  }
+  body .footer .footCon .information {
+    width: 95%;
+    height: 840px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .footer .footCon .information h3 {
+    width: 95%;
+    height: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  body .footer .footCon .information .footer_products {
+    width: 90%;
+    height: 231.6px;
+    position: relative;
+  }
+  body .footer .footCon .information .footer_products ul {
+    width: 95%;
+    height: 161.6px;
+    position: relative;
+    top: 20px;
+  }
+  body .footer .footCon .information .footer_products ul li {
+    margin-top: 10px;
+  }
+  body .footer .footCon .information .footer_products ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+    -webkit-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+  }
+  body .footer .footCon .information .footer_products ul li a:hover {
+    color: #49e4fa;
+  }
+  body .footer .footCon .information .newsletter {
+    width: 90%;
+    height: 259.35px;
+    position: relative;
+  }
+  body .footer .footCon .information .newsletter p {
+    width: 95%;
+    height: 22.75px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-top: 15px;
+  }
+  body .footer .footCon .information .newsletter form {
+    width: 95%;
+    height: 44px;
+    margin-top: 15px;
+  }
+  body .footer .footCon .information .newsletter form input {
+    width: 95%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 1px 2px 1px 20px;
+  }
+  body .footer .footCon .information .newsletter form input::-webkit-input-placeholder {
+    color: #777;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 38px;
+  }
+  body .footer .footCon .information .newsletter form input:-ms-input-placeholder {
+    color: #777;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 38px;
+  }
+  body .footer .footCon .information .newsletter form input::-ms-input-placeholder {
+    color: #777;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 38px;
+  }
+  body .footer .footCon .information .newsletter form input::placeholder {
+    color: #777;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 38px;
+  }
+  body .footer .footCon .information .newsletter form button {
+    width: 25%;
+    height: 44px;
+    border-color: #49e4fa;
+    border-radius: 25px;
+    line-height: 42px;
+    text-transform: uppercase;
+    background: #49e4fa;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 18px;
+    position: relative;
+    top: 15px;
+    right: 16px;
+    cursor: pointer;
+    -webkit-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+  }
+  body .footer .footCon .information .newsletter form button:hover .fa-arrow-right {
+    position: relative;
+    left: 12px;
+    -webkit-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+  }
+  body .footer .footCon .information .newsletter form button .fa-arrow-right {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  body .footer .footCon .information .newsletter .span {
+    display: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    -webkit-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+  }
+  body .footer .footCon .information .newsletter .display_block_click {
+    display: block;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    -webkit-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+  }
+  body .footer .footCon .information .instagram_feed {
+    width: 90%;
+    height: 242.6px;
+    position: relative;
+  }
+  body .footer .footCon .information .instagram_feed .img_feedBox {
+    width: 95%;
+    height: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 12px;
+    position: relative;
+    right: 43px;
+    top: 20px;
+  }
+  body .footer .footCon .information .instagram_feed .img_feedBox .feedImage {
+    width: 10%;
+    height: 58px;
+  }
+  body .footer .footCon .information .instagram_feed .img_feedBox .feedImage img {
+    width: 100%;
+  }
+  body .footer .footCon .endOfFooter {
+    width: 90%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .footer .footCon .endOfFooter .colorlibFooter {
+    width: 95%;
+    height: 40px;
+    position: relative;
+    bottom: 65px;
+  }
+  body .footer .footCon .endOfFooter .colorlibFooter p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.625em;
+  }
+  body .footer .footCon .endOfFooter .colorlibFooter p .fa-heart {
+    color: #49e4fa;
+  }
+  body .footer .footCon .endOfFooter .colorlibFooter p a {
+    color: #49e4fa;
+  }
+  body .footer .footCon .endOfFooter .icon_footer {
+    width: 89%;
+    height: 40px;
+    margin-right: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    position: relative;
+    bottom: 60px;
+  }
+  body .footer .footCon .endOfFooter .icon_footer .fotterIcon_colorlib {
+    width: 7%;
+    height: 40px;
+    background: #111;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  body .footer .footCon .endOfFooter .icon_footer .fotterIcon_colorlib:hover {
+    background: #49e4fa;
+  }
+  body .footer .footCon .endOfFooter .icon_footer .fotterIcon_colorlib a {
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
