@@ -91,9 +91,67 @@ $color_scroll_to_button : orange;
             }
             .responsive_navbar{
                 display: block;
-                .fa-bars{
-                    color: $color_cyan;
-                    font-size: $font_size_medium_well;
+                position: relative;
+                transition: 1s all ease-in-out;
+                &:hover .ul_navbar{
+                   display: block;
+                }
+                .icon_responsive{
+                    .fa-bars{
+                        color: $color_cyan;
+                        font-size: $font_size_less_large;
+                    }
+                }
+                .ul_navbar{
+                    display: none;
+                    width: 250px;
+                    height: 1200px;
+                    position: fixed;
+                    background: $color_text;
+                    position: absolute;
+                    right: 504px;
+                    top: -19px;
+                    padding: 30px;
+                    transition: 0.4s all ease-in-out;
+                    ul{
+                        width: 280px;
+                        height: 300px;
+                        li{
+                            padding: 10px;
+                            margin-top: 10px;
+                            &:hover .dropdown-content{
+                                 display: block;
+                            }
+                            a{
+                                font-family: $font_family;
+                                font-size: $font_size_medium_well;
+                                color: $color_white;
+                                text-transform: uppercase;
+                                .fa-angle-down{
+                                    margin-left: 115px;
+                                    font-size: $font_size_medium_well;
+                                }
+                            }
+                            .dropdown-content{
+                                display: none;
+                                ul{
+                                    width: 200px;
+                                    height: 160px;
+                                    li{
+                                        width: 60px;
+                                        height: 48px;
+                                        a{
+                                            font-family: $font_family;
+                                            font-size: $font_size_medium_well;
+                                            color: $color_white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
                 }
             }
     }
@@ -1598,9 +1656,67 @@ $color_scroll_to_button : orange;
                 }
                 .responsive_navbar{
                     display: block;
-                    .fa-bars{
-                        font-size: $font_size_medium_well;
-                        color: $color_cyan;
+                    position: relative;
+                    transition: 1s all ease-in-out;
+                    &:hover .ul_navbar{
+                       display: block;
+                    }
+                    .icon_responsive{
+                        .fa-bars{
+                            color: $color_cyan;
+                            font-size: $font_size_less_large;
+                        }
+                    }
+                    .ul_navbar{
+                        display: none;
+                        width: 250px;
+                        height: 1200px;
+                        position: fixed;
+                        background: $color_text;
+                        position: absolute;
+                        right: 108px;
+                        top: -19px;
+                        padding: 30px;
+                        transition: 0.4s all ease-in-out;
+                        ul{
+                            width: 280px;
+                            height: 300px;
+                            li{
+                                padding: 10px;
+                                margin-top: 10px;
+                                &:hover .dropdown-content{
+                                     display: block;
+                                }
+                                a{
+                                    font-family: $font_family;
+                                    font-size: $font_size_medium_well;
+                                    color: $color_white;
+                                    text-transform: uppercase;
+                                    .fa-angle-down{
+                                        margin-left: 115px;
+                                        font-size: $font_size_medium_well;
+                                    }
+                                }
+                                .dropdown-content{
+                                    display: none;
+                                    ul{
+                                        width: 200px;
+                                        height: 160px;
+                                        li{
+                                            width: 60px;
+                                            height: 48px;
+                                            a{
+                                                font-family: $font_family;
+                                                font-size: $font_size_medium_well;
+                                                color: $color_white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+    
+                        }
                     }
                 }
     }
