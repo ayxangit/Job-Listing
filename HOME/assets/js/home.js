@@ -65,14 +65,22 @@ var swiper = new Swiper(".mySwiper", {
         hashNavigation: {
           watchState: true,
         },
-        // breakpoints: {  
-        //     '360': {
-        //       slidesPerView: 1,
-        //       spaceBetween: 40,},
-        //     '@768': {
-        //       slidesPerView: 2,
-        //       spaceBetween: 50, },
-        //   },
+        breakpoints: {
+            375: {
+                loop:true,
+              slidesPerView: 1,
+              spaceBetween: 30
+            },
+          768: {
+            loop:true,
+            slidesPerView: 1,
+            spaceBetween: 30
+          },
+          1500: {
+            slidesPerView: 2,
+            spaceBetween: 30
+          },
+        },
          
         pagination: {
           el: ".swiper-pagination",
@@ -123,25 +131,6 @@ function scrollToTop(){
 }
 // end
 
-// slide section responsive slide
-var swiper = new Swiper(".mySwiper", {
-        loop:true,
-        speed: 350,
-        slidesPerView: 2,
-        autoplay: true,
-        spaceBetween: 30,
-        hashNavigation: {
-          watchState: true,
-        },
-        // breakpoints: {  
-        //     '768': {
-        //       slidesPerView: 1,
-        //       spaceBetween: 40,},
-        //   },
-         
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-});
+
+
 

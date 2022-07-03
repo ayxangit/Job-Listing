@@ -495,7 +495,7 @@
     position: relative;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image .img {
-    width: 48.73px;
+    width: 70px;
     height: 28.65;
     position: relative;
     left: 12px;
@@ -518,7 +518,7 @@
     transition: 0.3s all ease-in-out;
     position: relative;
     left: 27px;
-    top: 18px;
+    top: 11px;
     z-index: 2;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image a:hover {
@@ -537,6 +537,8 @@
     line-height: 1.2em;
     font-weight: 600;
     margin-top: 10px;
+    position: relative;
+    right: 23px;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text h6 {
     color: #49e4fa;
@@ -545,6 +547,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin-top: 8px;
+    position: relative;
+    right: 23px;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text p {
     font-weight: 300;
@@ -554,6 +558,7 @@
     font-size: 14px;
     margin-top: 10px;
     position: relative;
+    right: 23px;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creavityly_text p span {
     position: relative;
@@ -2316,11 +2321,11 @@
   }
   body .slide_box {
     width: 100%;
-    height: 340px;
+    height: 354.9px;
   }
   body .slide_box .container .swiper {
     width: 100%;
-    height: 332.15px;
+    height: 354.9px;
   }
   body .slide_box .container .swiper .swiper-slide {
     text-align: center;
@@ -2339,7 +2344,7 @@
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box {
     width: 100%;
-    height: 189.4px;
+    height: 213px;
     border: 1px solid #222222;
     background: #222222;
     display: -webkit-box;
@@ -2371,11 +2376,11 @@
     position: relative;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image .img {
-    width: 48.73px;
+    width: 40px;
     height: 28.65;
     position: relative;
-    left: 12px;
-    bottom: 28px;
+    left: 5px;
+    bottom: 39px;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image .img img {
     width: 100%;
@@ -2394,7 +2399,7 @@
     transition: 0.3s all ease-in-out;
     position: relative;
     left: 27px;
-    top: 18px;
+    top: 36px;
     z-index: 2;
   }
   body .slide_box .container .swiper .swiper-slide .creavityly_box .creativyly_image a:hover {
@@ -2427,7 +2432,7 @@
     line-height: 1.625em;
     color: #777777;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
     position: relative;
   }
