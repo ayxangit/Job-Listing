@@ -40,3 +40,16 @@ function scrollToTop(){
   })
 }
 // end
+
+// footer click display block span
+let btn = document.querySelector("#btn").addEventListener("click",()=>{
+  let input = document.querySelector("#input").value;
+  if(input ==""){
+      alert("Email ünvanınızı qeyd edin")
+  }else{
+      let span = document.querySelector(".span");
+      span.classList.add("display_block_click");
+  }
+  
+})
+// end
