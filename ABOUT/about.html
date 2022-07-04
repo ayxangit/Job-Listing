@@ -1,28 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favcion -->
     <link rel="shortcut icon" href="assets/imagess/logo/6d98c7ce256e973040148268ff859812.jpg" type="image/x-icon">
-     <!-- link slide -->
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-     <!-- fonts link -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link
-         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap"
-         rel="stylesheet">
+    <!-- link slide -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap"
+        rel="stylesheet">
     <!-- about css -->
     <link rel="stylesheet" href="assets/css/about.css">
     <title>Job Listing</title>
 </head>
+
 <body>
 
 
+    <!-- scroll to button -->
+    <div class="scroll_to_button" onclick="scrollToTop();">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    
+    <!-- start header -->
+    <header>
+        <div class="header">
+            <div class="container main_box">
+                <div class="logo">
+                    <img src="assets/imagess/logo/Без названия.webp" alt="logo">
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="/HOME/home.html"> HOME </a></li>
+                        <li><a href="/ABOUT/about.html"> ABOUT US </a></li>
+                        <li><a href=""> CATEGORY </a></li>
+                        <li><a href=""> PRICE </a></li>
+                        <li><a href=""> BLOG </a></li>
+                        <li><a href=""> CONTACT </a></li>
+                        <li class="page"><a href=""> PAGES </a>
+                            <i class="fa-solid fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li> <a href="#"> ELEMENTS </a></li>
+                                    <li> <a href="#" class="left"> SEARCH </a>
+                                    <li><a href="" class="left_small"> SINGLE </a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link"><a href="/SIGN/sign.html"> SIGNUP</a></li>
+                        <li class="link"><a href="#"> LOGIN </a></li>
+                    </ul>
 
+                </nav>
+                <div class="responsive_navbar">
+                    <div class="icon_responsive">
+                        <i class="fa-solid fa-bars">
+                        </i>
+                    </div>
+                    <div class="ul_navbar">
+                        <ul>
+                            <li><a href=""> Home </a></li>
+                            <li><a href=""> About </a></li>
+                            <li><a href=""> Category </a></li>
+                            <li><a href=""> Price </a></li>
+                            <li><a href=""> Blog </a></li>
+                            <li><a href=""> Contact </a></li>
+                            <li><a href="#"> Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li> <a href="#"> ELEMENTS </a></li>
+                                        <li> <a href="#" class="left"> SEARCH </a>
+                                        <li><a href="" class="left_small"> SINGLE </a> </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- end -->
+
+    <!-- start main -->
+    <main>
+        <!-- start about section -->
+        <section>
+            <div class="job_posted">
+                <div class="overlay"></div>
+                <div class="container job_box">
+                    <div class="about_box">
+                        <h1>
+                            About us
+                        </h1>
+                        <span>
+                            Home
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            About
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+        <!-- start why choose us section -->
+        <section>
+            <div class="why_chooseUs">
+                <div class="container chooseUs">
+                    <div class="chhose_text">
+                        <h2>
+                            Why Choose Us
+                        </h2>
+                        <p>
+                            Who are in extremely love with eco friendly system.
+                        </p>
+                    </div>
+                    <div class="choose_boxes">
+                        <div class="choose_box">
+                            <h3> <i class="fa-solid fa-user"></i> Expert Technicians</h3>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and
+                                power.
+                            </p>
+                        </div>
+                        <div class="choose_box">
+                            <h3> <i class="fa-solid fa-id-card"></i> Professional Services </h3>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and
+                                power.
+                            </p>
+                        </div>
+                        <div class="choose_box">
+                            <h3> <i class="fa-solid fa-phone"></i> Great Support</h3>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and
+                                power.
+                            </p>
+                        </div>
+                        <div class="choose_box">
+                            <h3> <i class="fa-solid fa-rocket"></i> Techical Skills</h3>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and
+                                power.
+                            </p>
+                        </div>
+                        <div class="choose_box">
+                            <h3> <i class="fa-solid fa-gem"></i> Highly Recomended</h3>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and
+                                power.
+                            </p>
+                        </div>
+                        <div class="choose_box">
+                            <h3> <i class="fa-solid fa-comment"></i> Positive Reviews</h3>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and
+                                power.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+
+        <!-- start about separate section -->
+        <section>
+            <div class="separate_box">
+                <div class="separate_img_box">
+                </div>
+                <div class="separate_text_box">
+                    <h5>
+                        BASIC & COMMON REPAIRS
+                    </h5>
+                    <h3>
+                        Who we are
+                    </h3>
+                    <p>
+                        Computer users and programmers have become so accustomed to using Windows, even for the
+                        changing capabilities and the appearances of the graphical.
+                    </p>
+                </div>
+                <div class="separate_img_box1">
+                </div>
+                <div class="separate_text_box">
+                    <h5>
+                        BASIC & COMMON REPAIRS
+                    </h5>
+                    <h3>
+                        Who we do
+                    </h3>
+                    <p>
+                        Computer users and programmers have become so accustomed to using Windows, even for the
+                        changing capabilities and the appearances of the graphical.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+        <!-- start exprencied section -->
+        <section>
+            <div class="exprenciedBox">
+                <div class="container exprencied_container">
+                    <div class="exprencied_text">
+                        <h2>
+                            Experienced Mentor Team
+                        </h2>
+                        <p>
+                            Who are in extremely love with eco friendly system.
+                        </p>
+                    </div>
+                    <div class="exprencied_imgBox">
+                        <div class="mentor_img">
+                            <div class="mentor_person">
+                                <div class="mentor_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="mentor_name">
+                                <h4>
+                                    Ethel Davies
+                                </h4>
+                                <p>
+                                    Managing Director (Sales)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mentor_img">
+                            <div class="mentor_person2">
+                                <div class="mentor_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="mentor_name">
+                                <h4>
+                                    Rodney Cooper
+                                </h4>
+                                <p>
+                                    Creative Art Director (Project)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mentor_img">
+                            <div class="mentor_person3">
+                                <div class="mentor_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="mentor_name">
+                                <h4>
+                                    Dora Walker
+                                </h4>
+                                <p>
+                                    Senior Core Developer
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mentor_img">
+                            <div class="mentor_person4">
+                                <div class="mentor_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="mentor_name">
+                                <h4>
+                                    Lena Keller
+                                </h4>
+                                <p>
+                                    Creative Content Developer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+        <!-- start join us section -->
+        <section>
+            <div class="joinUs">
+                <div class="container joinCont">
+                    <div class="hestitaion">
+
+                        <h2>
+                            Join us today without any hesitation
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                        <div class="joinLink">
+                            <div class="canditate_link">
+                                <a href=""> i am a candidate </a>
+                            </div>
+                            <div class="request_link">
+                                <a href="">Request Free demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+        <!-- start testimontial section -->
+        <section>
+            <div class="testimontal">
+                <div class="container testi_contain">
+                    <div class="testimontial_text">
+                        <h2>
+                            Testimonial from our Clients
+                        </h2>
+                        <p>
+                            Who are in extremely love with eco friendly system.
+                        </p>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div data-hash="slide1" class="swiper-slide">
+                                <div class="swiper_box_testi">
+                                    <div class="testi_img">
+                                        <img src="assets/imagess/logo/xr2.png.pagespeed.ic.i-Q7TdFR2f.webp" alt="logo">
+                                    </div>
+                                    <div class="testi_icon">
+                                        <h4>
+                                            lorem ipusum <i class="fa-solid fa-star orange_star"></i><i
+                                                class="fa-solid fa-star orange_star"></i>
+                                            <i class="fa-solid fa-star orange_star"></i><i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        Accessories Here you can find the best computer accessory for your laptop,
+                                        monitor, printer, scanner, speaker. Here you can find the best
+                                        accessory for your laptop, monitor, printer, scanner, speaker.
+                                    </p>
+                                </div>
+                            </div>
+                            <div data-hash="slide2" class="swiper-slide">
+                                <div class="swiper_box_testi">
+                                    <div class="testi_img1">
+                                        <img src="assets/imagess/logo/xr1.png.pagespeed.ic.luwy91gl5t.webp" alt="logo">
+                                    </div>
+                                    <div class="testi_icon1">
+                                        <h4>
+                                            lorem ipusum <i class="fa-solid fa-star orange_star"></i><i
+                                                class="fa-solid fa-star orange_star"></i>
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        Accessories Here you can find the best computer accessory for your laptop,
+                                        monitor, printer, scanner, speaker. Here you can find the best
+                                        accessory for your laptop, monitor, printer, scanner, speaker.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+    </main>
+    <!-- end -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="footer">
+            <div class="container footCon">
+                 <div class="information">
+                    <div class="footer_products">
+                       <h3>
+                        Top Products
+                       </h3>
+                       <ul>
+                        <li><a href="#">Managed Website</a></li>
+                        <li><a href="#">Manage Reputation </a></li>
+                        <li><a href="#">Power Tools</a></li>
+                        <li><a href="#">Marketing Service</a></li>
+                       </ul>
+                    </div>
+                    <div class="newsletter">
+                        <h3>
+                            Newsletter
+                        </h3>
+                        <p>
+                            You can trust us. we only send promo offers, not a single spam.
+                        </p>
+                        <form>
+                            <input type="email" id="input" placeholder="Enter Email">
+                            <button id="btn">
+                                subscripe <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
+                        <span class="span">
+                            Submitting...
+                        </span>
+                    </div>
+                    <div class="instagram_feed">
+                         <h3>
+                            Instagram Feed
+                         </h3>
+                         <div class="img_feedBox">
+                            <div class="feedImage">
+                                <img src="assets/imagess/imagesss/xi1.jpg.pagespeed.ic.jfLZK-H-XF.webp" alt="child">    
+                            </div>
+                            <div class="feedImage">
+                                <img src="assets/imagess/imagesss/xi2.jpg.pagespeed.ic.3857ToO-Y0.webp" alt="girl">
+                            </div>
+                            <div class="feedImage">
+                                 <img src="assets/imagess/imagesss/xi3.jpg.pagespeed.ic.Xa_CKOsVWT.webp" alt="home">
+                            </div>
+                            <div class="feedImage">
+                                 <img src="assets/imagess/imagesss/xi4.jpg.pagespeed.ic.RlyWl7MZsa.webp" alt="person">
+                            </div>
+                            <div class="feedImage">
+                                 <img src="assets/imagess/imagesss/xi5.jpg.pagespeed.ic.EEPJ2CxYEb.webp" alt="sun">
+                            </div>
+                            <div class="feedImage">
+                                 <img src="assets/imagess/imagesss/xi6.jpg.pagespeed.ic.eP8-siz_Gr.webp" alt="floor">
+                            </div>
+                            <div class="feedImage">
+                                <img src="assets/imagess/imagesss/xi7.jpg.pagespeed.ic.tCrquJ1b2e.webp" alt="cloud">
+                           </div>
+                           <div class="feedImage">
+                            <img src="assets/imagess/imagesss/xi8.jpg.pagespeed.ic.k_7KLaTiSo.webp" alt="asia">
+                           </div>
+                         </div>
+                    </div>
+                 </div>
+                 <div class="endOfFooter">
+                    <div class="colorlibFooter">
+                        <p>
+                            Copyright ©2022 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by 
+                            <a href="https://colorlib.com/" target="_blank">
+                                Colorlib
+                            </a>
+                        </p>
+                    </div>
+                    <div class="icon_footer">
+                        <div class="fotterIcon_colorlib"><a href=""><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="fotterIcon_colorlib"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                        <div class="fotterIcon_colorlib"><a href=""><i class="fa-brands fa-dribbble"></i></a></div>
+                        <div class="fotterIcon_colorlib"><a href=""><i class="fa-brands fa-behance"></i></a></div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end -->
 
 
 
@@ -35,4 +491,5 @@
     <!-- scrip js -->
     <script src="assets/js/about.js"></script>
 </body>
+
 </html>
