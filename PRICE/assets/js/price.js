@@ -1,16 +1,3 @@
-// start job location section slide
-var swiper2 = new Swiper(".mySwiper_box", {
-    loop:true,
-    autoplay:true,
-    slidesPerView:1,
-    spaceBetween: 30,
-    speed:350,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-});
-//   end
 
 // header change scroll
 let header = document.querySelector(".header")
@@ -24,18 +11,20 @@ window.onscroll =()=>{
 }
 // end
 
+// scroll to top button
 window.addEventListener('scroll',function(){
     let scroll = document.querySelector(".scroll_to_button");
     scroll.classList.toggle("scroll_visibilty_opacity",window.scrollY>500);
-})
-
-function scrollToTop(){
+  })
+  
+  function scrollToTop(){
     window.scrollTo({
         top:0,
         behavior:"smooth"
     })
-}
-// end
+  }
+  // end
+
 
 // footer click display block span
 let btn = document.querySelector("#btn").addEventListener("click",()=>{
@@ -47,5 +36,5 @@ let btn = document.querySelector("#btn").addEventListener("click",()=>{
         span.classList.add("display_block_click");
     }
     
-})
+  })
   // end
