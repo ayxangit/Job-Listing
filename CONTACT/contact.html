@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon link -->
-    <link rel="shortcut icon" href="assets/image/logo/6d98c7ce256e973040148268ff859812.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/image/imagess/6d98c7ce256e973040148268ff859812.jpg" type="image/x-icon">
     <!-- link slide -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- fonts link -->
@@ -16,18 +16,19 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap"
         rel="stylesheet">
     <!-- link css -->
-    <link rel="stylesheet" href="assets/css/price.css">
-    <title> Job Listing </title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>Job Listing </title>
 </head>
 
 <body>
-     
-    <!-- scroll to button -->
-    <div class="scroll_to_button" onclick="scrollToTop();">
+
+     <!-- scroll to button -->
+     <div class="scroll_to_button" onclick="scrollToTop();">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
     <!-- end -->
 
+    
     <!-- start header -->
     <header>
         <div class="header">
@@ -40,9 +41,9 @@
                         <li><a href="/HOME/home.html"> HOME </a></li>
                         <li><a href="/ABOUT/about.html"> ABOUT US </a></li>
                         <li><a href="/CATAGORY/category.html"> CATEGORY </a></li>
-                        <li><a href="#"> PRICE </a></li>
+                        <li><a href="/PRICE/price.html"> PRICE </a></li>
                         <li><a href="/BLOG/blog.html"> BLOG </a></li>
-                        <li><a href="/CONTACT/contact.html"> CONTACT </a></li>
+                        <li><a href="#"> CONTACT </a></li>
                         <li class="page"><a href=""> PAGES </a>
                             <i class="fa-solid fa-angle-down"></i>
                             <div class="dropdown-content">
@@ -91,21 +92,21 @@
 
     <!-- start main -->
     <main>
-        <!-- start price section -->
+        <!-- start contact section -->
         <section>
             <div class="job_posted">
                 <div class="overlay"></div>
                 <div class="container job_box">
                     <div class="about_box">
                         <h1>
-                            Pricing Plan
+                            Contact Us
                         </h1>
                         <span>
                             Home
                         </span>
                         <i class="fa-solid fa-arrow-right"></i>
                         <span>
-                            Pricing Plan
+                            Contact Us
                         </span>
                     </div>
                 </div>
@@ -113,172 +114,43 @@
         </section>
         <!-- end -->
 
-        <!-- start pricing section -->
+        <!-- start contact info section -->
         <section>
-            <div class="price_box">
-                <div class="container price_contain">
-                    <div class="price_text">
-                        <h2>
-                            Choose the best pricing for you
-                        </h2>
-                        <p>
-                            Who are in extremely love with eco friendly system.
-                        </p>
+            <div class="contact_info">
+                <div class="container contact_contain">
+                    <div class="map_contact">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.5729001274!2d-79.51814251184919!3d43.71815566125486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Kanada!5e0!3m2!1saz!2s!4v1657000235510!5m2!1saz!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="price_card">
-                        <div class="price_box">
-                            <div class="real_basic">
-                                <h3>
-                                    Real Basic
-                                </h3>
-                            </div>
-                            <div class="price_list">
-                                <ul>
-                                    <li> 2.5 GB Space</li>
-                                    <li> Secure Online Transfer </li>
-                                    <li> Unlimited Styles </li>
-                                    <li> Customer Service </li>
-                                </ul>
-                            </div>
-                            <div class="price_money">
-                                <div class="money_text">
-                                    <p><sup>$</sup>39</p>
-                                    <span>Per<br>Month</span>
-                                </div>
-                                <div class="money_link">
-                                    <a href="#"> Get Started </a>
-                                </div>
-                            </div>
+                    <div class="send_contact">
+                        <div class="send_fileContact">
+                            <div class="contact_link"><a href="">Submit your cv </a></div>
+                            <div class="contact_link"><a href=""> Post New Job </a></div>
+                            <div class="contact_link"><a href=""> Create New Account </a></div>
                         </div>
-                        <div class="price_box">
-                            <div class="real_basic">
-                                <h3>
-                                    Real Standred
-                                </h3>
-                            </div>
-                            <div class="price_list">
-                                <ul>
-                                    <li> 10 GB Space</li>
-                                    <li> Secure Online Transfer </li>
-                                    <li> Unlimited Styles </li>
-                                    <li> Customer Service </li>
-                                </ul>
-                            </div>
-                            <div class="price_money">
-                                <div class="money_text">
-                                    <p><sup>$</sup>69</p>
-                                    <span>Per<br>Month</span>
+                        <div class="data_contact">
+                            <form>
+                                <input type="text" id="name" placeholder="Enter your name">
+                                <input type="email" id="email" placeholder="Enter email adress">
+                                <input type="text" id="subject" placeholder="Enter your subject">
+                                <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                <div class="button">
+                                    <button id="btn"> Send Message </button>
                                 </div>
-                                <div class="money_link">
-                                    <a href="#"> Get Started </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="price_box">
-                            <div class="real_basic">
-                                <h3>
-                                    Real Ultimate
-                                </h3>
-                            </div>
-                            <div class="price_list">
-                                <ul>
-                                    <li> Unlimited Styles </li>
-                                    <li> Secure Online Transfer </li>
-                                    <li> Unlimited Styles </li>
-                                    <li> Customer Service </li>
-                                </ul>
-                            </div>
-                            <div class="price_money">
-                                <div class="money_text">
-                                    <p><sup>$</sup>99</p>
-                                    <span>Per<br>Month</span>
-                                </div>
-                                <div class="money_link">
-                                    <a href="#"> Get Started </a>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end -->
-
-        <!-- start price separate section -->
-        <section>
-            <div class="separate_box">
-                <div class="separate_img_box">
-                </div>
-                <div class="separate_text_box">
-                    <h5>
-                        BASIC & COMMON REPAIRS
-                    </h5>
-                    <h3>
-                        Who we are
-                    </h3>
-                    <p>
-                        Computer users and programmers have become so accustomed to using Windows, even for the
-                        changing capabilities and the appearances of the graphical.
-                    </p>
-                </div>
-                <div class="separate_img_box1">
-                </div>
-                <div class="separate_text_box">
-                    <h5>
-                        BASIC & COMMON REPAIRS
-                    </h5>
-                    <h3>
-                        Who we do
-                    </h3>
-                    <p>
-                        Computer users and programmers have become so accustomed to using Windows, even for the
-                        changing capabilities and the appearances of the graphical.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- end -->
-
-        <!-- start price submit section -->
-        <section>
-            <div class="price_submit">
-                <div class="container submit_contain">
-                    <div class="submit_box">
-                        <div class="sumbitPrice">
-                            <h4>
-                                Submit Your Resume Today
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore.
-                            </p>
-                            <a href="https://europa.eu/europass/en/create-europass-cv" target="_blank">
-                                Submit Your CV
-                            </a>
-                        </div>
-                        <div class="sumbitPrice">
-                            <h4>
-                                Submit a New Job Now!
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore.
-                            </p>
-                            <a class="job" href="https://www.receptix.de/us/construction-project-management-solution-openings?r_campaign=17611062888&utm_campaign=17611062888&utm_source=google&utm_medium=cpc&utm_type=search"
-                                target="_blank">
-                                Post a Job
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
     <!-- end -->
 
-
-    <!-- start footer -->
-    <footer>
+     <!-- start footer -->
+     <footer>
         <div class="footer">
             <div class="container footCon">
                  <div class="information">
@@ -365,13 +237,12 @@
 
 
 
-
     <!-- slide script  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- icon script -->
     <script src="https://kit.fontawesome.com/29bca2939f.js" crossorigin="anonymous"></script>
     <!-- script js -->
-    <script src="assets/js/price.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>
