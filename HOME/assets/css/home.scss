@@ -181,6 +181,7 @@ $color_scroll_to_button : orange;
                                 color: $color_dark;
                                 font-family: $font_family;
                                 font-size: $font_size_small;
+                                transition: 0.3s all ease-in-out;
                                 &:hover{
                                     color: $color_cyan;
                                 }
@@ -1566,15 +1567,15 @@ $color_scroll_to_button : orange;
                         margin-left: 18px;
                         position: relative;
                         cursor: pointer;
-                        transition: 1s all ease-in-out;
+                        transition: 0.5s all ease-in-out;
                         &:hover .fa-arrow-right{
-                            position: relative;
-                            left: 12px;
-                            transition: 1s all ease-in-out;
+                            margin-left: 18px;
+                            transition: 0.5s all ease-in-out;
                         }
                         .fa-arrow-right{
                             margin-left: 10px;
                             font-size: $font_size_small;
+                            transition: 0.5s all ease-in-out;
                         }
                     }
                 }

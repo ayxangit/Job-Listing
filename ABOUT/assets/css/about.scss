@@ -135,9 +135,11 @@ $color_scroll_to_button : orange;
                .page{
                 position: relative;
                 padding: 20px;
-                transition: 3s all ease-in-out;
+                transition: 0.5s all ease-in-out;
                 &:hover .dropdown-content{
-                    display: block;
+                    visibility: visible;
+                    opacity: 1;
+                    transition: 0.5s all ease-in-out;
                 }
                 a{
                     color: $color_white;
@@ -152,7 +154,8 @@ $color_scroll_to_button : orange;
                     cursor: pointer;
                  }
                  .dropdown-content{
-                    display: none;
+                    visibility: hidden;
+                    opacity: 0;
                     width: 190px;
                     height: 98px;
                     border: 1px solid $color_white;
@@ -163,7 +166,7 @@ $color_scroll_to_button : orange;
                     top: 100%;
                     left: 0;
                     z-index: 99;
-                    transition: 3s all ease-in-out;
+                    transition: 0.5s all ease-in-out;
                     ul{
                         position: relative;
                         width: 47%;
@@ -1065,15 +1068,15 @@ $color_scroll_to_button : orange;
                         margin-left: 18px;
                         position: relative;
                         cursor: pointer;
-                        transition: 1s all ease-in-out;
+                        transition: 0.5s all ease-in-out;
                         &:hover .fa-arrow-right{
-                            position: relative;
-                            left: 12px;
+                            margin-left: 18px;
                             transition: 1s all ease-in-out;
                         }
                         .fa-arrow-right{
                             margin-left: 10px;
                             font-size: $font_size_small;
+                            transition: 0.5s;
                         }
                     }
                 }

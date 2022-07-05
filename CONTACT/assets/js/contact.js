@@ -8,7 +8,7 @@ let btn = document.querySelector("#btn").addEventListener("click",()=>{
         span.classList.add("display_block_click");
     }
     
-  })
+})
   // end
 
   // scroll to top button
@@ -34,4 +34,22 @@ window.onscroll =()=>{
         header.classList.remove("scroll_change");
     }
 }
+// end
+
+// change input border color
+document.querySelector("#btnsd").addEventListener("click",(e)=>{
+    let name = document.querySelector("#name");
+    let email = document.querySelector("#email");
+    let subject = document.querySelector("#subject");
+    let message = document.querySelector("#message");
+    
+
+    if((name.value == "")&&(message.value == "")){
+        name.classList.toggle("red_color")
+        email.classList.toggle("red_color")
+        subject.classList.toggle("red_color")
+        message.classList.toggle("red_text")
+    }
+    e.preventDefault();
+})
 // end

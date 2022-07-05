@@ -105,7 +105,7 @@ var swiper2 = new Swiper(".mySwiper_box", {
 
 
 // footer click display block span
-let btn = document.querySelector("#btn").addEventListener("click",()=>{
+let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
     let input = document.querySelector("#input").value;
     if(input ==""){
         alert("Email ünvanınızı qeyd edin")
@@ -113,6 +113,7 @@ let btn = document.querySelector("#btn").addEventListener("click",()=>{
         let span = document.querySelector(".span");
         span.classList.add("display_block_click");
     }
+    e.preventDefault()
     
 })
 // end
@@ -130,6 +131,7 @@ function scrollToTop(){
     })
 }
 // end
+
 
 
 

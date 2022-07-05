@@ -92,18 +92,26 @@ $color_scroll_to_button : orange;
             .responsive_navbar{
                 display: block;
                 position: relative;
-                transition: 1s all ease-in-out;
+                transition: 0.5s all ease-in-out;
                 &:hover .ul_navbar{
-                   display: block;
+                   visibility: visible;
+                   transition: 0.5s all ease-in-out;
+                   opacity: 1;
                 }
                 .icon_responsive{
                     .fa-bars{
                         color: $color_cyan;
                         font-size: $font_size_less_large;
                     }
+                    .fa-xmark{
+                        color: black;
+                        font-size: $font_size_less_large;
+
+                    }
                 }
                 .ul_navbar{
-                    display: none;
+                    opacity: 0;
+                    visibility: hidden;
                     width: 250px;
                     height: 1200px;
                     position: fixed;
@@ -112,15 +120,18 @@ $color_scroll_to_button : orange;
                     right: 504px;
                     top: -19px;
                     padding: 30px;
-                    transition: 0.4s all ease-in-out;
+                    transition: 0.5s all ease-in-out;
                     ul{
                         width: 280px;
                         height: 300px;
                         li{
                             padding: 10px;
                             margin-top: 10px;
+                            transition: 0.5s all ease-in-out;
                             &:hover .dropdown-content{
-                                 display: block;
+                                 visibility: visible;
+                                 opacity: 1;
+                                 transition: 0.5s all ease-in-out ;
                             }
                             a{
                                 font-family: $font_family;
@@ -133,7 +144,8 @@ $color_scroll_to_button : orange;
                                 }
                             }
                             .dropdown-content{
-                                display: none;
+                                visibility: hidden;
+                                opacity: 0;
                                 ul{
                                     width: 200px;
                                     height: 160px;
