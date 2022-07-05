@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- favicon link -->
-     <link rel="shortcut icon" href="assets/image/logo/78d596db2cc12b911e4404de3b3eb978.jpg" type="image/x-icon">
-     <!-- link slide -->
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-     <!-- fonts link -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link
-         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap"
-         rel="stylesheet">
-    <!-- link css -->
-    <link rel="stylesheet" href="assets/css/category.css">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="assets/image/logo/6d98c7ce256e973040148268ff859812.jpg" type="image/x-icon">
+    <!-- link slide -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=PT+Sans+Caption&family=Poppins&display=swap"
+        rel="stylesheet">
+   <!-- link css -->
+   <link rel="stylesheet" href="assets/css/search.css">
     <title> Job Listing </title>
 </head>
 <body>
-
-
-     <!-- start scrool to top button -->
-     <div class="scroll_to_button" onclick="scrollToTop();">
-        <i class="fa-solid fa-arrow-up"></i>
-    </div>
-    <!-- end -->
     
-    <!-- start header -->
-    <header>
+      <!-- start scrool to top button -->
+      <div class="scroll_to_button" onclick="scrollToTop();">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+      <!-- end -->
+
+
+     <!-- start header -->
+     <header>
         <div class="header">
             <div class="container main_box">
                 <div class="logo">
@@ -36,9 +36,9 @@
                 </div>
                 <nav class="navbar">
                     <ul>
-                        <li><a href="/HOME/home.html"> HOME </a></li>
+                        <li><a href="#"> HOME </a></li>
                         <li><a href="/ABOUT/about.html"> ABOUT US </a></li>
-                        <li><a href="#"> CATEGORY </a></li>
+                        <li><a href="/CATAGORY/category.html"> CATEGORY </a></li>
                         <li><a href="/PRICE/price.html"> PRICE </a></li>
                         <li><a href="/BLOG/blog.html"> BLOG </a></li>
                         <li><a href="/CONTACT/contact.html"> CONTACT </a></li>
@@ -47,7 +47,7 @@
                             <div class="dropdown-content">
                                 <ul>
                                     <li> <a href="#"> ELEMENTS </a></li>
-                                    <li> <a href="/PAGESS/SEARCH/search.html" class="left"> SEARCH </a>
+                                    <li> <a href="#" class="left"> SEARCH </a>
                                     <li><a href="" class="left_small"> SINGLE </a> </li>
                                 </ul>
                             </div>
@@ -86,34 +86,74 @@
             </div>
         </div>
     </header>
-    <!-- end -->
+    <!-- end header -->
 
     <!-- start main -->
     <main>
-      <!-- start category section -->
-      <section>
-        <div class="job_posted">
-            <div class="overlay"></div>
-            <div class="container job_box">
-                <div class="about_box">
-                    <h1>
-                        Job Category
-                    </h1>
-                    <span>
-                        Home
-                    </span>
-                    <i class="fa-solid fa-arrow-right"></i>
-                    <span>
-                        Job category
-                    </span>
+        <!-- starts Jobs Posted section -->
+        <section>
+            <div class="job_posted">
+                <div class="overlay"></div>
+                <div class="container job_box">
+                    <div class="search_catalog">
+                        <div class="about_box">
+                            <h1>
+                                Job Category
+                            </h1>
+                            <span>
+                                Home
+                            </span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <span>
+                                Job category
+                            </span>
+                        </div>
+                        <div class="select_box">
+                            <form action="">
+                                <div class="text_input">
+                                    <input type="text" placeholder="what are you looking for?">
+                                </div>
+                                <div class="select_input">
+                                    <div class="text_icon">
+                                        <p id="selected_text"> Select Area </p>
+                                        <i class="fa-solid fa-angle-down" id="click_up"></i>
+                                    </div>
+                                    <ul id="list" class="hide">
+                                        <li class="options stabil_color"> Select Area </li>
+                                        <li class="options"> Dhaka </li>
+                                        <li class="options"> Rajshahi </li>
+                                        <li class="options"> Barishahi </li>
+                                        <li class="options"> Noakhali </li>
+                                    </ul>
+                                </div>
+                                <div class="select_category">
+                                    <div class="category_icon">
+                                        <p id="category_text"> All Category </p>
+                                        <i class="fa-solid fa-angle-down" id="clickUp"></i>
+                                    </div>
+                                    <ul id="choosing" class="empty">
+                                        <li class="category_options stabil_color"> All Category </li>
+                                        <li class="category_options"> Medical </li>
+                                        <li class="category_options"> Technology </li>
+                                        <li class="category_options"> Goverment </li>
+                                        <li class="category_options"> Development </li>
+                                    </ul>
+                                </div>
+                                <div class="button_box">
+                                    <button class="btn"> <i class="fa-brands fa-searchengin"></i> Search </button>
+                                </div>
+                            </form>
+                        </div>
+                        <p> 49 Results found for <span> "Web developer" </span></p>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-      </section>
-      <!-- end -->
+        </section>
+        <!-- end -->
 
-      <!-- start Job Location section -->
-      <section>
+        <!-- start Job Location section -->
+            <section>
         <div class="location_lists">
             <div class="container jobList">
                 <div class="jobBoxes">
@@ -129,7 +169,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -172,7 +212,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -215,7 +255,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -258,7 +298,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -301,7 +341,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -344,7 +384,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -387,7 +427,7 @@
                         <div class="designer_box">
                             <div class="designer_imgBox">
                                 <div class="designer_img">
-                                    <img src="assets/image/imagess/Без названия (1).webp" alt="labels">
+                                    <img src="assets/image/imagess/xpost.png.pagespeed.ic.jPbQHSCItY.webp" alt="labels">
                                 </div>
                                 <div class="desingner_link">
                                     <a href="#" class="art"> Art </a>
@@ -720,11 +760,11 @@
                 </div>
             </div>
         </div>
-      </section>
-      <!-- end -->
+            </section>
+        <!-- end -->
 
         <!-- start join us section -->
-        <section>
+            <section>
             <div class="joinUs">
                 <div class="container joinCont">
                     <div class="hestitaion">
@@ -748,14 +788,13 @@
 
                 </div>
             </div>
-        </section>
+            </section>
         <!-- end -->
-
     </main>
     <!-- end -->
 
-     <!-- start footer -->
-     <footer>
+    <!-- start footer -->
+    <footer>
         <div class="footer">
             <div class="container footCon">
                  <div class="information">
@@ -840,15 +879,11 @@
      </footer>
     <!-- end -->
 
-
-
-
-    
-     <!-- slide script  -->
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-     <!-- icon script -->
-     <script src="https://kit.fontawesome.com/29bca2939f.js" crossorigin="anonymous"></script>
-     <!-- script js -->
-    <script src="assets/js/category.js"></script>
+    <!-- slide script  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- icon script -->
+    <script src="https://kit.fontawesome.com/29bca2939f.js" crossorigin="anonymous"></script>
+    <!-- script js -->
+   <script src="assets/js/search.js"></script>
 </body>
 </html>
