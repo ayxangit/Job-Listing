@@ -93,79 +93,139 @@ $color_scroll_to_button : orange;
                 display: block;
                 position: relative;
                 transition: 0.5s all ease-in-out;
-                &:hover .ul_navbar{
-                   visibility: visible;
-                   transition: 0.5s all ease-in-out;
-                   opacity: 1;
-                }
                 .icon_responsive{
                     .fa-bars{
-                        color: $color_cyan;
-                        font-size: $font_size_less_large;
-                    }
-                    .fa-xmark{
-                        color: black;
-                        font-size: $font_size_less_large;
-
-                    }
-                }
-                .ul_navbar{
-                    opacity: 0;
-                    visibility: hidden;
-                    width: 250px;
-                    height: 1200px;
-                    position: fixed;
-                    background: $color_text;
-                    position: absolute;
-                    right: 504px;
-                    top: -19px;
-                    padding: 30px;
-                    transition: 0.5s all ease-in-out;
-                    ul{
-                        width: 280px;
-                        height: 300px;
-                        li{
-                            padding: 10px;
-                            margin-top: 10px;
-                            transition: 0.5s all ease-in-out;
-                            &:hover .dropdown-content{
-                                 visibility: visible;
-                                 opacity: 1;
-                                 transition: 0.5s all ease-in-out ;
+                            color: $color_cyan;
+                            font-size: $font_size_less_large;
+                            &:hover .ul_navbar{
+                                visibility: visible;
+                                transition: 0.5s all ease-in-out;
+                                opacity: 1;
                             }
-                            a{
-                                font-family: $font_family;
-                                font-size: $font_size_medium_well;
-                                color: $color_white;
-                                text-transform: uppercase;
-                                .fa-angle-down{
-                                    margin-left: 115px;
-                                    font-size: $font_size_medium_well;
-                                }
-                            }
-                            .dropdown-content{
-                                visibility: hidden;
+                            .ul_navbar{
                                 opacity: 0;
+                                visibility: hidden;
+                                width: 250px;
+                                height: 1200px;
+                                position: fixed;
+                                background: $color_text;
+                                position: absolute;
+                                right: 504px;
+                                top: -19px;
+                                padding: 30px;
+                                transition: 0.5s all ease-in-out;
                                 ul{
-                                    width: 200px;
-                                    height: 160px;
+                                    width: 280px;
+                                    height: 300px;
                                     li{
-                                        width: 60px;
-                                        height: 48px;
+                                        padding: 10px;
+                                        margin-top: 10px;
+                                        transition: 0.5s all ease-in-out;
+                                        &:hover .dropdown-content{
+                                             visibility: visible;
+                                             opacity: 1;
+                                             transition: 0.5s all ease-in-out ;
+                                        }
                                         a{
                                             font-family: $font_family;
                                             font-size: $font_size_medium_well;
                                             color: $color_white;
+                                            text-transform: uppercase;
+                                            .fa-angle-down{
+                                                margin-left: 115px;
+                                                font-size: $font_size_medium_well;
+                                            }
+                                        }
+                                        .dropdown-content{
+                                            visibility: hidden;
+                                            opacity: 0;
+                                            ul{
+                                                width: 200px;
+                                                height: 160px;
+                                                li{
+                                                    width: 60px;
+                                                    height: 48px;
+                                                    a{
+                                                        font-family: $font_family;
+                                                        font-size: $font_size_medium_well;
+                                                        color: $color_white;
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
+            
+            
                                 }
                             }
-                        }
-
-
+                    }
+                    .fa-xmark{
+                            color: black;
+                            font-size: $font_size_less_large;
+                            &:hover .ul_navbar{
+                                visibility: hidden;
+                                transition: 0.5s all ease-in-out;
+                                opacity: 0;
+                            }
+                            .ul_navbar{
+                                opacity: 1;
+                                visibility: visible;
+                                width: 250px;
+                                height: 1200px;
+                                position: fixed;
+                                background: $color_text;
+                                position: absolute;
+                                right: 504px;
+                                top: -19px;
+                                padding: 30px;
+                                transition: 0.5s all ease-in-out;
+                                ul{
+                                    width: 280px;
+                                    height: 300px;
+                                    li{
+                                        padding: 10px;
+                                        margin-top: 10px;
+                                        transition: 0.5s all ease-in-out;
+                                        &:hover .dropdown-content{
+                                             visibility: visible;
+                                             opacity: 1;
+                                             transition: 0.5s all ease-in-out ;
+                                        }
+                                        a{
+                                            font-family: $font_family;
+                                            font-size: $font_size_medium_well;
+                                            color: $color_white;
+                                            text-transform: uppercase;
+                                            .fa-angle-down{
+                                                margin-left: 115px;
+                                                font-size: $font_size_medium_well;
+                                            }
+                                        }
+                                        .dropdown-content{
+                                            visibility: hidden;
+                                            opacity: 0;
+                                            ul{
+                                                width: 200px;
+                                                height: 160px;
+                                                li{
+                                                    width: 60px;
+                                                    height: 48px;
+                                                    a{
+                                                        font-family: $font_family;
+                                                        font-size: $font_size_medium_well;
+                                                        color: $color_white;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+            
+            
+                                }
+                            } 
                     }
                 }
-            }
+        }
     }
     }
     .scroll_change{
