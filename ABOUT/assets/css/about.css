@@ -667,21 +667,26 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person:hover .mentor_icon {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person:hover .overlay {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person .mentor_icon {
-  display: none;
+  visibility: hidden;
   width: 30%;
   height: 20px;
   position: relative;
   z-index: 10;
-  -webkit-transition: 0.4s all ease-in-out;
-  transition: 0.4s all ease-in-out;
+  opacity: 0;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person .mentor_icon .fa-facebook-f {
@@ -702,16 +707,16 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person .overlay {
-  display: none;
+  visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: rgba(129, 104, 255, 0.8);
-  opacity: 2;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  opacity: 0;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person2 {
@@ -736,19 +741,26 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person2:hover .mentor_icon {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person2:hover .overlay {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person2 .mentor_icon {
-  display: none;
+  visibility: hidden;
   width: 30%;
   height: 20px;
   position: relative;
   z-index: 10;
+  opacity: 0;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person2 .mentor_icon .fa-facebook-f {
@@ -769,16 +781,16 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person2 .overlay {
-  display: none;
+  visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: rgba(129, 104, 255, 0.8);
-  opacity: 2;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  opacity: 0;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person3 {
@@ -803,15 +815,22 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person3:hover .mentor_icon {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person3:hover .overlay {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person3 .mentor_icon {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   width: 30%;
   height: 20px;
   position: relative;
@@ -836,16 +855,16 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person3 .overlay {
-  display: none;
+  visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: rgba(129, 104, 255, 0.8);
-  opacity: 2;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  opacity: 0;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person4 {
@@ -870,15 +889,22 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person4:hover .mentor_icon {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person4:hover .overlay {
-  display: block;
+  visibility: visible;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  opacity: 1;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person4 .mentor_icon {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   width: 30%;
   height: 20px;
   position: relative;
@@ -903,16 +929,16 @@
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_person4 .overlay {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: rgba(129, 104, 255, 0.8);
-  opacity: 2;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .exprenciedBox .exprencied_container .exprencied_imgBox .mentor_img .mentor_name {

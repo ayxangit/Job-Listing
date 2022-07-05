@@ -510,18 +510,22 @@ $color_scroll_to_button : orange;
                     cursor: pointer;
                     transition: 0.4s all ease-in-out;
                     &:hover .mentor_icon{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     &:hover .overlay{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     .mentor_icon{
-                        display: none;
+                        visibility: hidden;
                         width: 30%;
                         height: 20px;
                         position: relative;
                         z-index: 10;
-                        transition: 0.4s all ease-in-out;
+                        opacity: 0;
                         .fa-facebook-f{
                             color: $color_white;
                             font-size: $font_size_medium_well;
@@ -538,15 +542,16 @@ $color_scroll_to_button : orange;
                         }
                     }
                     .overlay{
-                        display: none;
+                        visibility: hidden;
                         position: absolute;
                         width: 100%;
                         height: 100%;
                         top: 0;
                         left: 0;
                         background-color: rgba(129,104,255,.8);
-                        opacity: 2;
-                        transition: opacity .5s;
+                        opacity: 0;
+                        transition: 0.4s all ease-in-out;
+
                     }
                 }
                 .mentor_person2{
@@ -560,17 +565,22 @@ $color_scroll_to_button : orange;
                     cursor: pointer;
                     transition: 0.4s all ease-in-out;
                     &:hover .mentor_icon{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     &:hover .overlay{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     .mentor_icon{
-                        display: none;
+                        visibility: hidden;
                         width: 30%;
                         height: 20px;
                         position: relative;
                         z-index: 10;
+                        opacity: 0;
                         .fa-facebook-f{
                             color: $color_white;
                             font-size: $font_size_medium_well;
@@ -587,15 +597,15 @@ $color_scroll_to_button : orange;
                         }
                     }
                     .overlay{
-                        display: none;
+                        visibility: hidden;
                         position: absolute;
                         width: 100%;
                         height: 100%;
                         top: 0;
                         left: 0;
                         background-color: rgba(129,104,255,.8);
-                        opacity: 2;
-                        transition: opacity .5s;
+                        opacity: 0;
+                        transition: 0.4s all ease-in-out;
                     }
                 }
                 .mentor_person3{
@@ -609,13 +619,18 @@ $color_scroll_to_button : orange;
                     cursor: pointer;
                     transition: 0.4s all ease-in-out;
                     &:hover .mentor_icon{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     &:hover .overlay{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     .mentor_icon{
-                        display: none;
+                        opacity: 0;
+                        visibility: hidden;
                         width: 30%;
                         height: 20px;
                         position: relative;
@@ -636,15 +651,15 @@ $color_scroll_to_button : orange;
                         }
                     }
                     .overlay{
-                        display: none;
+                        visibility: hidden;
                         position: absolute;
                         width: 100%;
                         height: 100%;
                         top: 0;
                         left: 0;
                         background-color: rgba(129,104,255,.8);
-                        opacity: 2;
-                        transition: opacity .5s;
+                        opacity: 0;
+                        transition: 0.4s all ease-in-out;
                     }
                 }
                 .mentor_person4{
@@ -658,13 +673,18 @@ $color_scroll_to_button : orange;
                     cursor: pointer;
                     transition: 0.4s all ease-in-out;
                     &:hover .mentor_icon{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     &:hover .overlay{
-                        display: block;
+                        visibility: visible;
+                        transition: 0.4s all ease-in-out;
+                        opacity: 1;
                     }
                     .mentor_icon{
-                        display: none;
+                        opacity: 0;
+                        visibility: hidden;
                         width: 30%;
                         height: 20px;
                         position: relative;
@@ -685,15 +705,15 @@ $color_scroll_to_button : orange;
                         }
                     }
                     .overlay{
-                        display: none;
+                        opacity: 0;
+                        visibility: hidden;
                         position: absolute;
                         width: 100%;
                         height: 100%;
                         top: 0;
                         left: 0;
                         background-color: rgba(129,104,255,.8);
-                        opacity: 2;
-                        transition: opacity .5s;
+                        transition: 0.4s all ease-in-out;
                     }
                 }
                 .mentor_name{
