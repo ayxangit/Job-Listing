@@ -1249,7 +1249,7 @@
   line-height: 1.625em;
 }
 
-.location_lists .location_boxes {
+.location_lists .jobList .location_boxes {
   width: 30%;
   height: 2395.7px;
   display: -webkit-box;
@@ -1265,13 +1265,13 @@
   gap: 40px;
 }
 
-.location_lists .location_boxes .byLocation {
+.location_lists .jobList .location_boxes .byLocation {
   width: 95%;
   height: 490.85px;
   background: #f9f9ff;
 }
 
-.location_lists .location_boxes .byLocation h3 {
+.location_lists .jobList .location_boxes .byLocation h3 {
   width: 90%;
   height: 21.6px;
   font-family: "Poppins", sans-serif;
@@ -1283,7 +1283,7 @@
   margin-top: 10px;
 }
 
-.location_lists .location_boxes .byLocation .cityLocation {
+.location_lists .jobList .location_boxes .byLocation .cityLocation {
   width: 90%;
   height: 42.75px;
   background: #fff;
@@ -1301,15 +1301,15 @@
   transition: 1s all ease-in-out;
 }
 
-.location_lists .location_boxes .byLocation .cityLocation:hover {
+.location_lists .jobList .location_boxes .byLocation .cityLocation:hover {
   background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
 }
 
-.location_lists .location_boxes .byLocation .cityLocation:hover p {
+.location_lists .jobList .location_boxes .byLocation .cityLocation:hover p {
   color: #fff;
 }
 
-.location_lists .location_boxes .byLocation .cityLocation p {
+.location_lists .jobList .location_boxes .byLocation .cityLocation p {
   color: #777777;
   font-weight: 300;
   line-height: 1.625em;
@@ -1319,18 +1319,18 @@
   transition: 0.3s all ease-in-out;
 }
 
-.location_lists .location_boxes .slideLocation {
+.location_lists .jobList .location_boxes .slideLocation {
   width: 95%;
   height: 500.85px;
   background: #f9f9ff;
 }
 
-.location_lists .location_boxes .slideLocation .swiper {
+.location_lists .jobList .location_boxes .slideLocation .swiper {
   width: 100%;
   height: 500.85px;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -1346,14 +1346,14 @@
   align-items: center;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
   width: 100%;
   height: 500.85px;
   padding: 15px 10px;
   background: #f9f9ff;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
   width: 96%;
   height: 21.6px;
   font-family: "Poppins", sans-serif;
@@ -1364,7 +1364,7 @@
   text-align: left;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
   margin-top: 15px;
   width: 96%;
   height: 120px;
@@ -1373,13 +1373,13 @@
   background-position: 50% 50%;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
   margin-top: 15px;
   width: 96%;
   height: 300px;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
   margin-top: 5px;
   font-family: "Poppins", sans-serif;
   color: #222222;
@@ -1389,7 +1389,7 @@
   text-align: left;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
   margin-top: 5px;
   line-height: 1.625em;
   color: #777;
@@ -1399,7 +1399,7 @@
   text-align: left;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
   margin-top: 10px;
   font-family: "Poppins", sans-serif;
   color: #222222;
@@ -1409,7 +1409,7 @@
   text-align: left;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
   display: block;
   margin-top: 10px;
   margin-left: 2px;
@@ -1421,17 +1421,17 @@
   text-align: left;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
   font-size: 14px;
   color: coral;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
   font-size: 14px;
   color: gold;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
   width: 122.93px;
   height: 44.75px;
   background: #49e4fa;
@@ -1443,16 +1443,16 @@
   cursor: pointer;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
   background: #fff;
   border-color: #49e4fa;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
   color: #49e4fa;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
   color: #fff;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -1461,7 +1461,7 @@
   font-weight: 300;
 }
 
-.location_lists .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
+.location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -1469,13 +1469,13 @@
      object-fit: cover;
 }
 
-.location_lists .location_boxes .byCategory {
+.location_lists .jobList .location_boxes .byCategory {
   width: 95%;
   height: 490.85px;
   background: #f9f9ff;
 }
 
-.location_lists .location_boxes .byCategory h3 {
+.location_lists .jobList .location_boxes .byCategory h3 {
   width: 90%;
   height: 21.6px;
   font-family: "Poppins", sans-serif;
@@ -1487,7 +1487,7 @@
   margin-top: 10px;
 }
 
-.location_lists .location_boxes .byCategory .cityCategory {
+.location_lists .jobList .location_boxes .byCategory .cityCategory {
   width: 90%;
   height: 42.75px;
   background: #fff;
@@ -1505,15 +1505,15 @@
   transition: 1s all ease-in-out;
 }
 
-.location_lists .location_boxes .byCategory .cityCategory:hover {
+.location_lists .jobList .location_boxes .byCategory .cityCategory:hover {
   background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
 }
 
-.location_lists .location_boxes .byCategory .cityCategory:hover p {
+.location_lists .jobList .location_boxes .byCategory .cityCategory:hover p {
   color: #fff;
 }
 
-.location_lists .location_boxes .byCategory .cityCategory p {
+.location_lists .jobList .location_boxes .byCategory .cityCategory p {
   color: #777777;
   font-weight: 300;
   line-height: 1.625em;
@@ -1523,13 +1523,13 @@
   transition: 0.3s all ease-in-out;
 }
 
-.location_lists .location_boxes .advice_blog {
+.location_lists .jobList .location_boxes .advice_blog {
   width: 95%;
   height: 490.85px;
   background: #f9f9ff;
 }
 
-.location_lists .location_boxes .advice_blog h3 {
+.location_lists .jobList .location_boxes .advice_blog h3 {
   width: 90%;
   height: 21.6px;
   font-family: "Poppins", sans-serif;
@@ -1541,7 +1541,7 @@
   margin-top: 10px;
 }
 
-.location_lists .location_boxes .advice_blog .audio_record_box {
+.location_lists .jobList .location_boxes .advice_blog .audio_record_box {
   width: 90%;
   height: 121.95px;
   background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
@@ -1563,7 +1563,7 @@
   cursor: pointer;
 }
 
-.location_lists .location_boxes .advice_blog .audio_record_box h4 {
+.location_lists .jobList .location_boxes .advice_blog .audio_record_box h4 {
   width: 80%;
   height: 63.2px;
   font-family: "Poppins", sans-serif;
@@ -1574,7 +1574,7 @@
   line-height: 1.2em;
 }
 
-.location_lists .location_boxes .advice_blog .audio_record_box .span_text {
+.location_lists .jobList .location_boxes .advice_blog .audio_record_box .span_text {
   width: 90%;
   height: 38.75px;
   display: -webkit-box;
@@ -1588,7 +1588,7 @@
           align-items: center;
 }
 
-.location_lists .location_boxes .advice_blog .audio_record_box .span_text span {
+.location_lists .jobList .location_boxes .advice_blog .audio_record_box .span_text span {
   color: #fff;
   font-weight: 300;
   line-height: 1.625em;
