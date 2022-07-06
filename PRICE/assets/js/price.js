@@ -39,3 +39,19 @@ let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
     
 })
   // end
+
+// start responsive navbar
+document.querySelector(".fa-xmark").addEventListener("click",()=>{
+    let bar = document.querySelector(".fa-bars");
+    bar.style.display = "block";
+    let mark = document.querySelector(".fa-xmark");
+    mark.style.display = "none"
+})
+
+document.querySelector(".fa-bars").addEventListener("click",()=>{
+    let bar = document.querySelector(".fa-bars");
+    bar.style.display = "none";
+    let mark = document.querySelector(".fa-xmark");
+    mark.style.display = "block"
+})
+// end

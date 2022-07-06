@@ -124,6 +124,7 @@
     color: #fff;
   }
   body .header .main_box .responsive_navbar .icon_responsive .fa-xmark {
+    display: none;
     color: black;
     font-size: 36px;
   }
@@ -1811,14 +1812,13 @@
     top: 15px;
     right: 16px;
     cursor: pointer;
-    -webkit-transition: 1s all ease-in-out;
-    transition: 1s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
   body .footer .footCon .information .newsletter form button:hover .fa-arrow-right {
-    position: relative;
-    left: 12px;
-    -webkit-transition: 1s all ease-in-out;
-    transition: 1s all ease-in-out;
+    margin-left: 18px;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
   body .footer .footCon .information .newsletter form button .fa-arrow-right {
     margin-left: 10px;
@@ -2022,15 +2022,19 @@
     -webkit-transition: 1s all ease-in-out;
     transition: 1s all ease-in-out;
   }
-  body .header .main_box .responsive_navbar:hover .ul_navbar {
-    display: block;
-  }
   body .header .main_box .responsive_navbar .icon_responsive .fa-bars {
     color: #49e4fa;
     font-size: 36px;
   }
-  body .header .main_box .responsive_navbar .ul_navbar {
-    display: none;
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars:hover .ul_navbar {
+    visibility: visible;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    opacity: 1;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar {
+    opacity: 0;
+    visibility: hidden;
     width: 250px;
     height: 1200px;
     position: fixed;
@@ -2039,42 +2043,116 @@
     right: 108px;
     top: -19px;
     padding: 30px;
-    -webkit-transition: 0.4s all ease-in-out;
-    transition: 0.4s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul {
     width: 280px;
     height: 300px;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li:hover .dropdown-content {
-    display: block;
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li a {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li a {
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
     text-transform: uppercase;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li a .fa-angle-down {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li a .fa-angle-down {
     margin-left: 115px;
     font-size: 18px;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li .dropdown-content {
-    display: none;
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li .dropdown-content {
+    visibility: hidden;
+    opacity: 0;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li .dropdown-content ul {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li .dropdown-content ul {
     width: 200px;
     height: 160px;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li .dropdown-content ul li {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li .dropdown-content ul li {
     width: 60px;
     height: 48px;
   }
-  body .header .main_box .responsive_navbar .ul_navbar ul li .dropdown-content ul li a {
+  body .header .main_box .responsive_navbar .icon_responsive .fa-bars .ul_navbar ul li .dropdown-content ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark {
+    display: none;
+    color: black;
+    font-size: 36px;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark:hover .ul_navbar {
+    visibility: hidden;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    opacity: 0;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar {
+    opacity: 1;
+    visibility: visible;
+    width: 250px;
+    height: 1200px;
+    position: fixed;
+    background: #222222;
+    position: absolute;
+    right: 108px;
+    top: -19px;
+    padding: 30px;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul {
+    width: 280px;
+    height: 300px;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li {
+    padding: 10px;
+    margin-top: 5px;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li a .fa-angle-down {
+    margin-left: 115px;
+    font-size: 18px;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li .dropdown-content {
+    visibility: hidden;
+    opacity: 0;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li .dropdown-content ul {
+    width: 200px;
+    height: 160px;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li .dropdown-content ul li {
+    width: 60px;
+    height: 48px;
+  }
+  body .header .main_box .responsive_navbar .icon_responsive .fa-xmark .ul_navbar ul li .dropdown-content ul li a {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     color: #fff;
@@ -3729,14 +3807,13 @@
     top: 15px;
     right: 16px;
     cursor: pointer;
-    -webkit-transition: 1s all ease-in-out;
-    transition: 1s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
   body .footer .footCon .information .newsletter form button:hover .fa-arrow-right {
-    position: relative;
-    left: 12px;
-    -webkit-transition: 1s all ease-in-out;
-    transition: 1s all ease-in-out;
+    margin-left: 18px;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
   body .footer .footCon .information .newsletter form button .fa-arrow-right {
     margin-left: 10px;

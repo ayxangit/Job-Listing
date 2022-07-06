@@ -1300,3 +1300,2520 @@ $color_scroll_to_button : orange;
     }
 }
 // end
+
+// start responsive ipad
+@media screen and (device-width:768px) and (min-width:350px) {
+    .container{
+        width: 740px!important;
+        margin: 0 auto;
+    }
+    body{
+    // start header
+   .header{
+    width: 100%;
+    height: 56px;
+    @include d-flex-center;
+    position: fixed;
+    z-index: 9999;
+    transition: 0.3s all ease-in-out;
+    .main_box{
+        @include d-flex-between;
+        .logo{
+            width: 25%;
+            height: 28px;
+            @include d-flex-center;
+            img{
+                width: 100%;
+            }
+        }
+        .navbar{
+            display: none;
+        }
+        .responsive_navbar{
+            display: block;
+            position: relative;
+            transition: 0.5s all ease-in-out;
+            .icon_responsive{
+                .fa-bars{
+                        color: $color_cyan;
+                        font-size: $font_size_less_large;
+                        &:hover .ul_navbar{
+                            visibility: visible;
+                            transition: 0.5s all ease-in-out;
+                            opacity: 1;
+                        }
+                        .ul_navbar{
+                            opacity: 0;
+                            visibility: hidden;
+                            width: 250px;
+                            height: 1200px;
+                            position: fixed;
+                            background: $color_text;
+                            position: absolute;
+                            right: 504px;
+                            top: -19px;
+                            padding: 30px;
+                            transition: 0.5s all ease-in-out;
+                            ul{
+                                width: 280px;
+                                height: 300px;
+                                li{
+                                    padding: 10px;
+                                    margin-top: 10px;
+                                    transition: 0.5s all ease-in-out;
+                                    &:hover .dropdown-content{
+                                         visibility: visible;
+                                         opacity: 1;
+                                         transition: 0.5s all ease-in-out ;
+                                    }
+                                    a{
+                                        font-family: $font_family;
+                                        font-size: $font_size_medium_well;
+                                        color: $color_white;
+                                        text-transform: uppercase;
+                                        .fa-angle-down{
+                                            margin-left: 115px;
+                                            font-size: $font_size_medium_well;
+                                        }
+                                    }
+                                    .dropdown-content{
+                                        visibility: hidden;
+                                        opacity: 0;
+                                        ul{
+                                            width: 200px;
+                                            height: 160px;
+                                            li{
+                                                width: 60px;
+                                                height: 48px;
+                                                a{
+                                                    font-family: $font_family;
+                                                    font-size: $font_size_medium_well;
+                                                    color: $color_white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+        
+        
+                            }
+                        }
+                }
+                .fa-xmark{
+                        display: none;
+                        color: black;
+                        font-size: $font_size_less_large;
+                        &:hover .ul_navbar{
+                            visibility: hidden;
+                            transition: 0.5s all ease-in-out;
+                            opacity: 0;
+                            
+                        }
+                        .ul_navbar{
+                            opacity: 1;
+                            visibility: visible;
+                            width: 250px;
+                            height: 1200px;
+                            position: fixed;
+                            background: $color_text;
+                            position: absolute;
+                            right: 504px;
+                            top: -19px;
+                            padding: 30px;
+                            transition: 0.5s all ease-in-out;
+                            ul{
+                                width: 280px;
+                                height: 300px;
+                                li{
+                                    padding: 10px;
+                                    margin-top: 10px;
+                                    transition: 0.5s all ease-in-out;
+                                    &:hover .dropdown-content{
+                                         visibility: visible;
+                                         opacity: 1;
+                                         transition: 0.5s all ease-in-out ;
+                                    }
+                                    a{
+                                        font-family: $font_family;
+                                        font-size: $font_size_medium_well;
+                                        color: $color_white;
+                                        text-transform: uppercase;
+                                        .fa-angle-down{
+                                            margin-left: 115px;
+                                            font-size: $font_size_medium_well;
+                                        }
+                                    }
+                                    .dropdown-content{
+                                        visibility: hidden;
+                                        opacity: 0;
+                                        ul{
+                                            width: 200px;
+                                            height: 160px;
+                                            li{
+                                                width: 60px;
+                                                height: 48px;
+                                                a{
+                                                    font-family: $font_family;
+                                                    font-size: $font_size_medium_well;
+                                                    color: $color_white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+        
+        
+                            }
+                        } 
+                }
+            }
+    }
+}
+   }
+    .scroll_change{
+    width: 100%;
+    height: 62.75px;
+    background: $color_scrool_change;
+    @include d-flex-center;
+    position: fixed;
+    z-index: 9999;
+    transition: 0.3s all ease-in-out;;
+   }
+    // end
+
+   // start about section
+    .job_posted{
+    width: 100%;
+    height: 406.35px;
+    background: url(/ABOUT/assets/imagess/background/header-bg.jpg.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    @include d-flex-center;
+    .overlay{
+        background-image: -webkit-linear-gradient(0deg, rgb(191, 172, 255) 0%, rgb(121, 95, 255) 100%);
+        position: absolute;
+        inset: 0px;
+        opacity: 0.95;
+    }
+    .job_box{
+        margin: auto;
+        .about_box{
+            width: 100%;
+            height: 85px;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            h1{
+                color: $color_white;
+                font-family: $font_family;
+                font-weight: 600;
+                line-height: 1.2em;
+                font-size: $font_size_large;
+            }
+            span{
+               color: $color_white;
+               font-family: $font_family;
+               font-weight: 300;
+               line-height: 1.625em;
+               font-size: $font_size_medium;
+               margin-left: 10px;
+               margin-right: 10px;
+
+            }
+            .fa-arrow-right{
+                color: $color_white;
+                font-size: $font_size_medium;
+            }
+        }
+    }
+     }
+   // end
+
+   // start blog list section
+    .blog_list{
+    width: 100%;
+    height: 5500px;
+    margin-top: 20px;
+    @include d-flex-center;
+    .blog_contain{
+        @include d-flex-column;
+        gap: 20px;
+        .blog_image{
+            width: 96%;
+            height: 2800px;
+            .blog_background{
+                width: 100%;
+                height: 655px;
+                margin: auto;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp1.jpg.pagespeed.ic.vaW7y-w6mv.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 23px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 87px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 114px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-between;
+                    .blog_span{
+                        width: 40%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 40%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog_background1{
+                width: 100%;
+                height: 655px;
+                margin: auto;
+                margin-top: 15px;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp2.jpg.pagespeed.ic.SAH9ANC07Q.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 23px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 87px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 114px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-between;
+                    .blog_span{
+                        width: 40%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 40%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog_background2{
+                width: 100%;
+                height: 655px;
+                margin: auto;
+                margin-top: 15px;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp3.jpg.pagespeed.ic.hbUPfOh7DX.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 23px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 87px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 114px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-between;
+                    .blog_span{
+                        width: 40%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 40%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog_background3{
+                width: 100%;
+                height: 655px;
+                margin: auto;
+                margin-top: 15px;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp4.jpg.pagespeed.ic.uS_nNHTixG.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 23px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 87px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 114px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-between;
+                    .blog_span{
+                        width: 40%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 40%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .blog_aside{
+            width: 96%;
+            height: 2650px;
+            .blog_search{
+                width: 100%;
+                height: 127px;
+                border: 1px solid $color_border2;
+                margin: auto;
+                @include d-flex-center;
+                form{
+                    width: 90%;
+                    height: 43px;
+                    @include d-flex-center;
+                    input{
+                        width: 65%;
+                        height: 43px;
+                        outline: none;
+                        border: 1px solid $color_border2;
+                        background: $color_border2;
+                        padding: 10px;
+                        &::placeholder{
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            color: $color_dark_grey;
+                            font-weight: 500;
+                            line-height: 1.2em;
+                            text-transform: capitalize;
+                        }
+                    }
+                    button{
+                        width: 25%;
+                        height: 43px;
+                        background: $color_border2;
+                        outline: none;
+                        border: 1px solid $color_border2;
+                        cursor: pointer;
+                        .fa-searchengin{
+                            font-size: 22px;
+                            color: $color_cyan;
+                        }
+                    }
+                }
+            }
+            .blog_info{
+                width: 100%;
+                height: 378px;
+                border: 1px solid $color_border2;
+                margin: auto;
+                margin-top: 20px;
+                @include d-flex-column;
+                .info_img{
+                    width: 20%;
+                    height: 120px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                h4{
+                    width: 80%;
+                    height: 20px;
+                    font-size: $font_size_medium_well;
+                    font-family: $font_family;
+                    font-weight: 600;
+                    color: $color_text;
+                    line-height: 1.2em;
+                    text-align: center;
+                    margin-top: 35px;
+
+                }
+                p{
+                    width: 90%;
+                    height: 114px;
+                    color: $color_grey;
+                    font-size: $font_size_medium;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-weight: 300;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .info_icon{
+                    width: 40%;
+                    height: 15px;
+                    @include d-flex-around;
+                    .fa-facebook-f{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                    .fa-twitter{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                    .fa-dribbble{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                    .fa-behance{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                }
+            }
+            .blog_post{
+                width: 100%;
+                height: 440px;
+                border: 1px solid $color_border2;
+                padding: 30px 20px;
+                margin: auto;
+                margin-top: 20px;
+                h3{
+                    width: 80%;
+                    height: 22px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                }
+                .postBlog{
+                    width: 96%;
+                    height: 44px;
+                    @include d-flex-between;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid $color_border2;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        border-color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    &:hover p{
+                        color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    p{
+                        font-size: $font_size_medium;
+                        color: $color_grey;
+                        font-family: $font_family;
+                        line-height: 1.625em;
+                        font-weight: 300;
+                        transition: 0.3s all ease-in-out;
+                    }
+                }
+            }
+            .blog_recent{
+                width: 100%;
+                height: 614px;
+                border: 1px solid $color_border2;
+                padding: 30px 20px;
+                margin: auto;
+                margin-top: 20px;
+                h3{
+                    width: 80%;
+                    height: 22px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                }
+                .recent_imgBlog{
+                    width: 100%;
+                    height: 100px;
+                    @include d-flex-between;
+                    margin-top: 12px;
+                    .recent_img{
+                        width: 16%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_img1{
+                        width: 16%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_img2{
+                        width: 16%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_img3{
+                        width: 16%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_textBlog{
+                        width: 82%;
+                        height: 73px;
+                        margin-left: 10px;
+                        h5{
+                            width: 100%;
+                            height: 42px;
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            color: $color_text;
+                            line-height: 1.2em;
+                            font-weight: 600;
+                            cursor: pointer;
+                            transition: 0.3s all ease-in-out;
+                            &:hover{
+                                color: $color_cyan;
+                            }
+                        }
+                        p{
+                            width: 100%;
+                            height: 23px;
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                        }
+                    }
+                }
+                
+            }
+            .blog_archive{
+                width: 100%;
+                height: 440px;
+                border: 1px solid $color_border2;
+                padding: 30px 20px;
+                margin: auto;
+                margin-top: 20px;
+                h3{
+                    width: 80%;
+                    height: 22px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                }
+                .postBlog{
+                    width: 96%;
+                    height: 44px;
+                    @include d-flex-between;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid $color_border2;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        border-color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    &:hover p{
+                        color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    p{
+                        font-size: $font_size_medium;
+                        color: $color_grey;
+                        font-family: $font_family;
+                        line-height: 1.625em;
+                        font-weight: 300;
+                        transition: 0.3s all ease-in-out;
+                    }
+                }
+            }
+            .blog_clouds{
+                width: 100%;
+                height: 232px;
+                border: 1px solid $color_border2;
+                margin: auto;
+                margin-top: 20px;
+                padding: 40px 30px;
+                h3{
+                        width: 80%;
+                        height: 22px;
+                        color: $color_text;
+                        font-family: $font_family;
+                        font-size: $font_size_medium_well;
+                        line-height: 1.2em;
+                        font-weight: 600;
+                }
+                .cloud_link{
+                    width: 100%;
+                    height: 147px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 15px;
+                    .linkDiv{
+                        width: 30%;
+                        height: 41px;
+                        background: $color_white;
+                        border: 1px solid $color_border2;
+                        text-transform: capitalize;
+                        transition: 0.3s all ease-in-out;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 8px;
+                        &:hover{
+                            background: $color_cyan;
+                            
+                        }
+                        &:hover a{
+                            color: $color_white;
+                        }
+                        a{
+                            color: $color_text;
+                           font-weight: 300;
+                            font-family: $font_family;
+                           line-height: 1.625em;
+                           font-size: $font_size_medium;
+                        }
+                    }
+                }
+                
+        }
+        }
+        }
+    }
+   // end
+
+   // start footer
+   .footer{
+    width: 100%;
+    height: 1177.8px;
+    background: $color_text;
+    .footCon{
+        position: relative;
+        .information{
+            width: 95%;
+            height: 840px;
+            display: flex;
+            flex-direction: column;
+            h3{
+                width: 95%;
+                height: 22px;
+                font-family: $font_family;
+                font-size: $font_size_ious_android;
+                color: $color_white;
+                font-weight: 600;
+                line-height: 1.2em;
+            }
+            .footer_products{
+                width: 90%;
+                height: 231.6px;
+                position: relative;
+                ul{
+                    width: 95%;
+                    height: 161.6px;
+                    position: relative;
+                    top: 20px;
+                    li{
+                        margin-top: 10px;
+                        a{
+                            font-family: $font_family;
+                            font-size: $font_size_medium_well;
+                            color: $color_white;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            transition: 0.2s all ease-in-out;
+                            &:hover{
+                                color: $color_cyan;
+                            }
+                        }
+                    }
+                }
+            }
+            .newsletter{
+                width: 90%;
+                height: 259.35px;
+                position: relative;
+                p{
+                    width: 95%;
+                    height: 22.75px;
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-size: $font_size_small;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    margin-top: 15px;
+                }
+                form{
+                    width: 95%;
+                    height: 44px;
+                    margin-top: 30px;
+                    input{
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 20px;
+                        padding: 1px 2px 1px 20px;
+                        &::placeholder{
+                            color: $color_grey;
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            font-weight: 300;
+                            line-height: 38px;
+                        }
+                    }
+                    button{
+                        width: 55%;
+                        height: 44px;
+                        border-color: $color_cyan;
+                        border-radius: 25px;
+                        line-height: 42px;
+                        text-transform: uppercase;
+                        background: $color_cyan;
+                        color: $color_white;
+                        font-family: $font_family;
+                        font-size: $font_size_medium;
+                        font-weight: 300;
+                        margin-left: 18px;
+                        position: relative;
+                        top: 15px;
+                        right: 16px;
+                        cursor: pointer;
+                        transition: 0.5s all ease-in-out;
+                        &:hover .fa-arrow-right{
+                            margin-left: 18px;
+                            transition: 0.5s all ease-in-out;
+                        }
+                        .fa-arrow-right{
+                            margin-left: 10px;
+                            font-size: $font_size_small;
+                        }
+                    }
+                }
+                .span{
+                    display: none;
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-size: $font_size_small;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                    transition: 0.2s all ease-in-out;
+                    
+                }
+                .display_block_click{
+                    display: block;
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-size: $font_size_small;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                    transition: 0.2s all ease-in-out;
+                }
+            }
+            .instagram_feed{
+                width: 90%;
+                height: 242.6px;
+                position: relative;
+                .img_feedBox{
+                    width: 100%;
+                    height: 140px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 18px;
+                    position: relative;
+                    right: 37px;
+                    top: 20px;
+
+                    .feedImage{
+                        width: 11%;
+                        height: 58px;
+                        img{
+                            width: 100%;
+                        }
+
+                    }
+
+                }
+            }
+        }
+        .endOfFooter{
+            width: 90%;
+            height: 250px;
+            @include d-flex-column;
+            .colorlibFooter{
+                width: 100%;
+                height: 40px;
+                position: relative;
+                bottom: 65px;
+                left: 15px;
+                p{
+                    font-size: $font_size_small;
+                    font-family: $font_family;
+                    color: $color_white;
+                    font-weight: 300;
+                    line-height: 1.625em;
+                    .fa-heart{
+                        color: $color_cyan;
+                    }
+                    a{
+                        color: $color_cyan;
+                    }
+                }
+            }
+            .icon_footer{
+                width: 89%;
+                height: 40px;
+                margin-right: 40px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 5px;
+                position: relative;
+                left: 0;
+                bottom: 55px;
+                .fotterIcon_colorlib{
+                    width: 6%;
+                    height: 40px;
+                    background: $color_icon_backgroun;
+                    @include d-flex-center;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        background: $color_cyan;
+                    }
+                    a{
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        font-size: $font_size_medium;
+                        color: $color_white;
+                        font-family: $font_family;
+                    }
+                }
+            }
+        }
+    }
+   }
+   // end
+}
+}
+// end
+
+@media screen and (device-width:375px) {
+    .container{
+        width: 340px;
+        margin: 0 auto;
+    }
+    body{
+        // start header
+    .header{
+        width: 100%;
+        height: 56px;
+        @include d-flex-center;
+        position: fixed;
+        z-index: 9999;
+        transition: 0.3s all ease-in-out;
+        .main_box{
+            @include d-flex-between;
+            .logo{
+                width: 40%;
+                height: 28px;
+                @include d-flex-center;
+                img{
+                    width: 100%;
+                }
+            }
+            .navbar{
+                display: none;
+            }
+            .responsive_navbar{
+                display: block;
+                position: relative;
+                transition: 1s all ease-in-out;
+                .icon_responsive{
+                .fa-bars{
+                        color: $color_cyan;
+                        font-size: $font_size_less_large;
+                        &:hover .ul_navbar{
+                            visibility: visible;
+                            transition: 0.5s all ease-in-out;
+                            opacity: 1;
+                        }
+                        .ul_navbar{
+                            opacity: 0;
+                            visibility: hidden;
+                            width: 250px;
+                            height: 1200px;
+                            position: fixed;
+                            background: $color_text;
+                            position: absolute;
+                            right: 108px;
+                            top: -19px;
+                            padding: 30px;
+                            transition: 0.5s all ease-in-out;
+                            ul{
+                                width: 280px;
+                                height: 300px;
+                                li{
+                                    padding: 10px;
+                                    margin-top: 5px;
+                                    transition: 0.5s all ease-in-out;
+                                    &:hover .dropdown-content{
+                                         visibility: visible;
+                                         opacity: 1;
+                                         transition: 0.5s all ease-in-out ;
+                                    }
+                                    a{
+                                        font-family: $font_family;
+                                        font-size: $font_size_medium;
+                                        color: $color_white;
+                                        text-transform: uppercase;
+                                        .fa-angle-down{
+                                            margin-left: 115px;
+                                            font-size: $font_size_medium_well;
+                                        }
+                                    }
+                                    .dropdown-content{
+                                        visibility: hidden;
+                                        opacity: 0;
+                                        ul{
+                                            width: 200px;
+                                            height: 160px;
+                                            li{
+                                                width: 60px;
+                                                height: 48px;
+                                                a{
+                                                    font-family: $font_family;
+                                                    font-size: $font_size_medium_well;
+                                                    color: $color_white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+        
+        
+                            }
+                        }
+                }
+                .fa-xmark{
+                        display: none;
+                        color: black;
+                        font-size: $font_size_less_large;
+                        &:hover .ul_navbar{
+                            visibility: hidden;
+                            transition: 0.5s all ease-in-out;
+                            opacity: 0;
+                            
+                        }
+                        .ul_navbar{
+                            opacity: 1;
+                            visibility: visible;
+                            width: 250px;
+                            height: 1200px;
+                            position: fixed;
+                            background: $color_text;
+                            position: absolute;
+                            right: 108px;
+                            top: -19px;
+                            padding: 30px;
+                            transition: 0.5s all ease-in-out;
+                            ul{
+                                width: 280px;
+                                height: 300px;
+                                li{
+                                    padding: 10px;
+                                    margin-top: 5px;
+                                    transition: 0.5s all ease-in-out;
+                                    &:hover .dropdown-content{
+                                         visibility: visible;
+                                         opacity: 1;
+                                         transition: 0.5s all ease-in-out ;
+                                    }
+                                    a{
+                                        font-family: $font_family;
+                                        font-size: $font_size_medium;
+                                        color: $color_white;
+                                        text-transform: uppercase;
+                                        .fa-angle-down{
+                                            margin-left: 115px;
+                                            font-size: $font_size_medium_well;
+                                        }
+                                    }
+                                    .dropdown-content{
+                                        visibility: hidden;
+                                        opacity: 0;
+                                        ul{
+                                            width: 200px;
+                                            height: 160px;
+                                            li{
+                                                width: 60px;
+                                                height: 48px;
+                                                a{
+                                                    font-family: $font_family;
+                                                    font-size: $font_size_medium_well;
+                                                    color: $color_white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+        
+        
+                            }
+                        } 
+                }
+                }
+            }
+}
+
+    }
+    // end
+
+     // start about section
+     .job_posted{
+        width: 100%;
+        height: 406.35px;
+        background: url(/ABOUT/assets/imagess/background/header-bg.jpg.webp);
+        background-size: cover;
+        background-position: 50% 50%;
+        position: relative;
+        @include d-flex-center;
+        .overlay{
+            background-image: -webkit-linear-gradient(0deg, rgb(191, 172, 255) 0%, rgb(121, 95, 255) 100%);
+            position: absolute;
+            inset: 0px;
+            opacity: 0.95;
+        }
+        .job_box{
+            margin: auto;
+            .about_box{
+                width: 100%;
+                height: 85px;
+                text-align: center;
+                position: relative;
+                z-index: 10;
+                h1{
+                    color: $color_white;
+                    font-family: $font_family;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    font-size: $font_size_large;
+                }
+                span{
+                   color: $color_white;
+                   font-family: $font_family;
+                   font-weight: 300;
+                   line-height: 1.625em;
+                   font-size: $font_size_medium;
+                   margin-left: 10px;
+                   margin-right: 10px;
+    
+                }
+                .fa-arrow-right{
+                    color: $color_white;
+                    font-size: $font_size_medium;
+                }
+            }
+        }
+     }
+     // end
+
+     // start blog list section
+      .blog_list{
+    width: 100%;
+    height: 5861px;
+    @include d-flex-center;
+    .blog_contain{
+        @include d-flex-column;
+        .blog_image{
+            width: 96%;
+            height: 3082px;
+            .blog_background{
+                width: 100%;
+                height: 741px;
+                margin: auto;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp1.jpg.pagespeed.ic.vaW7y-w6mv.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 8px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 112px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 207px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-column;
+                    .blog_span{
+                        width: 100%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 100%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-top: 5px;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog_background1{
+                width: 100%;
+                height: 741px;
+                margin: auto;
+                margin-top: 20px;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp2.jpg.pagespeed.ic.SAH9ANC07Q.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 8px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 112px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 207px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-column;
+                    .blog_span{
+                        width: 100%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 100%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-start;
+                        margin-top: 5px;
+                        align-items: center;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog_background2{
+                width: 100%;
+                height: 741px;
+                margin: auto;
+                margin-top: 15px;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp3.jpg.pagespeed.ic.hbUPfOh7DX.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 8px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 112px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 207px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-column;
+                    .blog_span{
+                        width: 100%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 100%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-top: 5px;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog_background3{
+                width: 100%;
+                height: 741px;
+                margin: auto;
+                margin-top: 15px;
+                .blog_backgrounImage{
+                    width: 100%;
+                    height: 313px;
+                    background: url(/BLOG/assets/images/background/xp4.jpg.pagespeed.ic.uS_nNHTixG.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+                h6{
+                    width: 100%;
+                    height: 8px;
+                    color: $color_text;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 30px;
+                }
+                h2{
+                    width: 100%;
+                    height: 112px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_less_large;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    margin-top: 18px;
+                }
+                p{
+                    width: 100%;
+                    height: 207px;
+                    color: $color_grey;
+                    font-weight: 300;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-size: $font_size_medium;
+                    margin-top: 15px;
+                }
+                .blog_icon{
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    @include d-flex-column;
+                    .blog_span{
+                        width: 100%;
+                        height: 23px;
+                        span{
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                        }
+                        .mg-left{
+                            margin-left: 15px;
+                        }
+                    }
+                    .iconBlog_box{
+                        width: 100%;
+                        height: 23px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-top: 5px;
+                        .fa-facebook-f{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-twitter{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-dribbble{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        .fa-behance{
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            transition: 0.4s all ease-in-out;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .blog_aside{
+            width: 96%;
+            height: 2500px;
+            .blog_search{
+                width: 100%;
+                height: 127px;
+                border: 1px solid $color_border2;
+                margin: auto;
+                @include d-flex-center;
+                form{
+                    width: 90%;
+                    height: 43px;
+                    @include d-flex-center;
+                    input{
+                        width: 65%;
+                        height: 43px;
+                        outline: none;
+                        border: 1px solid $color_border2;
+                        background: $color_border2;
+                        padding: 10px;
+                        &::placeholder{
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                            color: $color_dark_grey;
+                            font-weight: 500;
+                            line-height: 1.2em;
+                            text-transform: capitalize;
+                        }
+                    }
+                    button{
+                        width: 25%;
+                        height: 43px;
+                        background: $color_border2;
+                        outline: none;
+                        border: 1px solid $color_border2;
+                        cursor: pointer;
+                        .fa-searchengin{
+                            font-size: 22px;
+                            color: $color_cyan;
+                        }
+                    }
+                }
+            }
+            .blog_info{
+                width: 100%;
+                height: 447px;
+                border: 1px solid $color_border2;
+                margin: auto;
+                margin-top: 20px;
+                @include d-flex-column;
+                .info_img{
+                    width: 35%;
+                    height: 120px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                h4{
+                    width: 80%;
+                    height: 45px;
+                    font-size: $font_size_medium_well;
+                    font-family: $font_family;
+                    font-weight: 600;
+                    color: $color_text;
+                    line-height: 1.2em;
+                    text-align: center;
+                    margin-top: 15px;
+
+                }
+                p{
+                    width: 90%;
+                    height: 114px;
+                    color: $color_grey;
+                    font-size: $font_size_medium;
+                    font-family: $font_family;
+                    line-height: 1.625em;
+                    font-weight: 300;
+                    text-align: center;
+                }
+                .info_icon{
+                    width: 80%;
+                    height: 53px;
+                    @include d-flex-around;
+                    margin-top: 10px;
+                    .fa-facebook-f{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                    .fa-twitter{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                    .fa-dribbble{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                    .fa-behance{
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+                        cursor: pointer;
+                        &:hover{
+                            color: $color_cyan;
+                        }
+                    }
+                }
+            }
+            .blog_post{
+                width: 100%;
+                height: 440px;
+                border: 1px solid $color_border2;
+                padding: 30px 20px;
+                margin: auto;
+                margin-top: 20px;
+                h3{
+                    width: 80%;
+                    height: 22px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                }
+                .postBlog{
+                    width: 96%;
+                    height: 44px;
+                    @include d-flex-between;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid $color_border2;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        border-color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    &:hover p{
+                        color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    p{
+                        font-size: $font_size_medium;
+                        color: $color_grey;
+                        font-family: $font_family;
+                        line-height: 1.625em;
+                        font-weight: 300;
+                        transition: 0.3s all ease-in-out;
+                    }
+                }
+            }
+            .blog_recent{
+                width: 100%;
+                height: 577px;
+                border: 1px solid $color_border2;
+                padding: 30px 20px;
+                margin: auto;
+                margin-top: 20px;
+                h3{
+                    width: 80%;
+                    height: 22px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                }
+                .recent_imgBlog{
+                    width: 96%;
+                    height: 91px;
+                    @include d-flex-between;
+                    margin-top: 12px;
+                    .recent_img{
+                        width: 25%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_img1{
+                        width: 25%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_img2{
+                        width: 25%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_img3{
+                        width: 25%;
+                        height: 75px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .recent_textBlog{
+                        width: 75%;
+                        height: 75px;
+                        margin-left: 10px;
+                        h5{
+                            width: 100%;
+                            height: 42px;
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            color: $color_text;
+                            line-height: 1.2em;
+                            font-weight: 600;
+                            cursor: pointer;
+                            transition: 0.3s all ease-in-out;
+                            &:hover{
+                                color: $color_cyan;
+                            }
+                        }
+                        p{
+                            width: 100%;
+                            height: 23px;
+                            font-size: $font_size_medium;
+                            color: $color_grey;
+                            font-weight: 300;
+                            font-family: $font_family;
+                            line-height: 1.625em;
+                        }
+                    }
+                }
+                
+            }
+            .blog_archive{
+                width: 100%;
+                height: 440px;
+                border: 1px solid $color_border2;
+                padding: 30px 20px;
+                margin: auto;
+                margin-top: 20px;
+                h3{
+                    width: 80%;
+                    height: 22px;
+                    color: $color_text;
+                    font-family: $font_family;
+                    font-size: $font_size_medium_well;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                }
+                .postBlog{
+                    width: 96%;
+                    height: 44px;
+                    @include d-flex-between;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid $color_border2;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    transition: 0.3s all ease-in-out;
+                    &:hover{
+                        border-color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    &:hover p{
+                        color: $color_cyan;
+                        transition: 0.3s all ease-in-out;
+                    }
+                    p{
+                        font-size: $font_size_medium;
+                        color: $color_grey;
+                        font-family: $font_family;
+                        line-height: 1.625em;
+                        font-weight: 300;
+                        transition: 0.3s all ease-in-out;
+                    }
+                }
+            }
+            .blog_clouds{
+                width: 100%;
+                height: 280px;
+                border: 1px solid $color_border2;
+                margin: auto;
+                margin-top: 20px;
+                padding: 40px 30px;
+                h3{
+                        width: 80%;
+                        height: 22px;
+                        color: $color_text;
+                        font-family: $font_family;
+                        font-size: $font_size_medium_well;
+                        line-height: 1.2em;
+                        font-weight: 600;
+                }
+                .cloud_link{
+                    width: 96%;
+                    height: 147px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 15px;
+                    .linkDiv{
+                        width: 30%;
+                        height: 41px;
+                        background: $color_white;
+                        border: 1px solid $color_border2;
+                        text-transform: capitalize;
+                        transition: 0.3s all ease-in-out;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 8px;
+                        &:hover{
+                            background: $color_cyan;
+                            
+                        }
+                        &:hover a{
+                            color: $color_white;
+                        }
+                        a{
+                            color: $color_text;
+                           font-weight: 300;
+                            font-family: $font_family;
+                           line-height: 1.625em;
+                           font-size: $font_size_medium;
+                        }
+                    }
+                }
+                
+            }
+        }
+        }
+      }
+     // end
+
+     // start footer
+     .footer{
+        width: 100%;
+        height: 1177.8px;
+        background: $color_text;
+        .footCon{
+            position: relative;
+            .information{
+                width: 95%;
+                height: 840px;
+                display: flex;
+                flex-direction: column;
+                h3{
+                    width: 95%;
+                    height: 22px;
+                    font-family: $font_family;
+                    font-size: $font_size_ious_android;
+                    color: $color_white;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                }
+                .footer_products{
+                    width: 90%;
+                    height: 231.6px;
+                    position: relative;
+                    ul{
+                        width: 95%;
+                        height: 161.6px;
+                        position: relative;
+                        top: 20px;
+                        li{
+                            margin-top: 10px;
+                            a{
+                                font-family: $font_family;
+                                font-size: $font_size_medium_well;
+                                color: $color_white;
+                                font-weight: 300;
+                                line-height: 1.625em;
+                                transition: 0.2s all ease-in-out;
+                                &:hover{
+                                    color: $color_cyan;
+                                }
+                            }
+                        }
+                    }
+                }
+                .newsletter{
+                    width: 90%;
+                    height: 259.35px;
+                    position: relative;
+                    p{
+                        width: 95%;
+                        height: 22.75px;
+                        color: $color_white;
+                        font-family: $font_family;
+                        font-size: $font_size_small;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        margin-top: 15px;
+                    }
+                    form{
+                        width: 95%;
+                        height: 44px;
+                        margin-top: 30px;
+                        input{
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 20px;
+                            padding: 1px 2px 1px 20px;
+                            &::placeholder{
+                                color: $color_grey;
+                                font-size: $font_size_medium;
+                                font-family: $font_family;
+                                font-weight: 300;
+                                line-height: 38px;
+                            }
+                        }
+                        button{
+                            width: 55%;
+                            height: 44px;
+                            border-color: $color_cyan;
+                            border-radius: 25px;
+                            line-height: 42px;
+                            text-transform: uppercase;
+                            background: $color_cyan;
+                            color: $color_white;
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            font-weight: 300;
+                            margin-left: 18px;
+                            position: relative;
+                            top: 15px;
+                            right: 16px;
+                            cursor: pointer;
+                            transition: 0.5s all ease-in-out;
+                            &:hover .fa-arrow-right{
+                                margin-left: 18px;
+                                transition: 0.5s all ease-in-out;
+                            }
+                            .fa-arrow-right{
+                                margin-left: 10px;
+                                font-size: $font_size_small;
+                            }
+                        }
+                    }
+                    .span{
+                        display: none;
+                        color: $color_white;
+                        font-family: $font_family;
+                        font-size: $font_size_small;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        position: relative;
+                        top: 25px;
+                        left: 5px;
+                        transition: 0.2s all ease-in-out;
+                        
+                    }
+                    .display_block_click{
+                        display: block;
+                        color: $color_white;
+                        font-family: $font_family;
+                        font-size: $font_size_small;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        position: relative;
+                        top: 25px;
+                        left: 5px;
+                        transition: 0.2s all ease-in-out;
+                    }
+                }
+                .instagram_feed{
+                    width: 90%;
+                    height: 242.6px;
+                    position: relative;
+                    .img_feedBox{
+                        width: 95%;
+                        height: 140px;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        gap: 12px;
+                        position: relative;
+                        right: 5px;
+                        top: 20px;
+
+                        .feedImage{
+                            width: 20%;
+                            height: 58px;
+                            img{
+                                width: 100%;
+                            }
+    
+                        }
+    
+                    }
+                }
+            }
+            .endOfFooter{
+                width: 90%;
+                height: 250px;
+                @include d-flex-column;
+                .colorlibFooter{
+                    width: 100%;
+                    height: 40px;
+                    position: relative;
+                    bottom: 65px;
+                    p{
+                        font-size: $font_size_small;
+                        font-family: $font_family;
+                        color: $color_white;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        .fa-heart{
+                            color: $color_cyan;
+                        }
+                        a{
+                            color: $color_cyan;
+                        }
+                    }
+                }
+                .icon_footer{
+                    width: 89%;
+                    height: 40px;
+                    margin-right: 40px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 5px;
+                    position: relative;
+                    left: 2px;
+                    bottom: 55px;
+                    .fotterIcon_colorlib{
+                        width: 13%;
+                        height: 40px;
+                        background: $color_icon_backgroun;
+                        @include d-flex-center;
+                        cursor: pointer;
+                        transition: 0.3s all ease-in-out;
+                        &:hover{
+                            background: $color_cyan;
+                        }
+                        a{
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                            color: $color_white;
+                            font-family: $font_family;
+                        }
+                    }
+                }
+            }
+        }
+     }
+    // end
+    }
+}

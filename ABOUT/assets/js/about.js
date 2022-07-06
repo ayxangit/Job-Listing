@@ -20,6 +20,22 @@ var swiper = new Swiper(".mySwiper", {
     hashNavigation: {
       watchState: true,
     }, 
+    breakpoints: {
+      375: {
+          loop:true,
+          slidesPerView: 1,
+          spaceBetween: 30
+      },
+    768: {
+      loop:true,
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    1500: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+  },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -41,8 +57,26 @@ function scrollToTop(){
 }
 // end
 
+
+
+// start responsive navbar
+document.querySelector(".fa-bars").addEventListener("click",()=>{
+  let bar = document.querySelector(".fa-bars")
+  bar.style.display = "none";
+  let mark = document.querySelector(".fa-xmark");
+  mark.style.display = "block";
+})
+
+document.querySelector(".fa-xmark").addEventListener("click",()=>{
+  let bar = document.querySelector(".fa-xmark")
+  bar.style.display = "none";
+  let mark = document.querySelector(".fa-bars");
+  mark.style.display = "block";
+})
+// end
+
 // footer click display block span
-let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
+let btn = document.querySelector("#btn").addEventListener("click",()=>{
   let input = document.querySelector("#input").value;
   if(input ==""){
       alert("Email ünvanınızı qeyd edin")
@@ -50,6 +84,7 @@ let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
       let span = document.querySelector(".span");
       span.classList.add("display_block_click");
   }
-  e.preventDefault()
+  // e.preventDefault()
 })
 // end
+
