@@ -1223,7 +1223,7 @@ $color_scroll_to_button : orange;
 // end
 
 // start responsive mobil
-@media screen and (min-width:375px) {
+@media screen and (device-width:375px) {
     .container{
         width: 340px;
         margin: 0 auto;
