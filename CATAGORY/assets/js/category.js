@@ -66,3 +66,37 @@ document.querySelector(".fa-bars").addEventListener("click",()=>{
     mark.style.display = "block"
 })
 // end
+
+
+// start cahnge heart color
+document.querySelector(".red").addEventListener("click",()=>{
+    let heart = document.querySelector(" .red");
+    heart.style.color = "red";
+    
+})
+document.querySelector(".reds").addEventListener("click",()=>{
+    let red = document.querySelector(".icon_boxDesignh .reds");
+    red.style.color = "red";
+   
+})
+document.querySelector(".redd").addEventListener("click",()=>{
+    let reds = document.querySelector(" .redd");
+    reds.style.color = "red" 
+})
+document.querySelector(".redds").addEventListener("click",()=>{
+    let redd = document.querySelector(" .redds");
+    redd.style.color = "red"
+})
+document.querySelector(".red_color").addEventListener("click",()=>{
+    let redColor = document.querySelector(" .red_color");
+    redColor.style.color = "red" 
+})
+document.querySelector(".red_colors").addEventListener("click",()=>{
+    let red_color = document.querySelector(" .red_colors");
+    red_color.style.color = "red" 
+})
+document.querySelector(".redColor").addEventListener("click",()=>{
+    let red_colors = document.querySelector(" .redColor");
+    red_colors.style.color = "red"  
+})
+// end

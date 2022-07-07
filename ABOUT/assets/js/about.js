@@ -76,7 +76,7 @@ document.querySelector(".fa-xmark").addEventListener("click",()=>{
 // end
 
 // footer click display block span
-let btn = document.querySelector("#btn").addEventListener("click",()=>{
+let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
   let input = document.querySelector("#input").value;
   if(input ==""){
       alert("Email ünvanınızı qeyd edin")
@@ -85,7 +85,7 @@ let btn = document.querySelector("#btn").addEventListener("click",()=>{
       span.classList.add("display_block_click");
       document.querySelector("#input").value = " ";
   }
-  e.preventDefault()
+  e.preventDefault();
 })
 // end
 

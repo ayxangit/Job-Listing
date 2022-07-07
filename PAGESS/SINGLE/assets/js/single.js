@@ -68,4 +68,13 @@ document.querySelector(".fa-bars").addEventListener("click",()=>{
 // end
 
 
+// start change heart color
+document.querySelector(".red").addEventListener("click",()=>{
+    let heart = document.querySelector(" .red");
+    heart.style.color = "red";
+    
+})
+// end
+
+
 
