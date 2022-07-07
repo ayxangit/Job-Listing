@@ -83,8 +83,9 @@ let btn = document.querySelector("#btn").addEventListener("click",()=>{
   }else{
       let span = document.querySelector(".span");
       span.classList.add("display_block_click");
+      document.querySelector("#input").value = " ";
   }
-  // e.preventDefault()
+  e.preventDefault()
 })
 // end
 

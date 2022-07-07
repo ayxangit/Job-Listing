@@ -44,12 +44,14 @@ let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
     }else{
         let span = document.querySelector(".span");
         span.classList.add("display_block_click");
+        document.querySelector("#input").value = " ";
     }
     e.preventDefault()
 })
   // end
 
-  // start responsive navbar
+
+// start responsive navbar
 document.querySelector(".fa-xmark").addEventListener("click",()=>{
     let bar = document.querySelector(".fa-bars");
     bar.style.display = "block";
@@ -64,5 +66,6 @@ document.querySelector(".fa-bars").addEventListener("click",()=>{
     mark.style.display = "block"
 })
 // end
+
 
 

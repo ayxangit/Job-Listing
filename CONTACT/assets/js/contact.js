@@ -6,6 +6,7 @@ let btn = document.querySelector("#btn").addEventListener("click",(e)=>{
     }else{
         let span = document.querySelector(".span");
         span.classList.add("display_block_click");
+        document.querySelector("#input").value = " ";
     }
     e.preventDefault()
 })
@@ -49,6 +50,15 @@ document.querySelector("#btnsd").addEventListener("click",(e)=>{
         email.classList.toggle("red_color")
         subject.classList.toggle("red_color")
         message.classList.toggle("red_text")
+    }else{
+        name.classList.remove("red_color")
+        email.classList.remove("red_color")
+        subject.classList.remove("red_color")
+        message.classList.remove("red_text")
+        name.value = " ";
+        email.value = " ";
+        subject.value = " ";
+        message.value = " ";
     }
     e.preventDefault();
 })
