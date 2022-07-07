@@ -1263,6 +1263,7 @@ $color_scroll_to_button : orange;
         }
     }
 }
+
 // end
 
 
@@ -1283,6 +1284,7 @@ $color_scroll_to_button : orange;
     transition: 0.3s all ease-in-out;
     .main_box{
         @include d-flex-between;
+        position: relative;
         .logo{
             width: 25%;
             height: 28px;
@@ -1292,9 +1294,9 @@ $color_scroll_to_button : orange;
             }
         }
         .navbar{
-            display: none;
+               display: none;
         }
-        .responsive_navbar{
+             .responsive_navbar{
             display: block;
             position: relative;
             transition: 0.5s all ease-in-out;
@@ -1432,8 +1434,9 @@ $color_scroll_to_button : orange;
                         } 
                 }
             }
+              }
     }
-}
+   
    }
     .scroll_change{
     width: 100%;
@@ -2452,6 +2455,7 @@ $color_scroll_to_button : orange;
     // end
 }
 }
+
 // end
 
 // start responsive mobile
