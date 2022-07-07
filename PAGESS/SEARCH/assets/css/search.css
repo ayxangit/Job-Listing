@@ -1929,15 +1929,20 @@
     gap: 20px;
   }
   body .job_posted .container .search_catalog h1 {
-    width: 86%;
-    font-size: 36px;
-    font-weight: 300;
     color: #fff;
-    line-height: 1.2em;
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 48px;
   }
-  body .job_posted .container .search_catalog h1 span {
-    color: #49e4fa;
+  body .job_posted .container .search_catalog span {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   body .job_posted .container .search_catalog .select_box {
     width: 98%;

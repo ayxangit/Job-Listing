@@ -1081,7 +1081,7 @@
     font-weight: 300;
     line-height: 1.625em;
   }
-  body .location_lists .location_boxes {
+  body .location_lists .jobList .location_boxes {
     width: 90%;
     height: 2395.7px;
     display: -webkit-box;
@@ -1096,12 +1096,12 @@
             align-items: center;
     gap: 40px;
   }
-  body .location_lists .location_boxes .byLocation {
+  body .location_lists .jobList .location_boxes .byLocation {
     width: 95%;
     height: 490.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .byLocation h3 {
+  body .location_lists .jobList .location_boxes .byLocation h3 {
     width: 90%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -1112,7 +1112,7 @@
     margin: auto;
     margin-top: 10px;
   }
-  body .location_lists .location_boxes .byLocation .cityLocation {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation {
     width: 90%;
     height: 42.75px;
     background: #fff;
@@ -1129,13 +1129,13 @@
     -webkit-transition: 1s all ease-in-out;
     transition: 1s all ease-in-out;
   }
-  body .location_lists .location_boxes .byLocation .cityLocation:hover {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation:hover {
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
   }
-  body .location_lists .location_boxes .byLocation .cityLocation:hover p {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation:hover p {
     color: #fff;
   }
-  body .location_lists .location_boxes .byLocation .cityLocation p {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation p {
     color: #777777;
     font-weight: 300;
     line-height: 1.625em;
@@ -1144,16 +1144,16 @@
     -webkit-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
   }
-  body .location_lists .location_boxes .slideLocation {
+  body .location_lists .jobList .location_boxes .slideLocation {
     width: 95%;
     height: 500.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .slideLocation .swiper {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper {
     width: 100%;
     height: 500.85px;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -1168,13 +1168,13 @@
     -ms-flex-align: center;
     align-items: center;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
     width: 100%;
     height: 500.85px;
     padding: 15px 10px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
     width: 96%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -1184,7 +1184,7 @@
     font-size: 18px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
     margin-top: 15px;
     width: 96%;
     height: 120px;
@@ -1192,12 +1192,12 @@
     background-size: cover;
     background-position: 50% 50%;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
     margin-top: 15px;
     width: 96%;
     height: 300px;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
     margin-top: 5px;
     font-family: "Poppins", sans-serif;
     color: #222222;
@@ -1206,7 +1206,7 @@
     font-size: 16px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
     margin-top: 5px;
     line-height: 1.625em;
     color: #777;
@@ -1215,7 +1215,7 @@
     font-size: 14px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
     color: #222222;
@@ -1224,7 +1224,7 @@
     font-size: 16px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
     display: block;
     margin-top: 10px;
     margin-left: 2px;
@@ -1235,15 +1235,15 @@
     line-height: 1.625em;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
     font-size: 14px;
     color: coral;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
     font-size: 14px;
     color: gold;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
     width: 122.93px;
     height: 44.75px;
     background: #49e4fa;
@@ -1254,14 +1254,14 @@
     transition: 0.3s all ease;
     cursor: pointer;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
     background: #fff;
     border-color: #49e4fa;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
     color: #49e4fa;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
     color: #fff;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -1269,19 +1269,19 @@
     line-height: 1.625em;
     font-weight: 300;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  body .location_lists .location_boxes .byCategory {
+  body .location_lists .jobList .location_boxes .byCategory {
     width: 95%;
     height: 490.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .byCategory h3 {
+  body .location_lists .jobList .location_boxes .byCategory h3 {
     width: 90%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -1292,7 +1292,7 @@
     margin: auto;
     margin-top: 10px;
   }
-  body .location_lists .location_boxes .byCategory .cityCategory {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory {
     width: 90%;
     height: 42.75px;
     background: #fff;
@@ -1309,13 +1309,13 @@
     -webkit-transition: 1s all ease-in-out;
     transition: 1s all ease-in-out;
   }
-  body .location_lists .location_boxes .byCategory .cityCategory:hover {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory:hover {
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
   }
-  body .location_lists .location_boxes .byCategory .cityCategory:hover p {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory:hover p {
     color: #fff;
   }
-  body .location_lists .location_boxes .byCategory .cityCategory p {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory p {
     color: #777777;
     font-weight: 300;
     line-height: 1.625em;
@@ -1324,12 +1324,12 @@
     -webkit-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
   }
-  body .location_lists .location_boxes .advice_blog {
+  body .location_lists .jobList .location_boxes .advice_blog {
     width: 95%;
     height: 490.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .advice_blog h3 {
+  body .location_lists .jobList .location_boxes .advice_blog h3 {
     width: 90%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -1340,7 +1340,7 @@
     margin: auto;
     margin-top: 10px;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box {
     width: 90%;
     height: 121.95px;
     background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
@@ -1361,7 +1361,7 @@
             justify-content: center;
     cursor: pointer;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box h4 {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box h4 {
     width: 80%;
     height: 63.2px;
     font-family: "Poppins", sans-serif;
@@ -1371,7 +1371,7 @@
     font-weight: 600;
     line-height: 1.2em;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box .span_text {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box .span_text {
     width: 90%;
     height: 38.75px;
     display: -webkit-box;
@@ -1384,7 +1384,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box .span_text span {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box .span_text span {
     color: #fff;
     font-weight: 300;
     line-height: 1.625em;
@@ -3065,7 +3065,7 @@
     font-weight: 300;
     line-height: 1.625em;
   }
-  body .location_lists .location_boxes {
+  body .location_lists .jobList .location_boxes {
     width: 100%;
     height: 2154.6px;
     display: -webkit-box;
@@ -3080,12 +3080,12 @@
             align-items: center;
     gap: 40px;
   }
-  body .location_lists .location_boxes .byLocation {
+  body .location_lists .jobList .location_boxes .byLocation {
     width: 95%;
     height: 490.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .byLocation h3 {
+  body .location_lists .jobList .location_boxes .byLocation h3 {
     width: 90%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -3096,7 +3096,7 @@
     margin: auto;
     margin-top: 10px;
   }
-  body .location_lists .location_boxes .byLocation .cityLocation {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation {
     width: 90%;
     height: 42.75px;
     background: #fff;
@@ -3113,13 +3113,13 @@
     -webkit-transition: 1s all ease-in-out;
     transition: 1s all ease-in-out;
   }
-  body .location_lists .location_boxes .byLocation .cityLocation:hover {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation:hover {
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
   }
-  body .location_lists .location_boxes .byLocation .cityLocation:hover p {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation:hover p {
     color: #fff;
   }
-  body .location_lists .location_boxes .byLocation .cityLocation p {
+  body .location_lists .jobList .location_boxes .byLocation .cityLocation p {
     color: #777777;
     font-weight: 300;
     line-height: 1.625em;
@@ -3128,16 +3128,16 @@
     -webkit-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
   }
-  body .location_lists .location_boxes .slideLocation {
+  body .location_lists .jobList .location_boxes .slideLocation {
     width: 95%;
     height: 500.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .slideLocation .swiper {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper {
     width: 100%;
     height: 500.85px;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -3152,13 +3152,13 @@
     -ms-flex-align: center;
     align-items: center;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox {
     width: 100%;
     height: 500.85px;
     padding: 15px 10px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox h3 {
     width: 96%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -3168,7 +3168,7 @@
     font-size: 18px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .locationImage {
     margin-top: 15px;
     width: 96%;
     height: 120px;
@@ -3176,12 +3176,12 @@
     background-size: cover;
     background-position: 50% 50%;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide {
     margin-top: 15px;
     width: 96%;
     height: 300px;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h6 {
     margin-top: 5px;
     font-family: "Poppins", sans-serif;
     color: #222222;
@@ -3190,7 +3190,7 @@
     font-size: 16px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide p {
     margin-top: 5px;
     line-height: 1.625em;
     color: #777;
@@ -3199,7 +3199,7 @@
     font-size: 14px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide h5 {
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
     color: #222222;
@@ -3208,7 +3208,7 @@
     font-size: 16px;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span {
     display: block;
     margin-top: 10px;
     margin-left: 2px;
@@ -3219,15 +3219,15 @@
     line-height: 1.625em;
     text-align: left;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-map {
     font-size: 14px;
     color: coral;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide span .fa-coins {
     font-size: 14px;
     color: gold;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation {
     width: 122.93px;
     height: 44.75px;
     background: #49e4fa;
@@ -3238,14 +3238,14 @@
     transition: 0.3s all ease;
     cursor: pointer;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover {
     background: #fff;
     border-color: #49e4fa;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation:hover a {
     color: #49e4fa;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .slideLocationBox .textLocationSlide .applyLocation a {
     color: #fff;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -3253,19 +3253,19 @@
     line-height: 1.625em;
     font-weight: 300;
   }
-  body .location_lists .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
+  body .location_lists .jobList .location_boxes .slideLocation .swiper .swiper-slide .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  body .location_lists .location_boxes .byCategory {
+  body .location_lists .jobList .location_boxes .byCategory {
     width: 95%;
     height: 490.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .byCategory h3 {
+  body .location_lists .jobList .location_boxes .byCategory h3 {
     width: 90%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -3276,7 +3276,7 @@
     margin: auto;
     margin-top: 10px;
   }
-  body .location_lists .location_boxes .byCategory .cityCategory {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory {
     width: 90%;
     height: 42.75px;
     background: #fff;
@@ -3293,13 +3293,13 @@
     -webkit-transition: 1s all ease-in-out;
     transition: 1s all ease-in-out;
   }
-  body .location_lists .location_boxes .byCategory .cityCategory:hover {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory:hover {
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
   }
-  body .location_lists .location_boxes .byCategory .cityCategory:hover p {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory:hover p {
     color: #fff;
   }
-  body .location_lists .location_boxes .byCategory .cityCategory p {
+  body .location_lists .jobList .location_boxes .byCategory .cityCategory p {
     color: #777777;
     font-weight: 300;
     line-height: 1.625em;
@@ -3308,12 +3308,12 @@
     -webkit-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
   }
-  body .location_lists .location_boxes .advice_blog {
+  body .location_lists .jobList .location_boxes .advice_blog {
     width: 95%;
     height: 490.85px;
     background: #f9f9ff;
   }
-  body .location_lists .location_boxes .advice_blog h3 {
+  body .location_lists .jobList .location_boxes .advice_blog h3 {
     width: 90%;
     height: 21.6px;
     font-family: "Poppins", sans-serif;
@@ -3324,7 +3324,7 @@
     margin: auto;
     margin-top: 10px;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box {
     width: 90%;
     height: 121.95px;
     background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
@@ -3345,7 +3345,7 @@
             justify-content: center;
     cursor: pointer;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box h4 {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box h4 {
     width: 80%;
     height: 63.2px;
     font-family: "Poppins", sans-serif;
@@ -3355,7 +3355,7 @@
     font-weight: 600;
     line-height: 1.2em;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box .span_text {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box .span_text {
     width: 90%;
     height: 38.75px;
     display: -webkit-box;
@@ -3368,7 +3368,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  body .location_lists .location_boxes .advice_blog .audio_record_box .span_text span {
+  body .location_lists .jobList .location_boxes .advice_blog .audio_record_box .span_text span {
     color: #fff;
     font-weight: 300;
     line-height: 1.625em;

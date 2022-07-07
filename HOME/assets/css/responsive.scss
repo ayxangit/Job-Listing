@@ -948,291 +948,291 @@ $color_scroll_to_button : orange;
                  }
              }
          }
-         }
          .location_boxes{
-             width: 90%;
-             height: 2395.7px;
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             gap: 40px;
-             .byLocation{
-                 width: 95%;
-                 height: 490.85px;
-                 background: $color_background;
-                 h3{
-                     width: 90%;
-                     height: 21.6px;
-                     font-family: $font_family;
-                     color: $color_rgb2;
-                     font-weight: 600;
-                     line-height: 1.2em;
-                     font-size: $font_size_medium_well;
-                     margin: auto;
-                     margin-top: 10px;
-                 }
-                 .cityLocation{
-                     width: 90%;
-                     height: 42.75px;
-                     background: $color_white;
-                     margin: auto;
-                     margin-top: 20px;
-                     padding: 10px;
-                     display: flex;
-                     justify-content: space-between;
-                     cursor: pointer;
-                     transition: 1s all ease-in-out;
-                     &:hover{
-                         background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
-                     }
-                     &:hover p{
-                         color: $color_white;
-                     }
-                     p{
-                         color: $color_rgb;
-                         font-weight: 300;
-                         line-height: 1.625em;
-                         font-family: $font_family;
-                         font-size: $font_size_medium;
-                         transition: 0.3s all ease-in-out;
-     
-                     }
-                 }
-             }
-             .slideLocation{
-                 width: 95%;
-                 height: 500.85px;
-                 background: $color_background;
-                 .swiper {
-                     width: 100%;
-                     height: 500.85px;
-                     .swiper-slide {
-                         text-align: center;
-                         font-size: 18px;
-                         background: #fff;
-                 
-                         /* Center slide text vertically */
-                         display: -webkit-box;
-                         display: -ms-flexbox;
-                         display: -webkit-flex;
-                         display: flex;
-                         -webkit-box-pack: center;
-                         -ms-flex-pack: center;
-                         -webkit-justify-content: center;
-                         justify-content: center;
-                         -webkit-box-align: center;
-                         -ms-flex-align: center;
-                         -webkit-align-items: center;
-                         align-items: center;
-                         .slideLocationBox{
-                             width: 100%;
-                             height: 500.85px;
-                             padding: 15px 10px;
-                             background: $color_background;
-                             h3{
-                                 width: 96%;
-                                 height: 21.6px;
-                                 font-family: $font_family;
-                                 color: $color_rgb2;
-                                 font-weight: 600;
-                                 line-height: 1.2em;
-                                 font-size: $font_size_medium_well;
-                                 text-align: left;
-                             }
-                             .locationImage{
-                                 margin-top: 15px;
-                                 width: 96%;
-                                 height: 120px;
-                                 background: url(/HOME/assets/image/background/xr1.jpg.pagespeed.ic.duIMHQH6F9.webp);
-                                 background-size: cover;
-                                 background-position: 50% 50%;
-                             }
-                             .textLocationSlide{
-                                 margin-top: 15px;
-                                 width: 96%;
-                                 height: 300px;
-                                 h6{
-                                     margin-top: 5px;
-                                     font-family: $font_family;
-                                     color: $color_text;
-                                     font-weight: 300;
-                                     line-height: 1.2em;
-                                     font-size: $font_size_16;
-                                     text-align: left;
-                                 }
-                                 p{
-                                     margin-top: 5px;
-                                     line-height: 1.625em;
-                                     color: $color_grey;
-                                     font-family: $font_family;
-                                     font-weight: 300;
-                                     font-size: $font_size_medium;
-                                     text-align: left;
-                                 }
-                                 h5{
-                                     margin-top: 10px;
-                                     font-family: $font_family;
-                                     color: $color_text;
-                                     font-weight: 300;
-                                     line-height: 1.2em;
-                                     font-size: $font_size_16;
-                                     text-align: left;
-                                 }
-                                 span{
-                                     display: block;
-                                     margin-top: 10px;
-                                     margin-left: 2px;
-                                     font-size: $font_size_medium;
-                                     color: $color_text;
-                                     font-weight: 300;
-                                     font-family: $font_family;
-                                     line-height: 1.625em;
-                                     text-align: left;
-                                     .fa-map{
-                                         font-size: $font_size_medium;
-                                         color: $color_map;
-             
-                                     }
-                                     .fa-coins{
-                                         font-size: $font_size_medium;
-                                         color: $color_gold;
-                                     }
-                                 }
-                                 .applyLocation{
-                                     width: 122.93px;
-                                     height: 44.75px;
-                                     background: $color_cyan;
-                                     border: 1px solid $color_cyan;
-                                     padding: 10px 25px;
-                                     margin-top: 10px;
-                                     transition: 0.3s all ease;
-                                     cursor: pointer;
-                                     &:hover{
-                                         background: $color_white;
-                                         border-color:  $color_cyan;
-                                     }
-                                     &:hover a{
-                                         color: $color_cyan;
-                                     }
-                                     a{
-                                     
-                                         color: $color_white;
-                                         text-transform: uppercase;
-                                         font-family: $font_family;
-                                         font-size: $font_size_medium;
-                                         line-height: 1.625em;
-                                         font-weight: 300;
-         
-                                     }
-                                 }
-     
-     
-                             }
-                         }
-                         .swiper-slide img {
-                             display: block;
-                             width: 100%;
-                             height: 100%;
-                             object-fit: cover;
-                           }
-                       }
-                   }
-             }
-             .byCategory{
-                 width: 95%;
-                 height: 490.85px;
-                 background: $color_background;
-                 h3{
-                     width: 90%;
-                     height: 21.6px;
-                     font-family: $font_family;
-                     color: $color_rgb2;
-                     font-weight: 600;
-                     line-height: 1.2em;
-                     font-size: $font_size_medium_well;
-                     margin: auto;
-                     margin-top: 10px;
-                 }
-                 .cityCategory{
-                     width: 90%;
-                     height: 42.75px;
-                     background: $color_white;
-                     margin: auto;
-                     margin-top: 20px;
-                     padding: 10px;
-                     display: flex;
-                     justify-content: space-between;
-                     cursor: pointer;
-                     transition: 1s all ease-in-out;
-                     &:hover{
-                         background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
-                     }
-                     &:hover p{
-                         color: $color_white;
-                     }
-                     p{
-                         color: $color_rgb;
-                         font-weight: 300;
-                         line-height: 1.625em;
-                         font-family: $font_family;
-                         font-size: $font_size_medium;
-                         transition: 0.3s all ease-in-out;
-     
-                     }
-                 }
-             }
-             .advice_blog{
-                 width: 95%;
-                 height: 490.85px;
-                 background: $color_background;
-                 h3{
-                     width: 90%;
-                     height: 21.6px;
-                     font-family: $font_family;
-                     color: $color_rgb2;
-                     font-weight: 600;
-                     line-height: 1.2em;
-                     font-size: $font_size_medium_well;
-                     margin: auto;
-                     margin-top: 10px;
-                 }
-                 .audio_record_box{
-                     width: 90%;
-                     height: 121.95px;
-                     background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
-                     background-size: cover;
-                     background-position: 50% 50%;
-                     margin: auto;
-                     margin-top: 20px;
-                     padding: 0 20px;
-                     display: flex;
-                     flex-direction: column;
-                     justify-content: center;
-                     cursor: pointer;
-                     h4{
-                         width: 80%;
-                         height: 63.2px;
-                         font-family: $font_family;
-                         font-size: $font_size_medium_well;
-                         color: $color_white;
-                         text-transform: capitalize;
-                         font-weight: 600;
-                         line-height: 1.2em;
-                     }
-                     .span_text{
-                         width: 90%;
-                         height: 38.75px;
-                         @include d-flex-between;
-                         span{
-                             color: $color_white;
-                             font-weight: 300;
-                             line-height: 1.625em;
-                             font-size: $font_size_medium;
-                             font-family: $font_family;
-                         }
-                     }
-                 }
-             }
+            width: 90%;
+            height: 2395.7px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            .byLocation{
+                width: 95%;
+                height: 490.85px;
+                background: $color_background;
+                h3{
+                    width: 90%;
+                    height: 21.6px;
+                    font-family: $font_family;
+                    color: $color_rgb2;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    font-size: $font_size_medium_well;
+                    margin: auto;
+                    margin-top: 10px;
+                }
+                .cityLocation{
+                    width: 90%;
+                    height: 42.75px;
+                    background: $color_white;
+                    margin: auto;
+                    margin-top: 20px;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    transition: 1s all ease-in-out;
+                    &:hover{
+                        background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
+                    }
+                    &:hover p{
+                        color: $color_white;
+                    }
+                    p{
+                        color: $color_rgb;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        font-family: $font_family;
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+    
+                    }
+                }
+            }
+            .slideLocation{
+                width: 95%;
+                height: 500.85px;
+                background: $color_background;
+                .swiper {
+                    width: 100%;
+                    height: 500.85px;
+                    .swiper-slide {
+                        text-align: center;
+                        font-size: 18px;
+                        background: #fff;
+                
+                        /* Center slide text vertically */
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        .slideLocationBox{
+                            width: 100%;
+                            height: 500.85px;
+                            padding: 15px 10px;
+                            background: $color_background;
+                            h3{
+                                width: 96%;
+                                height: 21.6px;
+                                font-family: $font_family;
+                                color: $color_rgb2;
+                                font-weight: 600;
+                                line-height: 1.2em;
+                                font-size: $font_size_medium_well;
+                                text-align: left;
+                            }
+                            .locationImage{
+                                margin-top: 15px;
+                                width: 96%;
+                                height: 120px;
+                                background: url(/HOME/assets/image/background/xr1.jpg.pagespeed.ic.duIMHQH6F9.webp);
+                                background-size: cover;
+                                background-position: 50% 50%;
+                            }
+                            .textLocationSlide{
+                                margin-top: 15px;
+                                width: 96%;
+                                height: 300px;
+                                h6{
+                                    margin-top: 5px;
+                                    font-family: $font_family;
+                                    color: $color_text;
+                                    font-weight: 300;
+                                    line-height: 1.2em;
+                                    font-size: $font_size_16;
+                                    text-align: left;
+                                }
+                                p{
+                                    margin-top: 5px;
+                                    line-height: 1.625em;
+                                    color: $color_grey;
+                                    font-family: $font_family;
+                                    font-weight: 300;
+                                    font-size: $font_size_medium;
+                                    text-align: left;
+                                }
+                                h5{
+                                    margin-top: 10px;
+                                    font-family: $font_family;
+                                    color: $color_text;
+                                    font-weight: 300;
+                                    line-height: 1.2em;
+                                    font-size: $font_size_16;
+                                    text-align: left;
+                                }
+                                span{
+                                    display: block;
+                                    margin-top: 10px;
+                                    margin-left: 2px;
+                                    font-size: $font_size_medium;
+                                    color: $color_text;
+                                    font-weight: 300;
+                                    font-family: $font_family;
+                                    line-height: 1.625em;
+                                    text-align: left;
+                                    .fa-map{
+                                        font-size: $font_size_medium;
+                                        color: $color_map;
+            
+                                    }
+                                    .fa-coins{
+                                        font-size: $font_size_medium;
+                                        color: $color_gold;
+                                    }
+                                }
+                                .applyLocation{
+                                    width: 122.93px;
+                                    height: 44.75px;
+                                    background: $color_cyan;
+                                    border: 1px solid $color_cyan;
+                                    padding: 10px 25px;
+                                    margin-top: 10px;
+                                    transition: 0.3s all ease;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background: $color_white;
+                                        border-color:  $color_cyan;
+                                    }
+                                    &:hover a{
+                                        color: $color_cyan;
+                                    }
+                                    a{
+                                    
+                                        color: $color_white;
+                                        text-transform: uppercase;
+                                        font-family: $font_family;
+                                        font-size: $font_size_medium;
+                                        line-height: 1.625em;
+                                        font-weight: 300;
+        
+                                    }
+                                }
+    
+    
+                            }
+                        }
+                        .swiper-slide img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                          }
+                      }
+                  }
+            }
+            .byCategory{
+                width: 95%;
+                height: 490.85px;
+                background: $color_background;
+                h3{
+                    width: 90%;
+                    height: 21.6px;
+                    font-family: $font_family;
+                    color: $color_rgb2;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    font-size: $font_size_medium_well;
+                    margin: auto;
+                    margin-top: 10px;
+                }
+                .cityCategory{
+                    width: 90%;
+                    height: 42.75px;
+                    background: $color_white;
+                    margin: auto;
+                    margin-top: 20px;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    transition: 1s all ease-in-out;
+                    &:hover{
+                        background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
+                    }
+                    &:hover p{
+                        color: $color_white;
+                    }
+                    p{
+                        color: $color_rgb;
+                        font-weight: 300;
+                        line-height: 1.625em;
+                        font-family: $font_family;
+                        font-size: $font_size_medium;
+                        transition: 0.3s all ease-in-out;
+    
+                    }
+                }
+            }
+            .advice_blog{
+                width: 95%;
+                height: 490.85px;
+                background: $color_background;
+                h3{
+                    width: 90%;
+                    height: 21.6px;
+                    font-family: $font_family;
+                    color: $color_rgb2;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    font-size: $font_size_medium_well;
+                    margin: auto;
+                    margin-top: 10px;
+                }
+                .audio_record_box{
+                    width: 90%;
+                    height: 121.95px;
+                    background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
+                    background-size: cover;
+                    background-position: 50% 50%;
+                    margin: auto;
+                    margin-top: 20px;
+                    padding: 0 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    cursor: pointer;
+                    h4{
+                        width: 80%;
+                        height: 63.2px;
+                        font-family: $font_family;
+                        font-size: $font_size_medium_well;
+                        color: $color_white;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        line-height: 1.2em;
+                    }
+                    .span_text{
+                        width: 90%;
+                        height: 38.75px;
+                        @include d-flex-between;
+                        span{
+                            color: $color_white;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            font-size: $font_size_medium;
+                            font-family: $font_family;
+                        }
+                    }
+                }
+            }
+        }
          }
     }
     // end
@@ -2608,291 +2608,291 @@ $color_scroll_to_button : orange;
                      }
                  }
              }
-             }
              .location_boxes{
-                 width: 100%;
-                 height: 2154.6px;
-                 display: flex;
-                 flex-direction: column;
-                 align-items: center;
-                 gap: 40px;
-                 .byLocation{
-                     width: 95%;
-                     height: 490.85px;
-                     background: $color_background;
-                     h3{
-                         width: 90%;
-                         height: 21.6px;
-                         font-family: $font_family;
-                         color: $color_rgb2;
-                         font-weight: 600;
-                         line-height: 1.2em;
-                         font-size: $font_size_medium_well;
-                         margin: auto;
-                         margin-top: 10px;
-                     }
-                     .cityLocation{
-                         width: 90%;
-                         height: 42.75px;
-                         background: $color_white;
-                         margin: auto;
-                         margin-top: 20px;
-                         padding: 10px;
-                         display: flex;
-                         justify-content: space-between;
-                         cursor: pointer;
-                         transition: 1s all ease-in-out;
-                         &:hover{
-                             background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
-                         }
-                         &:hover p{
-                             color: $color_white;
-                         }
-                         p{
-                             color: $color_rgb;
-                             font-weight: 300;
-                             line-height: 1.625em;
-                             font-family: $font_family;
-                             font-size: $font_size_medium;
-                             transition: 0.3s all ease-in-out;
-         
-                         }
-                     }
-                 }
-                 .slideLocation{
-                     width: 95%;
-                     height: 500.85px;
-                     background: $color_background;
-                     .swiper {
-                         width: 100%;
-                         height: 500.85px;
-                         .swiper-slide {
-                             text-align: center;
-                             font-size: 18px;
-                             background: #fff;
-                     
-                             /* Center slide text vertically */
-                             display: -webkit-box;
-                             display: -ms-flexbox;
-                             display: -webkit-flex;
-                             display: flex;
-                             -webkit-box-pack: center;
-                             -ms-flex-pack: center;
-                             -webkit-justify-content: center;
-                             justify-content: center;
-                             -webkit-box-align: center;
-                             -ms-flex-align: center;
-                             -webkit-align-items: center;
-                             align-items: center;
-                             .slideLocationBox{
-                                 width: 100%;
-                                 height: 500.85px;
-                                 padding: 15px 10px;
-                                 background: $color_background;
-                                 h3{
-                                     width: 96%;
-                                     height: 21.6px;
-                                     font-family: $font_family;
-                                     color: $color_rgb2;
-                                     font-weight: 600;
-                                     line-height: 1.2em;
-                                     font-size: $font_size_medium_well;
-                                     text-align: left;
-                                 }
-                                 .locationImage{
-                                     margin-top: 15px;
-                                     width: 96%;
-                                     height: 120px;
-                                     background: url(/HOME/assets/image/background/xr1.jpg.pagespeed.ic.duIMHQH6F9.webp);
-                                     background-size: cover;
-                                     background-position: 50% 50%;
-                                 }
-                                 .textLocationSlide{
-                                     margin-top: 15px;
-                                     width: 96%;
-                                     height: 300px;
-                                     h6{
-                                         margin-top: 5px;
-                                         font-family: $font_family;
-                                         color: $color_text;
-                                         font-weight: 300;
-                                         line-height: 1.2em;
-                                         font-size: $font_size_16;
-                                         text-align: left;
-                                     }
-                                     p{
-                                         margin-top: 5px;
-                                         line-height: 1.625em;
-                                         color: $color_grey;
-                                         font-family: $font_family;
-                                         font-weight: 300;
-                                         font-size: $font_size_medium;
-                                         text-align: left;
-                                     }
-                                     h5{
-                                         margin-top: 10px;
-                                         font-family: $font_family;
-                                         color: $color_text;
-                                         font-weight: 300;
-                                         line-height: 1.2em;
-                                         font-size: $font_size_16;
-                                         text-align: left;
-                                     }
-                                     span{
-                                         display: block;
-                                         margin-top: 10px;
-                                         margin-left: 2px;
-                                         font-size: $font_size_medium;
-                                         color: $color_text;
-                                         font-weight: 300;
-                                         font-family: $font_family;
-                                         line-height: 1.625em;
-                                         text-align: left;
-                                         .fa-map{
-                                             font-size: $font_size_medium;
-                                             color: $color_map;
-                 
-                                         }
-                                         .fa-coins{
-                                             font-size: $font_size_medium;
-                                             color: $color_gold;
-                                         }
-                                     }
-                                     .applyLocation{
-                                         width: 122.93px;
-                                         height: 44.75px;
-                                         background: $color_cyan;
-                                         border: 1px solid $color_cyan;
-                                         padding: 10px 25px;
-                                         margin-top: 10px;
-                                         transition: 0.3s all ease;
-                                         cursor: pointer;
-                                         &:hover{
-                                             background: $color_white;
-                                             border-color:  $color_cyan;
-                                         }
-                                         &:hover a{
-                                             color: $color_cyan;
-                                         }
-                                         a{
-                                         
-                                             color: $color_white;
-                                             text-transform: uppercase;
-                                             font-family: $font_family;
-                                             font-size: $font_size_medium;
-                                             line-height: 1.625em;
-                                             font-weight: 300;
-             
-                                         }
-                                     }
-         
-         
-                                 }
-                             }
-                             .swiper-slide img {
-                                 display: block;
-                                 width: 100%;
-                                 height: 100%;
-                                 object-fit: cover;
-                               }
-                           }
-                       }
-                 }
-                 .byCategory{
-                     width: 95%;
-                     height: 490.85px;
-                     background: $color_background;
-                     h3{
-                         width: 90%;
-                         height: 21.6px;
-                         font-family: $font_family;
-                         color: $color_rgb2;
-                         font-weight: 600;
-                         line-height: 1.2em;
-                         font-size: $font_size_medium_well;
-                         margin: auto;
-                         margin-top: 10px;
-                     }
-                     .cityCategory{
-                         width: 90%;
-                         height: 42.75px;
-                         background: $color_white;
-                         margin: auto;
-                         margin-top: 20px;
-                         padding: 10px;
-                         display: flex;
-                         justify-content: space-between;
-                         cursor: pointer;
-                         transition: 1s all ease-in-out;
-                         &:hover{
-                             background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
-                         }
-                         &:hover p{
-                             color: $color_white;
-                         }
-                         p{
-                             color: $color_rgb;
-                             font-weight: 300;
-                             line-height: 1.625em;
-                             font-family: $font_family;
-                             font-size: $font_size_medium;
-                             transition: 0.3s all ease-in-out;
-         
-                         }
-                     }
-                 }
-                 .advice_blog{
-                     width: 95%;
-                     height: 490.85px;
-                     background: $color_background;
-                     h3{
-                         width: 90%;
-                         height: 21.6px;
-                         font-family: $font_family;
-                         color: $color_rgb2;
-                         font-weight: 600;
-                         line-height: 1.2em;
-                         font-size: $font_size_medium_well;
-                         margin: auto;
-                         margin-top: 10px;
-                     }
-                     .audio_record_box{
-                         width: 90%;
-                         height: 121.95px;
-                         background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
-                         background-size: cover;
-                         background-position: 50% 50%;
-                         margin: auto;
-                         margin-top: 20px;
-                         padding: 0 20px;
-                         display: flex;
-                         flex-direction: column;
-                         justify-content: center;
-                         cursor: pointer;
-                         h4{
-                             width: 80%;
-                             height: 63.2px;
-                             font-family: $font_family;
-                             font-size: $font_size_medium_well;
-                             color: $color_white;
-                             text-transform: capitalize;
-                             font-weight: 600;
-                             line-height: 1.2em;
-                         }
-                         .span_text{
-                             width: 90%;
-                             height: 38.75px;
-                             @include d-flex-between;
-                             span{
-                                 color: $color_white;
-                                 font-weight: 300;
-                                 line-height: 1.625em;
-                                 font-size: $font_size_medium;
-                                 font-family: $font_family;
-                             }
-                         }
-                     }
-                 }
+                width: 100%;
+                height: 2154.6px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                .byLocation{
+                    width: 95%;
+                    height: 490.85px;
+                    background: $color_background;
+                    h3{
+                        width: 90%;
+                        height: 21.6px;
+                        font-family: $font_family;
+                        color: $color_rgb2;
+                        font-weight: 600;
+                        line-height: 1.2em;
+                        font-size: $font_size_medium_well;
+                        margin: auto;
+                        margin-top: 10px;
+                    }
+                    .cityLocation{
+                        width: 90%;
+                        height: 42.75px;
+                        background: $color_white;
+                        margin: auto;
+                        margin-top: 20px;
+                        padding: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        cursor: pointer;
+                        transition: 1s all ease-in-out;
+                        &:hover{
+                            background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
+                        }
+                        &:hover p{
+                            color: $color_white;
+                        }
+                        p{
+                            color: $color_rgb;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            transition: 0.3s all ease-in-out;
+        
+                        }
+                    }
+                }
+                .slideLocation{
+                    width: 95%;
+                    height: 500.85px;
+                    background: $color_background;
+                    .swiper {
+                        width: 100%;
+                        height: 500.85px;
+                        .swiper-slide {
+                            text-align: center;
+                            font-size: 18px;
+                            background: #fff;
+                    
+                            /* Center slide text vertically */
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: -webkit-flex;
+                            display: flex;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            .slideLocationBox{
+                                width: 100%;
+                                height: 500.85px;
+                                padding: 15px 10px;
+                                background: $color_background;
+                                h3{
+                                    width: 96%;
+                                    height: 21.6px;
+                                    font-family: $font_family;
+                                    color: $color_rgb2;
+                                    font-weight: 600;
+                                    line-height: 1.2em;
+                                    font-size: $font_size_medium_well;
+                                    text-align: left;
+                                }
+                                .locationImage{
+                                    margin-top: 15px;
+                                    width: 96%;
+                                    height: 120px;
+                                    background: url(/HOME/assets/image/background/xr1.jpg.pagespeed.ic.duIMHQH6F9.webp);
+                                    background-size: cover;
+                                    background-position: 50% 50%;
+                                }
+                                .textLocationSlide{
+                                    margin-top: 15px;
+                                    width: 96%;
+                                    height: 300px;
+                                    h6{
+                                        margin-top: 5px;
+                                        font-family: $font_family;
+                                        color: $color_text;
+                                        font-weight: 300;
+                                        line-height: 1.2em;
+                                        font-size: $font_size_16;
+                                        text-align: left;
+                                    }
+                                    p{
+                                        margin-top: 5px;
+                                        line-height: 1.625em;
+                                        color: $color_grey;
+                                        font-family: $font_family;
+                                        font-weight: 300;
+                                        font-size: $font_size_medium;
+                                        text-align: left;
+                                    }
+                                    h5{
+                                        margin-top: 10px;
+                                        font-family: $font_family;
+                                        color: $color_text;
+                                        font-weight: 300;
+                                        line-height: 1.2em;
+                                        font-size: $font_size_16;
+                                        text-align: left;
+                                    }
+                                    span{
+                                        display: block;
+                                        margin-top: 10px;
+                                        margin-left: 2px;
+                                        font-size: $font_size_medium;
+                                        color: $color_text;
+                                        font-weight: 300;
+                                        font-family: $font_family;
+                                        line-height: 1.625em;
+                                        text-align: left;
+                                        .fa-map{
+                                            font-size: $font_size_medium;
+                                            color: $color_map;
+                
+                                        }
+                                        .fa-coins{
+                                            font-size: $font_size_medium;
+                                            color: $color_gold;
+                                        }
+                                    }
+                                    .applyLocation{
+                                        width: 122.93px;
+                                        height: 44.75px;
+                                        background: $color_cyan;
+                                        border: 1px solid $color_cyan;
+                                        padding: 10px 25px;
+                                        margin-top: 10px;
+                                        transition: 0.3s all ease;
+                                        cursor: pointer;
+                                        &:hover{
+                                            background: $color_white;
+                                            border-color:  $color_cyan;
+                                        }
+                                        &:hover a{
+                                            color: $color_cyan;
+                                        }
+                                        a{
+                                        
+                                            color: $color_white;
+                                            text-transform: uppercase;
+                                            font-family: $font_family;
+                                            font-size: $font_size_medium;
+                                            line-height: 1.625em;
+                                            font-weight: 300;
+            
+                                        }
+                                    }
+        
+        
+                                }
+                            }
+                            .swiper-slide img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                              }
+                          }
+                      }
+                }
+                .byCategory{
+                    width: 95%;
+                    height: 490.85px;
+                    background: $color_background;
+                    h3{
+                        width: 90%;
+                        height: 21.6px;
+                        font-family: $font_family;
+                        color: $color_rgb2;
+                        font-weight: 600;
+                        line-height: 1.2em;
+                        font-size: $font_size_medium_well;
+                        margin: auto;
+                        margin-top: 10px;
+                    }
+                    .cityCategory{
+                        width: 90%;
+                        height: 42.75px;
+                        background: $color_white;
+                        margin: auto;
+                        margin-top: 20px;
+                        padding: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        cursor: pointer;
+                        transition: 1s all ease-in-out;
+                        &:hover{
+                            background-image: -webkit-linear-gradient(0deg,#bfacff 0%,#795fff 100%);
+                        }
+                        &:hover p{
+                            color: $color_white;
+                        }
+                        p{
+                            color: $color_rgb;
+                            font-weight: 300;
+                            line-height: 1.625em;
+                            font-family: $font_family;
+                            font-size: $font_size_medium;
+                            transition: 0.3s all ease-in-out;
+        
+                        }
+                    }
+                }
+                .advice_blog{
+                    width: 95%;
+                    height: 490.85px;
+                    background: $color_background;
+                    h3{
+                        width: 90%;
+                        height: 21.6px;
+                        font-family: $font_family;
+                        color: $color_rgb2;
+                        font-weight: 600;
+                        line-height: 1.2em;
+                        font-size: $font_size_medium_well;
+                        margin: auto;
+                        margin-top: 10px;
+                    }
+                    .audio_record_box{
+                        width: 90%;
+                        height: 121.95px;
+                        background-image: url(/HOME/assets/image/background/xblog1.jpg.pagespeed.ic.bkAekKjmlO.webp);
+                        background-size: cover;
+                        background-position: 50% 50%;
+                        margin: auto;
+                        margin-top: 20px;
+                        padding: 0 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        cursor: pointer;
+                        h4{
+                            width: 80%;
+                            height: 63.2px;
+                            font-family: $font_family;
+                            font-size: $font_size_medium_well;
+                            color: $color_white;
+                            text-transform: capitalize;
+                            font-weight: 600;
+                            line-height: 1.2em;
+                        }
+                        .span_text{
+                            width: 90%;
+                            height: 38.75px;
+                            @include d-flex-between;
+                            span{
+                                color: $color_white;
+                                font-weight: 300;
+                                line-height: 1.625em;
+                                font-size: $font_size_medium;
+                                font-family: $font_family;
+                            }
+                        }
+                    }
+                }
+            }
              }
         }
         //  end
