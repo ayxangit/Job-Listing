@@ -56,7 +56,7 @@ for(choose of category_options ){
 
 // slide section
 // Init Swiper
-var swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".mySwiper", {
         loop:true,
         speed: 350,
         slidesPerView: 2,
@@ -90,7 +90,7 @@ var swiper = new Swiper(".mySwiper", {
 
 //   end
 // start job location section slide
-var swiper2 = new Swiper(".mySwiper_box", {
+let swiper2 = new Swiper(".mySwiper_box", {
     loop:true,
     autoplay:true,
     slidesPerView:1,
